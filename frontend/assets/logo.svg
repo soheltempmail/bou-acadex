@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E88E5" />
+      <stop offset="50%" stop-color="#225C9E" />
+      <stop offset="100%" stop-color="#173B55" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#9A1B24" />
+    </linearGradient>
+    <linearGradient id="goldCapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#173B55" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- LOGO EMBLEM ICON (Left) -->
+  <g transform="translate(15, 10)" filter="url(#shadow)">
+    <!-- Outer Shield / Circle Glow -->
+    <rect x="0" y="0" width="100" height="100" rx="24" fill="url(#blueGrad)" />
+    
+    <!-- Orbit Ring (Distance/Open University) -->
+    <ellipse cx="50" cy="50" rx="42" ry="22" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-dasharray="4 2" opacity="0.65" transform="rotate(-25 50 50)" />
+    
+    <!-- Open Book Base -->
+    <path d="M 22 72 Q 50 63 50 78 Q 50 63 78 72 L 78 54 Q 50 45 50 60 Q 50 45 22 54 Z" fill="#FFFFFF" opacity="0.95" />
+    <path d="M 50 60 L 50 78" stroke="#173B55" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Book Pages Layer Accent -->
+    <path d="M 24 74 Q 50 66 50 78" stroke="url(#goldGrad)" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 76 74 Q 50 66 50 78" stroke="url(#goldGrad)" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+    <!-- Graduation Cap (Mortarboard) -->
+    <polygon points="50,22 80,34 50,46 20,34" fill="url(#goldCapGrad)" />
+    <polygon points="50,24 76,34 50,44 24,34" fill="#FFFFFF" opacity="0.15" />
+    
+    <!-- Cap skullcap base -->
+    <path d="M 32 39 L 32 49 Q 50 58 68 49 L 68 39 Q 50 48 32 39 Z" fill="#9A1B24" />
+    
+    <!-- Tassel and button -->
+    <circle cx="50" cy="34" r="3" fill="#FFFFFF" />
+    <path d="M 50 34 C 65 37 72 45 74 54" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+    <circle cx="74" cy="55" r="2.5" fill="#F59E0B" />
+
+    <!-- Small Digital Signal Arc (Top Right) -->
+    <path d="M 72 20 A 12 12 0 0 1 82 30" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+    <circle cx="86" cy="18" r="2.5" fill="#EF4444" />
+  </g>
+
+  <!-- LOGO TEXT (Right) -->
+  <g transform="translate(132, 22)">
+    <!-- BOU Monogram -->
+    <text x="0" y="44" font-family="'Outfit', 'Segoe UI', system-ui, sans-serif" font-weight="900" font-size="44" fill="#173B55" letter-spacing="1">
+      BOU
+    </text>
+
+    <!-- Acadex Modern Wordmark -->
+    <text x="110" y="44" font-family="'Outfit', 'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="44" fill="#225C9E" letter-spacing="0.5">
+      ACAD<tspan fill="#9A1B24">EX</tspan>
+    </text>
+
+    <!-- Gold Accent Star/Sparkle -->
+    <path d="M 292 20 Q 296 26 302 26 Q 296 26 292 32 Q 292 26 286 26 Q 292 26 292 20 Z" fill="url(#goldGrad)" />
+
+    <!-- Badge / Subtitle -->
+    <rect x="0" y="56" width="315" height="22" rx="6" fill="#F0F4F8" />
+    
+    <!-- BOU Red Dot -->
+    <circle cx="10" cy="67" r="4" fill="#9A1B24" />
+    
+    <!-- Bengali Subtitle + Portal descriptor -->
+    <text x="22" y="72" font-family="'Hind Siliguri', 'Outfit', sans-serif" font-weight="600" font-size="12" fill="#173B55" letter-spacing="0.4">
+      বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয় • STUDENT ACADEMIC PORTAL
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOU Old Questions & Solved Answers Bank | BOU Acadex</title>
+  <meta name="description" content="Previous years questions and step-by-step model answers for Bangladesh Open University (BOU) term final examinations. BBA, BA/BSS, HSC, CSE, and LLB.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP LIVE ANNOUNCEMENT TICKER -->
+  <aside class="top-notice-bar">
+    <div class="container">
+      <div class="top-notice-ticker">
+        <span class="badge-live">QUESTION BANK</span>
+        <span class="ticker-text bangla">
+          à¦¬à¦¿à¦—à¦¤ à§«-à§§à§¦ à¦¬à¦›à¦°à§‡à¦° à¦¬à¦¾à¦‰à¦¬à¦¿ à¦Ÿà¦¾à¦°à§à¦® à¦«à¦¾à¦‡à¦¨à¦¾à¦² à¦ªà¦°à§€à¦•à§à¦·à¦¾à¦° à¦ªà§à¦°à¦¶à§à¦¨à¦ªà¦¤à§à¦° à¦à¦¬à¦‚ à¦…à¦­à¦¿à¦œà§à¦ž à¦¶à¦¿à¦•à§à¦·à¦•à¦¦à§‡à¦° à¦¤à§ˆà¦°à¦¿ à¦¨à¦¿à¦–à§à¦à¦¤ à¦¸à¦®à¦¾à¦§à¦¾à¦¨à¥¤
+        </span>
+      </div>
+      <nav class="top-notice-links">
+        <a href="index.html">â† Back to Portal Home</a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- MAIN HEADER / NAVIGATION -->
+  <header class="main-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link">
+        <img src="assets/logo.svg" alt="BOU Acadex Logo" class="brand-logo-img">
+      </a>
+
+      <nav class="nav-menu" id="mainNavMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="suggestions.html" class="nav-link">Suggestions</a>
+        <a href="books.html" class="nav-link">E-Books</a>
+        <a href="questions.html" class="nav-link active">Old Questions & Ans</a>
+        <a href="mcq-test.html" class="nav-link">MCQ Mock Test</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="mcq-test.html" class="btn btn-primary btn-sm">Take MCQ Test</a>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open mobile menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-kicker">SOLVED EXAM ARCHIVE</span>
+        <h1 class="section-title">BOU Past Questions & Model Answers</h1>
+        <p class="section-desc">
+          Browse authentic past examination papers and learn how to structure high-scoring answers according to BOU marking rubrics.
+        </p>
+      </header>
+
+      <!-- Filter Controls -->
+      <div class="content-filter-bar">
+        <div class="filter-group">
+          <label for="qYearFilter">Exam Year:</label>
+          <select id="qYearFilter" class="filter-select">
+            <option value="all">All Years</option>
+            <option value="2023">2023 Final</option>
+            <option value="2022">2022 Final</option>
+            <option value="2021">2021 Final</option>
+            <option value="2020">2020 Final</option>
+            <option value="2019">2019 Final</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="qProgramFilter">Program:</label>
+          <select id="qProgramFilter" class="filter-select">
+            <option value="all">All Programs</option>
+            <option value="BBA">BBA (School of Business)</option>
+            <option value="BSS">BA / BSS (School of SSHL)</option>
+            <option value="HSC">HSC (Open School)</option>
+            <option value="CSE">B.Sc in CSE (SST)</option>
+          </select>
+        </div>
+
+        <div class="filter-search-input">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="qSearchInput" placeholder="Filter by subject name, paper title, or code...">
+        </div>
+      </div>
+
+      <!-- Question Papers List -->
+      <div class="questions-list" id="questionsContainer"></div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container footer-bottom">
+      <div>&copy; 2024-2026 <strong>BOU Acadex</strong>. Bangladesh Open University Solved Question Bank.</div>
+      <div><a href="index.html" style="color:var(--bou-gold);">Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script src="js/core/main.js"></script>
+  <script src="js/core/api.js"></script>
+  <script src="js/pages/questions.js"></script>
+</body>
+</html>

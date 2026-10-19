@@ -1,0 +1,10 @@
+{
+  "name": "bou-acadex-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BOU Acadex static frontend (HTML, CSS, vanilla JS)",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}
