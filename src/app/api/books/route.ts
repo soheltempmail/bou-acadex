@@ -13,6 +13,7 @@ export async function GET(request: Request): Promise<NextResponse> {
     const school = searchParams.get("school");
     const program = searchParams.get("program");
     const level = searchParams.get("level");
+    const year = searchParams.get("year");
     const query = searchParams.get("q")?.toLowerCase().trim();
 
     const books = booksData as Book[];
@@ -27,13 +28,25 @@ export async function GET(request: Request): Promise<NextResponse> {
     if (level && level !== "all") {
       results = results.filter((book) => book.level.toLowerCase() === level.toLowerCase());
     }
+    if (year && year !== "all") {
+      results = results.filter((book) => book.year && book.year.toLowerCase().includes(year.toLowerCase()));
+    }
     if (query) {
-      results = results.filter(
-        (book) =>
-          book.title.toLowerCase().includes(query) ||
-          book.subjectCode.toLowerCase().includes(query) ||
-          book.summary.toLowerCase().includes(query)
-      );
+      const normQuery = query.replace(/\s+/g, "");
+      results = results.filter((book) => {
+        const text = [
+          book.title,
+          book.subjectCode,
+          book.summary,
+          book.year,
+          book.edition,
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+        const normText = text.replace(/\s+/g, "");
+        return text.includes(query) || (normQuery.length > 2 && normText.includes(normQuery));
+      });
     }
 
     return apiResponse({ success: true, count: results.length, data: results });

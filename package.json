@@ -2,7 +2,7 @@
   "name": "bou-acadex",
   "version": "1.0.0",
   "private": true,
-  "description": "BOU Acadex - Bangladesh Open University Student Academic Hub (Next.js TypeScript API)",
+  "description": "BOU Acadex - Bangladesh Open University Student Academic Hub (static HTML/CSS/JS frontend + Next.js TypeScript API)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +19,8 @@
     "@types/node": "^20.14.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35",
     "typescript": "^5.4.5"
   }
 }

@@ -1,34 +1,29 @@
-const endpoints = [
-  { method: "GET", path: "/api/books", description: "E-books with filters: school, program, level, q" },
-  { method: "GET", path: "/api/questions", description: "Past papers: year, program, school, semester, q" },
-  { method: "GET", path: "/api/suggestions", description: "Suggestions: program, school, semester, priority, q" },
-  { method: "GET", path: "/api/notices", description: "Academic notices" },
-  { method: "GET", path: "/api/mcq", description: "Available MCQ subject banks" },
-  { method: "GET", path: "/api/mcq?subject=ict", description: "Full MCQ bank for a subject" },
-  { method: "POST", path: "/api/mcq", description: "Auto-evaluate a submission: { subject, answers }" },
-];
+import type { Metadata } from "next";
+import { FeaturesSection } from "@/components/home/FeaturesSection";
+import { HeroSection } from "@/components/home/HeroSection";
+import { MiniQuiz } from "@/components/home/MiniQuiz";
+import { NoticesSection } from "@/components/home/NoticesSection";
+import { SchoolsSection } from "@/components/home/SchoolsSection";
+import { StatsBar } from "@/components/home/StatsBar";
+import { PageShell } from "@/components/layout/PageShell";
+
+export const metadata: Metadata = {
+  title: "BOU Acadex - বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয় স্টুডেন্ট একাডেমিক হাব",
+  description:
+    "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের (BOU) শিক্ষার্থীদের জন্য সকল পাঠ্যবই (ই-বুক), বিগত বছরের প্রশ্ন ও মডেল সমাধান এবং লাইভ টাইমার সহ আনলিমিটেড MCQ টেস্ট।",
+};
 
 export default function HomePage() {
   return (
-    <main style={{ fontFamily: "system-ui, sans-serif", padding: "48px 24px", maxWidth: 780, margin: "0 auto" }}>
-      <h1 style={{ fontSize: "1.75rem", marginBottom: 8 }}>BOU Acadex API</h1>
-      <p style={{ color: "#475569", marginBottom: 32 }}>
-        Next.js TypeScript backend for the BOU Acadex student hub. The static frontend in
-        <code>frontend/</code> consumes these endpoints.
-      </p>
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
-        <tbody>
-          {endpoints.map((endpoint) => (
-            <tr key={`${endpoint.method}-${endpoint.path}`} style={{ borderBottom: "1px solid #e2e8f0" }}>
-              <td style={{ padding: "12px 8px", fontWeight: 700 }}>{endpoint.method}</td>
-              <td style={{ padding: "12px 8px" }}>
-                <code>{endpoint.path}</code>
-              </td>
-              <td style={{ padding: "12px 8px", color: "#475569" }}>{endpoint.description}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </main>
+    <PageShell showSchoolsLink footerVariant="default">
+      <main>
+        <HeroSection />
+        <StatsBar />
+        <FeaturesSection />
+        <SchoolsSection />
+        <MiniQuiz />
+        <NoticesSection />
+      </main>
+    </PageShell>
   );
 }

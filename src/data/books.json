@@ -1,5 +1,2873 @@
 [
   {
+    "id": "book-ssc-1651",
+    "subjectCode": "SSC-1651",
+    "title": "বাংলা প্রথম পত্র (Bangla 1st Paper)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "২০২৬ নতুন সংস্করণ (2026 Edition)",
+    "pages": 336,
+    "fileSize": "28.5 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651_2026.pdf",
+    "summary": "বাউবি এসএসসি ১ম বর্ষ বাংলা ১ম পত্র: নির্বাচিত গল্প, প্রবন্ধ, কবিতা, উপন্যাস ('হাজার বছর ধরে') ও নাটক ('বহিপীর') সহ সৃজনশীল পাঠ্যবই।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "গল্প ও প্রবন্ধঃ"
+      },
+      {
+        "unitNum": 1,
+        "title": "পালামৌ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-01.pdf",
+        "pages": "০৯-১৭"
+      },
+      {
+        "unitNum": 2,
+        "title": "দেনাপাওনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-02.pdf",
+        "pages": "১৮-২৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "বই পড়া",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-03.pdf",
+        "pages": "২৭-৩৪"
+      },
+      {
+        "unitNum": 4,
+        "title": "অভাগীর স্বর্গ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-04.pdf",
+        "pages": "৩৫-৪৭"
+      },
+      {
+        "unitNum": 5,
+        "title": "নিরীহ বাঙালি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-05.pdf",
+        "pages": "৪৮-৫৩"
+      },
+      {
+        "unitNum": 6,
+        "title": "মানুষ মুহম্মদ (সাঃ)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-06.pdf",
+        "pages": "৫৪-৬১"
+      },
+      {
+        "unitNum": 7,
+        "title": "নিমগাছ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-07.pdf",
+        "pages": "৬২-৬৬"
+      },
+      {
+        "unitNum": 8,
+        "title": "উপেক্ষিত শক্তির উদ্বোধন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-08.pdf",
+        "pages": "৬৭-৭১"
+      },
+      {
+        "unitNum": 9,
+        "title": "শিক্ষা ও মনুষ্যত্ব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-09.pdf",
+        "pages": "৭২-৭৬"
+      },
+      {
+        "unitNum": 10,
+        "title": "মমতাদি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-10.pdf",
+        "pages": "৭৭-৮৫"
+      },
+      {
+        "unitNum": 11,
+        "title": "পয়লা বৈশাখ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-11.pdf",
+        "pages": "৮৬-৯১"
+      },
+      {
+        "unitNum": 12,
+        "title": "একাত্তরের দিনগুলি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-12.pdf",
+        "pages": "৯২-১০০"
+      },
+      {
+        "unitNum": 13,
+        "title": "বাঁধ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-13.pdf",
+        "pages": "১০১-১০৯"
+      },
+      {
+        "unitNum": 14,
+        "title": "সাহিত্যের রুপ-রীতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-14.pdf",
+        "pages": "১১০-১১৯"
+      },
+      {
+        "unitNum": 15,
+        "title": "বাঙলা শব্দ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/goddo-15.pdf",
+        "pages": "১২০-১২৪"
+      },
+      {
+        "unitNum": 16,
+        "title": "কবিতাঃ"
+      },
+      {
+        "unitNum": 2,
+        "title": "কপোতাক্ষ নদ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-02.pdf",
+        "pages": "১৩২-১৩৫"
+      },
+      {
+        "unitNum": 3,
+        "title": "জীবন সঙ্গীত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-03.pdf",
+        "pages": "১৩৬-১৪০"
+      },
+      {
+        "unitNum": 4,
+        "title": "প্রাণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-04.pdf",
+        "pages": "১৪১-১৪৫"
+      },
+      {
+        "unitNum": 5,
+        "title": "অন্ধবধূ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-05.pdf",
+        "pages": "১৪৬-১৫০"
+      },
+      {
+        "unitNum": 6,
+        "title": "ঝরনার গান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-06.pdf",
+        "pages": "১৫১-১৫৫"
+      },
+      {
+        "unitNum": 7,
+        "title": "মানুষ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-07.pdf",
+        "pages": "১৫৬-১৬০"
+      },
+      {
+        "unitNum": 8,
+        "title": "সেইদিন এই মাঠ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-08.pdf",
+        "pages": "১৬১-১৬৫"
+      },
+      {
+        "unitNum": 9,
+        "title": "পল্লীজননী",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-09.pdf",
+        "pages": "১৬৬-১৭৩"
+      },
+      {
+        "unitNum": 10,
+        "title": "বৃষ্টি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-10.pdf",
+        "pages": "১৭৪-১৭৭"
+      },
+      {
+        "unitNum": 11,
+        "title": "আমি কোন আগন্তুক নই",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-11.pdf",
+        "pages": "১৭৮-১৮২"
+      },
+      {
+        "unitNum": 12,
+        "title": "তোমাকে পাওয়ার জন্য হে স্বাধীনতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-12.pdf",
+        "pages": "১৮৩-১৮৮"
+      },
+      {
+        "unitNum": 13,
+        "title": "সাঁকোটা দুলছে",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-13.pdf",
+        "pages": "১৮৯-১৯৩"
+      },
+      {
+        "unitNum": 14,
+        "title": "আমার পরিচয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-14.pdf",
+        "pages": "১৯৪-১৯৯"
+      },
+      {
+        "unitNum": 15,
+        "title": "স্বাধীনতা,এই শব্দটি কীভাবে আমাদের হল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/poddo-15.pdf",
+        "pages": "২০০-২০৬"
+      },
+      {
+        "unitNum": 16,
+        "title": "উপন্যাসঃ হাজার বছর ধরে",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/Novel.pdf",
+        "pages": "২০৭-২৮২"
+      },
+      {
+        "unitNum": 17,
+        "title": "নাটকঃ বহিপীর",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1651/Natok.pdf",
+        "pages": "২৮৩-৩৩৬"
+      }
+    ],
+    "unitsCount": 34
+  },
+  {
+    "id": "book-ssc-1652",
+    "subjectCode": "SSC-1652",
+    "title": "English One (SSC 1652)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "2022 New Edition",
+    "pages": 200,
+    "fileSize": "16.8 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652_2022.pdf",
+    "summary": "BOU SSC English One: Reading comprehension, communicative English skills, grammar in context, vocabulary, and guided writing units (1-15).",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "Good Citizens",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-01.pdf",
+        "pages": "01-14"
+      },
+      {
+        "unitNum": 2,
+        "title": "Pastimes",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-02.pdf",
+        "pages": "15-25"
+      },
+      {
+        "unitNum": 3,
+        "title": "Events and Festivals",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-03.pdf",
+        "pages": "26-36"
+      },
+      {
+        "unitNum": 4,
+        "title": "Are we aware ?",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-04.pdf",
+        "pages": "37-50"
+      },
+      {
+        "unitNum": 5,
+        "title": "Climate Chance",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-05.pdf",
+        "pages": "51-67"
+      },
+      {
+        "unitNum": 6,
+        "title": "Our neighbours",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-06.pdf",
+        "pages": "68-85"
+      },
+      {
+        "unitNum": 7,
+        "title": "People who stand out",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-07.pdf",
+        "pages": "86-92"
+      },
+      {
+        "unitNum": 8,
+        "title": "World Heritage",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-08.pdf",
+        "pages": "93-105"
+      },
+      {
+        "unitNum": 9,
+        "title": "Unconventional Jobs",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-09.pdf",
+        "pages": "106-122"
+      },
+      {
+        "unitNum": 10,
+        "title": "Dreams",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-10.pdf",
+        "pages": "123-134"
+      },
+      {
+        "unitNum": 11,
+        "title": "Renewable energy",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-11.pdf",
+        "pages": "135-154"
+      },
+      {
+        "unitNum": 12,
+        "title": "Roots",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-12.pdf",
+        "pages": "155-170"
+      },
+      {
+        "unitNum": 13,
+        "title": "Media and E-Communications",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-13.pdf",
+        "pages": "171-184"
+      },
+      {
+        "unitNum": 14,
+        "title": "Pleasure and Purpose",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-14.pdf",
+        "pages": "185-192"
+      },
+      {
+        "unitNum": 15,
+        "title": "Pleasure and Purpose",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-15.pdf",
+        "pages": "193-200"
+      }
+    ],
+    "unitsCount": 16
+  },
+  {
+    "id": "book-ssc-1653",
+    "subjectCode": "SSC-1653",
+    "title": "গণিত (Mathematics)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যসূচি সংস্করণ",
+    "pages": 335,
+    "fileSize": "24.2 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_1.php#ssc1653",
+    "summary": "বাউবি এসএসসি সাধারণ গণিত: বাস্তব সংখ্যা, বীজগণিত, জ্যামিতি, ত্রিকোণমিতি, পরিমিতি ও পরিসংখ্যানের পূর্ণাঙ্গ অধ্যায়ভিত্তিক পাঠ্যবই ও সমাধান।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "বাস্তব সংখ্যা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-01.pdf",
+        "pages": "০১-১২"
+      },
+      {
+        "unitNum": 2,
+        "title": "সেট ও ফাংশন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-02.pdf",
+        "pages": "১৩-৩৪"
+      },
+      {
+        "unitNum": 3,
+        "title": "বীজগানিতিক রাশি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-03.pdf",
+        "pages": "৩৫-৭০"
+      },
+      {
+        "unitNum": 4,
+        "title": "সূচক ও লগারিদম",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-04.pdf",
+        "pages": "৭১-৯২"
+      },
+      {
+        "unitNum": 5,
+        "title": "এক চলকবিশিষ্ট সমীকরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-05.pdf",
+        "pages": "৯৩-১১২"
+      },
+      {
+        "unitNum": 6,
+        "title": "বীজগণিতীয় অনুপাত ও সমানুপাত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-06.pdf",
+        "pages": "১১৩-১২৬"
+      },
+      {
+        "unitNum": 7,
+        "title": "দুই চলকবিশিষ্ট সরল সহসমীকরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-07.pdf",
+        "pages": "১২৭-১৪৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "সসীম ধারা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-08.pdf",
+        "pages": "১৪৫-১৬৪"
+      },
+      {
+        "unitNum": 9,
+        "title": "রেখা,কোন ও ত্রিভুজ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-09.pdf",
+        "pages": "১৬৫-১৯২"
+      },
+      {
+        "unitNum": 10,
+        "title": "ব্যবহারিক জ্যামিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-10.pdf",
+        "pages": "১৯৩-২০০"
+      },
+      {
+        "unitNum": 11,
+        "title": "বৃত্ত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-11.pdf",
+        "pages": "২০১-২২০"
+      },
+      {
+        "unitNum": 12,
+        "title": "অনুপাত, সদৃশতা ও প্রতিসমতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-12.pdf",
+        "pages": "২২১-২৩৮"
+      },
+      {
+        "unitNum": 13,
+        "title": "ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-13.pdf",
+        "pages": "২৩৯-২৪৮"
+      },
+      {
+        "unitNum": 14,
+        "title": "ত্রিকোণমিতিক অনুপাত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-14.pdf",
+        "pages": "২৪৯-২৬৬"
+      },
+      {
+        "unitNum": 15,
+        "title": "দূরত্ব ও উচ্চতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-15.pdf",
+        "pages": "২৬৭-২৭৪"
+      },
+      {
+        "unitNum": 16,
+        "title": "পরিমিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-16.pdf",
+        "pages": "২৭৫-২৯৬"
+      },
+      {
+        "unitNum": 17,
+        "title": "পরিসংখ্যান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Unit-17.pdf",
+        "pages": "২৯৭-৩২০"
+      },
+      {
+        "unitNum": 18,
+        "title": "উত্তরমালা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Answer_Key.pdf",
+        "pages": "৩২১-৩২২"
+      },
+      {
+        "unitNum": 19,
+        "title": "সাধারণ প্রশ্নঃ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1653/Sample_Question.pdf",
+        "pages": "৩৩১-৩৩৫"
+      }
+    ],
+    "unitsCount": 20
+  },
+  {
+    "id": "book-ssc-1654",
+    "subjectCode": "SSC-1654",
+    "title": "ইসলাম ও নৈতিক শিক্ষা (Islam & Moral Education)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "২০২২ নতুন সংস্করণ (2022 Edition)",
+    "pages": 242,
+    "fileSize": "19.4 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654_2022.pdf",
+    "summary": "বাউবি এসএসসি ইসলাম শিক্ষা: আকাইদ, শরিয়তের পরিচয়, ইবাদত, আখলাক ও নৈতিক জীবন, এবং আদর্শ জীবন-চরিত বিষয়ক ৫টি বিস্তৃত ইউনিট।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "আকাইদ ও নৈতিক জীবন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Unit-01.pdf",
+        "pages": "০১-৫২"
+      },
+      {
+        "unitNum": 2,
+        "title": "শরিয়তের পরিচয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Unit-02.pdf",
+        "pages": "৫৩-১৩০"
+      },
+      {
+        "unitNum": 3,
+        "title": "ইবাদত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Unit-03.pdf",
+        "pages": "১৩১-১৬২"
+      },
+      {
+        "unitNum": 4,
+        "title": "আখলাক(চরিত্র)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Unit-04.pdf",
+        "pages": "১৬৩-২০৬"
+      },
+      {
+        "unitNum": 5,
+        "title": "আদর্শ জীবন-চরিত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Unit-05.pdf",
+        "pages": "২০৭-২৪২"
+      },
+      {
+        "unitNum": 6,
+        "title": "কোর্স পরিচিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1654/Course_Review.pdf"
+      }
+    ],
+    "unitsCount": 7
+  },
+  {
+    "id": "book-ssc-1655",
+    "subjectCode": "SSC-1655",
+    "title": "হিন্দুধর্ম ও নৈতিক শিক্ষা (Hindu Religion & Moral Education)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "২০২২ নতুন সংস্করণ (2022 Edition)",
+    "pages": 150,
+    "fileSize": "12.6 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655_2022.pdf",
+    "summary": "বাউবি এসএসসি হিন্দুধর্ম শিক্ষা: স্রষ্টা ও সৃষ্টি, ধর্মগ্রন্থ, হিন্দুদর্শন, দেব-দেবী ও ব্রতকথা, যোগসাধনা এবং নৈতিক চরিত্র গঠনের পাঠ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "স্রষ্টা, সৃষ্টি এবং হিন্দুধর্ম",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-01.pdf",
+        "pages": "০১-১৫"
+      },
+      {
+        "unitNum": 2,
+        "title": "স্তব-স্তোত্র ও প্রাথর্না",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-02.pdf",
+        "pages": "১৬-২৭"
+      },
+      {
+        "unitNum": 3,
+        "title": "ধর্মগ্রন্থ পরিচিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-03.pdf",
+        "pages": "২৮-৪০"
+      },
+      {
+        "unitNum": 4,
+        "title": "হিন্দুধর্মের দর্শন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-04.pdf",
+        "pages": "৪১-৫৪"
+      },
+      {
+        "unitNum": 5,
+        "title": "দেব-দেবী,পূজা এবং ব্রতকথা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-05.pdf",
+        "pages": "৫৫-৭৩"
+      },
+      {
+        "unitNum": 6,
+        "title": "ধর্মাচার ও ধর্মানুষ্ঠান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-06.pdf",
+        "pages": "৭৪-৮৪"
+      },
+      {
+        "unitNum": 7,
+        "title": "হিন্দুধর্মীয় সংস্কার",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-07.pdf",
+        "pages": "৮৫-৯৩"
+      },
+      {
+        "unitNum": 8,
+        "title": "যোগসাধনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-08.pdf",
+        "pages": "৯৪-১০৪"
+      },
+      {
+        "unitNum": 9,
+        "title": "নৈতিক শিক্ষা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-09.pdf",
+        "pages": "১০৫-১২০"
+      },
+      {
+        "unitNum": 10,
+        "title": "অবতার ও মহৎজনের জীবনচরিত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1655/Unit-10.pdf",
+        "pages": "১২১-১৪৯"
+      }
+    ],
+    "unitsCount": 11
+  },
+  {
+    "id": "book-ssc-1656",
+    "subjectCode": "SSC-1656",
+    "title": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা (Christian Religion & Moral Education)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "২০২২ নতুন সংস্করণ (2022 Edition)",
+    "pages": 216,
+    "fileSize": "14.5 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656_2022.pdf",
+    "summary": "বাউবি এসএসসি খ্রিষ্টধর্ম শিক্ষা: মুক্তি ও স্বাধীনতা, আধ্যাত্মিক জীবন, বিশ্ব শান্তি, নৈতিক মূল্যবোধ ও খ্রিস্টীয় জীবনাদর্শ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "মুক্তির পথে আহবান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-01.pdf",
+        "pages": "০১-১৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "স্বাধীনতা ও আমি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-02.pdf",
+        "pages": "১৫-৩৫"
+      },
+      {
+        "unitNum": 3,
+        "title": "স্বাধীনতা ও সমাজ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-03.pdf",
+        "pages": "৩৬-৪৭"
+      },
+      {
+        "unitNum": 4,
+        "title": "স্বাধীনতায় বেড়ে উঠা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-04.pdf",
+        "pages": "৪৮-৫৮"
+      },
+      {
+        "unitNum": 5,
+        "title": "স্বাধীনতা ও বাধ্যতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-05.pdf",
+        "pages": "৫৯-৭৪"
+      },
+      {
+        "unitNum": 6,
+        "title": "বিশ্বস্ত বন্ধু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-06.pdf",
+        "pages": "৭৫-৮৮"
+      },
+      {
+        "unitNum": 7,
+        "title": "পুরুষ ও নারী",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-07.pdf",
+        "pages": "৮৯-৯৯"
+      },
+      {
+        "unitNum": 8,
+        "title": "স্বাধীনতা ও জীবনাহবান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-08.pdf",
+        "pages": "১০০-১১৫"
+      },
+      {
+        "unitNum": 9,
+        "title": "পিতার সম্মুখে(সান্নিধ্যে)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-09.pdf",
+        "pages": "১১৬-১৩১"
+      },
+      {
+        "unitNum": 10,
+        "title": "অসুস্থ পৃথিবীর নিরাময়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-10.pdf",
+        "pages": "১৩২-১৪৫"
+      },
+      {
+        "unitNum": 11,
+        "title": "বিবেকের নীরব কন্ঠস্বর",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-11.pdf",
+        "pages": "১৪৬-১৬৩"
+      },
+      {
+        "unitNum": 12,
+        "title": "হৃদয়ের তীব্র যন্ত্রণা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-12.pdf",
+        "pages": "১৬৪-১৭৬"
+      },
+      {
+        "unitNum": 13,
+        "title": "সহিংসতা ও শান্তি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-13.pdf",
+        "pages": "১৭৭-১৯৩"
+      },
+      {
+        "unitNum": 14,
+        "title": "পরিবর্তিত বিশ্ব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-14.pdf",
+        "pages": "১৯৪-২০৫"
+      },
+      {
+        "unitNum": 15,
+        "title": "আমাদের মুক্তির পথ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1656/Unit-15.pdf",
+        "pages": "২০৬-২১৬"
+      }
+    ],
+    "unitsCount": 16
+  },
+  {
+    "id": "book-ssc-1657",
+    "subjectCode": "SSC-1657",
+    "title": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা (Buddhist Religion & Moral Education)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "এনসিটিবি পাঠ্যসূচি অনুসৃত সংস্করণ",
+    "pages": 224,
+    "fileSize": "15.1 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_2.php#ssc1657",
+    "notice": "কোর্স কোড-১৬৫৭, বৌদ্ধধর্ম ও নৈতিক শিক্ষা বিষয়ের ক্ষেত্রে এনসিটিব’র পাঠ্যসূচি অনুসরণ করার জন্য সকল শিক্ষার্থী ও সংশ্লিষ্টদের অনুরোধ করা হলো।",
+    "summary": "বাউবি এসএসসি বৌদ্ধধর্ম শিক্ষা: গৌতম বুদ্ধের জীবনচরিত, ত্রিপিটক, নীতিগাথা, শীল ও দান, বৌদ্ধ কর্মবাদ ও ঐতিহাসিক তীর্থস্থানসমূহ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "মহাকারুণিক গৌতম বৃদ্ধের জীবন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-01.pdf",
+        "pages": "০১-২১"
+      },
+      {
+        "unitNum": 2,
+        "title": "বুদ্ধ ও বোধিসত্ত্ব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-02.pdf",
+        "pages": "২২-৩৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "ত্রিপিটক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-03.pdf",
+        "pages": "৩৭-৪৮"
+      },
+      {
+        "unitNum": 4,
+        "title": "সূত্র ও নীতিগাথা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-04.pdf",
+        "pages": "৪৯-৬২"
+      },
+      {
+        "unitNum": 5,
+        "title": "বৌদ্ধ নীতিমালা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-05.pdf",
+        "pages": "৬৩-৭৪"
+      },
+      {
+        "unitNum": 6,
+        "title": "শীল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-06.pdf",
+        "pages": "৭৫-৯১"
+      },
+      {
+        "unitNum": 7,
+        "title": "দান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-07.pdf",
+        "pages": "৯২-১০৬"
+      },
+      {
+        "unitNum": 8,
+        "title": "জাতক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-08.pdf",
+        "pages": "১০৭-১২২"
+      },
+      {
+        "unitNum": 9,
+        "title": "বৌদ্ধ কর্মবাদ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-09.pdf",
+        "pages": "১২৩-১৪০"
+      },
+      {
+        "unitNum": 10,
+        "title": "নির্বাণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-10.pdf",
+        "pages": "১৪১-১৫১"
+      },
+      {
+        "unitNum": 11,
+        "title": "সঙ্গীতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-11.pdf",
+        "pages": "১৫২-১৬৩"
+      },
+      {
+        "unitNum": 12,
+        "title": "চরিতমালা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-12.pdf",
+        "pages": "১৬৪-১৮৪"
+      },
+      {
+        "unitNum": 13,
+        "title": "তীর্থস্থান ও ঐতিহাসিক স্থান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-13.pdf",
+        "pages": "১৮৫-২০১"
+      },
+      {
+        "unitNum": 14,
+        "title": "বৌদ্ধধর্মের ইতিহাস",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Unit-14.pdf",
+        "pages": "২০২-২২৩"
+      },
+      {
+        "unitNum": 15,
+        "title": "সাধারন প্রশ্নঃ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1657/Question.pdf"
+      }
+    ],
+    "unitsCount": 16
+  },
+  {
+    "id": "book-ssc-1659",
+    "subjectCode": "SSC-1659",
+    "title": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা (History & World Civilization)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "২০২৬ নতুন সংস্করণ (2026 Edition)",
+    "pages": 204,
+    "fileSize": "18.2 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659_2026.pdf",
+    "summary": "বাউবি এসএসসি ইতিহাস: প্রাচীন বাংলার জনপদ, বিশ্বসভ্যতা, মধ্যযুগ, ঔপনিবেশিক শাসন, ভাষা আন্দোলন ও ১৯৭১ সালের মহান মুক্তিযুদ্ধ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ইতিহাসের সংজ্ঞা, বিষয়বস্তু ও প্রয়োজনীয়তা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-01.pdf",
+        "pages": "০১-০৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "বিশ্বসভ্যতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-02.pdf",
+        "pages": "০৫-২০"
+      },
+      {
+        "unitNum": 3,
+        "title": "বাংলাদেশের ভৌগোলিক বৈশিষ্ট্য ও এর প্রভাব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-03.pdf",
+        "pages": "২১-২৭"
+      },
+      {
+        "unitNum": 4,
+        "title": "প্রাচীন বাংলার জনপদ ও রাজনৈতিক ইতিহাস",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-04.pdf",
+        "pages": "২৮-৪১"
+      },
+      {
+        "unitNum": 5,
+        "title": "প্রাচীন বাংলার জীবন চর্যা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-05.pdf",
+        "pages": "৪২-৪৯"
+      },
+      {
+        "unitNum": 6,
+        "title": "মধ্যযুগে বাংলার রাজনৈতিক ইতিহাস",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-06.pdf",
+        "pages": "৫০-৬৫"
+      },
+      {
+        "unitNum": 7,
+        "title": "মধ্যযুগে বাংলার জীবন চর্যা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-07.pdf",
+        "pages": "৬৬-৭২"
+      },
+      {
+        "unitNum": 8,
+        "title": "বাংলায় ইউরোপীয়দের আগমন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-08.pdf",
+        "pages": "৭৩-৮৪"
+      },
+      {
+        "unitNum": 9,
+        "title": "বাংলায় ইংরেজ শাসনের প্রভাব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-09.pdf",
+        "pages": "৮৫-৯১"
+      },
+      {
+        "unitNum": 10,
+        "title": "বাংলায় কৃষক বিদ্রোহ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-10.pdf",
+        "pages": "৯২-১০১"
+      },
+      {
+        "unitNum": 11,
+        "title": "বাংলায় নবযুগ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-11.pdf",
+        "pages": "১০২-১১১"
+      },
+      {
+        "unitNum": 12,
+        "title": "ইংরেজ শাসন আমলে বাংলার স্বাধীকার আন্দোলন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-12.pdf",
+        "pages": "১১২-১৩৩"
+      },
+      {
+        "unitNum": 13,
+        "title": "ভাষা আন্দোলন ও বাঙালির আত্নপরিচয় প্রতিষ্ঠা,১৯৪৮-১৯৬৯",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-13.pdf",
+        "pages": "১৩৪-১৬৭"
+      },
+      {
+        "unitNum": 14,
+        "title": "১৯৭০ এর নির্বাচন ও মুক্তিযুদ্ধ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1659/Unit-14.pdf",
+        "pages": "১৬৮-২০৪"
+      }
+    ],
+    "unitsCount": 15,
+    "group": "arts"
+  },
+  {
+    "id": "book-ssc-1660",
+    "subjectCode": "SSC-1660/2660",
+    "title": "ভূগোল ও পরিবেশ (Geography & Environment)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম ও ২য় বর্ষ",
+    "edition": "সৃজনশীল পূর্ণাঙ্গ পাঠ্যবই",
+    "pages": 248,
+    "fileSize": "21.0 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_2.php#ssc2660",
+    "summary": "বাউবি এসএসসি ভূগোল ও পরিবেশ: মহাবিশ্ব ও পৃথিবী, প্রাকৃতিক ভূগোল, জলবায়ু ও বারিমন্ডল, বাংলাদেশের ভৌগোলিক সম্পদ এবং মানচিত্র পঠন।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ভূগোল ও পরিবেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-01.pdf",
+        "pages": "০১-০৯"
+      },
+      {
+        "unitNum": 2,
+        "title": "মহাবিশ্ব ও পৃথিবী",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-02.pdf",
+        "pages": "১০-৩০"
+      },
+      {
+        "unitNum": 3,
+        "title": "প্রাকৃতিক ভূগোল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-03.pdf",
+        "pages": "৩১-৫৭"
+      },
+      {
+        "unitNum": 4,
+        "title": "জলবায়ু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-04.pdf",
+        "pages": "৫৮-৭৮"
+      },
+      {
+        "unitNum": 5,
+        "title": "বারিমন্ডল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-05.pdf",
+        "pages": "৭৯-৯৫"
+      },
+      {
+        "unitNum": 6,
+        "title": "জনসংখ্যা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-06.pdf",
+        "pages": "৯৬-১২২"
+      },
+      {
+        "unitNum": 7,
+        "title": "মানব বসতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-07.pdf",
+        "pages": "১২৩-১৩৫"
+      },
+      {
+        "unitNum": 8,
+        "title": "সম্পদ ও অর্থনৈতিক কার্যবলি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-08.pdf",
+        "pages": "১৩৬-১৪৫"
+      },
+      {
+        "unitNum": 9,
+        "title": "বাংলাদেশের ভৌগোলিক বিবরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-09.pdf",
+        "pages": "১৪৬-১৬২"
+      },
+      {
+        "unitNum": 10,
+        "title": "বাংলাদেশের সম্পদ ও শিল্প",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-10.pdf",
+        "pages": "১৬৩-১৮২"
+      },
+      {
+        "unitNum": 11,
+        "title": "বাংলাদেশের যোগাযোগ ও বানিজ্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-11.pdf",
+        "pages": "১৮৩-২০১"
+      },
+      {
+        "unitNum": 12,
+        "title": "বাংলাদেশের উন্নয়ন কর্মকান্ড এবং পরিবেশের ভারসাম্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-12.pdf",
+        "pages": "২০২-২১৫"
+      },
+      {
+        "unitNum": 13,
+        "title": "বাংলাদেশের প্রাকৃতিক দুর্যোগ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-13.pdf",
+        "pages": "২১৬-২২৯"
+      },
+      {
+        "unitNum": 14,
+        "title": "মানচিত্র পঠন ও ব্যবহার",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1660/Unit-14.pdf",
+        "pages": "২৩০-২৪৭"
+      }
+    ],
+    "unitsCount": 15,
+    "group": "arts"
+  },
+  {
+    "id": "book-ssc-1663",
+    "subjectCode": "SSC-1663",
+    "title": "ব্যবসায় উদ্যোগ (Business Entrepreneurship)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 188,
+    "fileSize": "14.8 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_3.php#ssc1663",
+    "summary": "বাউবি ব্যবসায় শিক্ষা: ব্যবসায় পরিচিতি, আত্মকর্মসংস্থান, মালিকানা, ব্যবসায় পরিকল্পনা, বিপণন ও সফল উদ্যোক্তাদের জীবনী।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ব্যবসায় পরিচিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-01.pdf",
+        "pages": "০১-১৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "ব্যবসায় উদ্যোক্তা ও উদ্যোগ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-02.pdf",
+        "pages": "১৫-২৮"
+      },
+      {
+        "unitNum": 3,
+        "title": "আত্নকর্মসংস্থান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-03.pdf",
+        "pages": "২৯-৪২"
+      },
+      {
+        "unitNum": 4,
+        "title": "মালিকানার ভিত্তিতে ব্যবসায়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-04.pdf",
+        "pages": "৪৩-৭৪"
+      },
+      {
+        "unitNum": 5,
+        "title": "সমবায় সমিতি ও রাষ্ট্রীয় ব্যবসায়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-05.pdf",
+        "pages": "৭৫-৮৪"
+      },
+      {
+        "unitNum": 6,
+        "title": "ব্যবসায়ের আইনগত দিক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-06.pdf",
+        "pages": "৮৫-১০০"
+      },
+      {
+        "unitNum": 7,
+        "title": "ব্যবসায় পরিকল্পনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-07.pdf",
+        "pages": "১০১-১১৬"
+      },
+      {
+        "unitNum": 8,
+        "title": "বাংলাদেশের শিল্প",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-08.pdf",
+        "pages": "১১৭-১৩২"
+      },
+      {
+        "unitNum": 9,
+        "title": "বিপণন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-09.pdf",
+        "pages": "১৩৩-১৪৪"
+      },
+      {
+        "unitNum": 10,
+        "title": "ব্যবসায় উদ্যোগ গ্রহণে সহায়ক সেবা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-10.pdf",
+        "pages": "১৪৫-১৫৬"
+      },
+      {
+        "unitNum": 11,
+        "title": "ব্যবসায়ে নৈতিকতা ও সামাজিক দায়বদ্ধতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-11.pdf",
+        "pages": "১৫৭-১৭০"
+      },
+      {
+        "unitNum": 12,
+        "title": "সফল উদ্যোক্তাদের জীবনী থেকে শিক্ষনীয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Unit-12.pdf",
+        "pages": "১৭১-১৮৬"
+      },
+      {
+        "unitNum": 13,
+        "title": "মানবন্টন ও নমুনা প্রশ্নঃ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1663/Sample_Question.pdf",
+        "pages": "১৮৭-১৮৮"
+      }
+    ],
+    "unitsCount": 14,
+    "group": "commerce"
+  },
+  {
+    "id": "book-ssc-1664",
+    "subjectCode": "SSC-1664",
+    "title": "হিসাব বিজ্ঞান (Accounting / হিসাববিজ্ঞান)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 288,
+    "fileSize": "22.4 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_3.php#ssc1664",
+    "summary": "বাউবি ব্যবসায় শিক্ষা হিসাববিজ্ঞান: লেনদেন, দুতরফা দাখিলা, জাবেদা, খতিয়ান, নগদান বই, রেওয়ামিল ও আর্থিক বিবরণী।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "হিসাববিজ্ঞানের পরিচিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-01.pdf",
+        "pages": "০১-১৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "কারবারী লেনদেন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-02.pdf",
+        "pages": "১৫-২৪"
+      },
+      {
+        "unitNum": 3,
+        "title": "হিসাব সমীকরণ ও দুই তরফা দাখিলা পদ্ধতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-03.pdf",
+        "pages": "২৫-৩৬"
+      },
+      {
+        "unitNum": 4,
+        "title": "মূলধন ও মুনাফাজাতীয় লেনদেন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-04.pdf",
+        "pages": "৩৭-৪৮"
+      },
+      {
+        "unitNum": 5,
+        "title": "হিসাব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-05.pdf",
+        "pages": "৪৯-৭০"
+      },
+      {
+        "unitNum": 6,
+        "title": "জাবেদা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-06.pdf",
+        "pages": "৭১-৯২"
+      },
+      {
+        "unitNum": 7,
+        "title": "জাবেদার শ্রেণিবিভাগ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-07.pdf",
+        "pages": "৯৩-১১৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "খতিয়ান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-08.pdf",
+        "pages": "১১৫-১৪৪"
+      },
+      {
+        "unitNum": 9,
+        "title": "নগদান বই",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-09.pdf",
+        "pages": "১৪৫-১৭৪"
+      },
+      {
+        "unitNum": 10,
+        "title": "রেওয়ামিল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-10.pdf",
+        "pages": "১৭৫-১৯৪"
+      },
+      {
+        "unitNum": 11,
+        "title": "আর্থিক বিবরনী",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-11.pdf",
+        "pages": "১৯৫-২৩৪"
+      },
+      {
+        "unitNum": 12,
+        "title": "পণ্যের ক্রয়মূল্য,উৎপাদন ব্যয় ও বিক্রয়মূল্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-12.pdf",
+        "pages": "২৩৫-২৫৪"
+      },
+      {
+        "unitNum": 13,
+        "title": "পারিবারিক হিসাব ও আত্নকর্মসংস্থানমূলক উদ্যোগের হিসাব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Unit-13.pdf",
+        "pages": "২৫৫-২৭৮"
+      },
+      {
+        "unitNum": 14,
+        "title": "সাধারণ প্রশ্ন:",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1664/Sample_Question.pdf",
+        "pages": "২৭৯-২৮৭"
+      }
+    ],
+    "unitsCount": 15,
+    "group": "commerce"
+  },
+  {
+    "id": "book-ssc-1667",
+    "subjectCode": "SSC-1667",
+    "title": "পদার্থ বিজ্ঞান (Physics / পদার্থবিজ্ঞান)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "সংশোধিত কারিকুলাম ও সৃজনশীল সংস্করণ",
+    "pages": 355,
+    "fileSize": "26.3 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_4.php#ssc1667",
+    "summary": "বাউবি বিজ্ঞান বিভাগ পদার্থবিজ্ঞান: গতি, বল, কাজ-শক্তি, তাপ, আলো, স্থির ও চলতড়িৎ, চৌম্বক ক্রিয়া এবং আধুনিক পদার্থবিজ্ঞান।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ভৌতরাশি ও পরিমাপ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-01.pdf",
+        "pages": "০১-২৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "গতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-02.pdf",
+        "pages": "২৫-৪৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "বল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-03.pdf",
+        "pages": "৪৭-৭০"
+      },
+      {
+        "unitNum": 4,
+        "title": "কাজ,ক্ষমতা ও শক্তি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-04.pdf",
+        "pages": "৭১-৮৭"
+      },
+      {
+        "unitNum": 5,
+        "title": "পদার্থের অবস্থা ও চাপ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-05.pdf",
+        "pages": "৮৮-১১২"
+      },
+      {
+        "unitNum": 6,
+        "title": "বস্তুর উপর তাপের প্রভাব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-06.pdf",
+        "pages": "১১৩-১৪২"
+      },
+      {
+        "unitNum": 7,
+        "title": "তরঙ্গ ও শব্দ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-07.pdf",
+        "pages": "১৪৩-১৭০"
+      },
+      {
+        "unitNum": 8,
+        "title": "আলোর প্রকৃতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-08.pdf",
+        "pages": "১৭১-১৮৮"
+      },
+      {
+        "unitNum": 9,
+        "title": "আলোর প্রতিফলন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-09.pdf",
+        "pages": "১৮৯-২১৬"
+      },
+      {
+        "unitNum": 10,
+        "title": "আলোর প্রতিসরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-10.pdf",
+        "pages": "২১৭-২৪২"
+      },
+      {
+        "unitNum": 11,
+        "title": "স্থিরতড়িৎ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-11.pdf",
+        "pages": "২৪৩-২৬৬"
+      },
+      {
+        "unitNum": 12,
+        "title": "চলতড়িৎ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-12.pdf",
+        "pages": "২৬৭-২৯৬"
+      },
+      {
+        "unitNum": 13,
+        "title": "তড়িৎ প্রবাহে চৌম্বক ক্রিয়া",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-13.pdf",
+        "pages": "২৯৭-৩১০"
+      },
+      {
+        "unitNum": 14,
+        "title": "আধুনিক পদার্থবিজ্ঞান ও ইলেকট্রনিক্স",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-14.pdf",
+        "pages": "৩১১-৩৩৬"
+      },
+      {
+        "unitNum": 15,
+        "title": "জীবন বাঁচাতে পদার্থবিজ্ঞান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Unit-15.pdf",
+        "pages": "৩৩৭-৩৫৫"
+      },
+      {
+        "unitNum": 16,
+        "title": "সাধারন প্রশ্ন ও মানবন্টন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Sample_question.pdf"
+      },
+      {
+        "unitNum": 17,
+        "title": "সংশোধিত কারিকুলাম",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1667/Revised_curriculum.pdf"
+      }
+    ],
+    "unitsCount": 18,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-1668",
+    "subjectCode": "SSC-1668",
+    "title": "রসায়ন (Chemistry)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 268,
+    "fileSize": "20.1 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc3_4.php#ssc1668",
+    "summary": "বাউবি বিজ্ঞান বিভাগ রসায়ন: পদার্থের গঠন, পর্যায় সারণি, রাসায়নিক বন্ধন, মোলের ধারণা, রাসায়নিক বিক্রিয়া ও দৈনন্দিন জীবনে রসায়ন।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "রসায়নের ধারণা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-01.pdf",
+        "pages": "০১-১৬"
+      },
+      {
+        "unitNum": 2,
+        "title": "পদার্থের অবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-02.pdf",
+        "pages": "১৭-৩২"
+      },
+      {
+        "unitNum": 3,
+        "title": "পদার্থের গঠন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-03.pdf",
+        "pages": "৩৩-৫৪"
+      },
+      {
+        "unitNum": 4,
+        "title": "পর্যায় সারণি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-04.pdf",
+        "pages": "৫৫-৬৮"
+      },
+      {
+        "unitNum": 5,
+        "title": "রাসায়নিক বন্ধন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-05.pdf",
+        "pages": "৬৯-৮৮"
+      },
+      {
+        "unitNum": 6,
+        "title": "মোলের ধারণা ও রাসায়নিক গণনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-06.pdf",
+        "pages": "৮৯-১১৮"
+      },
+      {
+        "unitNum": 7,
+        "title": "রাসায়নিক বিক্রিয়া",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-07.pdf",
+        "pages": "১১৯-১৫০"
+      },
+      {
+        "unitNum": 8,
+        "title": "রসায়ন ও শক্তি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-08.pdf",
+        "pages": "১৫১-১৭৮"
+      },
+      {
+        "unitNum": 9,
+        "title": "এসিড-ক্ষার",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-09.pdf",
+        "pages": "১৭৯-২০৬"
+      },
+      {
+        "unitNum": 10,
+        "title": "খনিজ সম্পদ : ধাতু-অধাতু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-10.pdf",
+        "pages": "২০৭-২২২"
+      },
+      {
+        "unitNum": 11,
+        "title": "খনিজ সম্পদ : জীবাশ্ম",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-11.pdf",
+        "pages": "২২৩-২৪৮"
+      },
+      {
+        "unitNum": 12,
+        "title": "দৈনন্দিন জীবনে রসায়ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Unit-12.pdf",
+        "pages": "২৪৯-২৬৪"
+      },
+      {
+        "unitNum": 13,
+        "title": "নমুনা প্রশ্ন:",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1668/Model_Question.pdf",
+        "pages": "২৬৫-২৬৮"
+      }
+    ],
+    "unitsCount": 14,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-1370",
+    "subjectCode": "SSC-1370/2370",
+    "title": "তথ্য ও যোগাযোগ প্রযুক্তি (ICT)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "১ম ও ২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই (কোর্স কোড ১৩৭০/২৩৭০)",
+    "pages": 232,
+    "fileSize": "18.7 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_1.php#ssc2370",
+    "summary": "বাউবি এসএসসি আইসিটি: কম্পিউটার রক্ষণাবেক্ষণ, ইন্টারনেট শিক্ষা, ওয়ার্ড প্রসেসর, মাল্টিমিডিয়া, ফটোশপ, ইলাস্ট্রেটর ও ডেটাবেজ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "তথ্য ও যোগাযোগ প্রযুক্তি এবং বাংলাদেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-01.pdf",
+        "pages": "০১-২২"
+      },
+      {
+        "unitNum": 2,
+        "title": "কম্পিউটার রক্ষণাবেক্ষণের ক্ষেত্রে সফটওয়্যারের গুরুত্ব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-02.pdf",
+        "pages": "২৩-৫৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "ইন্টারনেট শিক্ষা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-03.pdf",
+        "pages": "৫৭-৬৮"
+      },
+      {
+        "unitNum": 4,
+        "title": "ওয়ার্ড প্রসেসরের সাহায্য লেখার কাজ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-04.pdf",
+        "pages": "৬৯-১১২"
+      },
+      {
+        "unitNum": 5,
+        "title": "ডিজিটাল যন্ত্র ও মাল্টিমিডিয়া",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-05.pdf",
+        "pages": "১১৩-১৩৮"
+      },
+      {
+        "unitNum": 6,
+        "title": "গ্রাফিক্স ডিজাইন: পর্ব ১ ফটোশপ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-06.pdf",
+        "pages": "১৩৯-১৭০"
+      },
+      {
+        "unitNum": 7,
+        "title": "গ্রাফিক্স ডিজাইন: পর্ব ২ ইলাস্ট্রেটর",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-07.pdf",
+        "pages": "১৭১-২০৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "ডাটাবেজ ম্যানেজমেন্ট সিস্টেম",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1370_2370/Unit-08.pdf",
+        "pages": "২০৫-২৩১"
+      }
+    ],
+    "unitsCount": 9
+  },
+  {
+    "id": "book-ssc-2651-new",
+    "subjectCode": "SSC-2651",
+    "title": "বাংলা দ্বিতীয় পত্র (Bangla 2nd Paper)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "২০২৬ নতুন সংস্করণ (2026 Edition)",
+    "pages": 292,
+    "fileSize": "25.3 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651_2026.pdf",
+    "summary": "বাউবি এসএসসি ২য় বর্ষ বাংলা ২য় পত্র: বাংলা ভাষার ব্যাকরণ, ধ্বনিতত্ত্ব, শব্দ ও পদ প্রকরণ, বাক্যতত্ত্ব, ভাব-সম্প্রসারণ, সারাংশ ও প্রবন্ধ রচনা।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ভাষা : বাংলা ভাষা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-01.pdf",
+        "pages": "০১-০৭"
+      },
+      {
+        "unitNum": 2,
+        "title": "ধ্বনিতত্ত্ব : বাংলা ভাষার ধ্বনি ও বর্ণ প্রকারণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-02.pdf",
+        "pages": "০৮-৩৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "শব্দ প্রকরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-03.pdf",
+        "pages": "৩৭-৯৭"
+      },
+      {
+        "unitNum": 4,
+        "title": "পদ প্রকরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-04.pdf",
+        "pages": "৯৮-১৩৫"
+      },
+      {
+        "unitNum": 5,
+        "title": "বাক্যতত্ত্ব",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-05.pdf",
+        "pages": "১৩৬-১৮৮"
+      },
+      {
+        "unitNum": 6,
+        "title": "ভাব-সম্প্রসারণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-06.pdf",
+        "pages": "১৮৯-২০২"
+      },
+      {
+        "unitNum": 7,
+        "title": "সারাংশ ও সারমর্ম",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-07.pdf",
+        "pages": "২০৩-২২০"
+      },
+      {
+        "unitNum": 8,
+        "title": "পত্রলিখন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-08.pdf",
+        "pages": "২২১-২৪২"
+      },
+      {
+        "unitNum": 9,
+        "title": "অনুবাদ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-09.pdf",
+        "pages": "২৪৩-২৫২"
+      },
+      {
+        "unitNum": 10,
+        "title": "প্রবন্ধ রচনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-10.pdf",
+        "pages": "২৫৩-২৮৫"
+      },
+      {
+        "unitNum": 11,
+        "title": "অনুচ্ছেদ লিখন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Unit-11.pdf",
+        "pages": "২৮৬-২৯১"
+      },
+      {
+        "unitNum": 12,
+        "title": "সাধারন প্রশ্ন ও মানবন্টন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2651/Sample_Quesion.pdf"
+      }
+    ],
+    "unitsCount": 13
+  },
+  {
+    "id": "book-ssc-2652-new",
+    "subjectCode": "SSC-2652",
+    "title": "English Two (Creative English Grammar & Composition)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "2022 New Edition",
+    "pages": 192,
+    "fileSize": "16.1 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652_2022.pdf",
+    "summary": "BOU SSC English Two: Grammar structures, sentence mechanics, voice, narration, prepositions, composition, paragraphs, letters & stories.",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "Sentence",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-01.pdf",
+        "pages": "01-18"
+      },
+      {
+        "unitNum": 2,
+        "title": "Tense",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-02.pdf",
+        "pages": "19-36"
+      },
+      {
+        "unitNum": 3,
+        "title": "Infinitive, Gerund, Participle",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-03.pdf",
+        "pages": "37-44"
+      },
+      {
+        "unitNum": 4,
+        "title": "Voice",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-04.pdf",
+        "pages": "45-52"
+      },
+      {
+        "unitNum": 5,
+        "title": "Speech/ Narration",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-05.pdf",
+        "pages": "53-62"
+      },
+      {
+        "unitNum": 6,
+        "title": "Conditional sentence",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-06.pdf",
+        "pages": "63-72"
+      },
+      {
+        "unitNum": 7,
+        "title": "Right form of verbs",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-07.pdf",
+        "pages": "73-82"
+      },
+      {
+        "unitNum": 8,
+        "title": "Phrase",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-08.pdf",
+        "pages": "83-92"
+      },
+      {
+        "unitNum": 9,
+        "title": "Tag question",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-09.pdf",
+        "pages": "93-100"
+      },
+      {
+        "unitNum": 10,
+        "title": "Linking words or Connectors",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-10.pdf",
+        "pages": "101-110"
+      },
+      {
+        "unitNum": 11,
+        "title": "Preposition",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-11.pdf",
+        "pages": "111-124"
+      },
+      {
+        "unitNum": 12,
+        "title": "Punctuation, Capitalization",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-12.pdf",
+        "pages": "125-135"
+      },
+      {
+        "unitNum": 13,
+        "title": "Dialogue writing",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-13.pdf",
+        "pages": "136-143"
+      },
+      {
+        "unitNum": 14,
+        "title": "Application/letter",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-14.pdf",
+        "pages": "144-170"
+      },
+      {
+        "unitNum": 15,
+        "title": "Paragraphs",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_1652/Unit-15.pdf",
+        "pages": "171-178"
+      },
+      {
+        "unitNum": 16,
+        "title": "Compositions",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-16.pdf",
+        "pages": "179-184"
+      },
+      {
+        "unitNum": 17,
+        "title": "Completing Stories",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-17.pdf",
+        "pages": "185-192"
+      }
+    ],
+    "unitsCount": 18
+  },
+  {
+    "id": "book-ssc-2669",
+    "subjectCode": "SSC-2669",
+    "title": "শারীরিক শিক্ষা, স্বাস্থ্য বিজ্ঞান ও খেলাধুলা",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 122,
+    "fileSize": "11.2 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_1.php#ssc2669",
+    "summary": "বাউবি শারীরিক শিক্ষা: সুস্থ জীবন, শারীরিক সক্ষমতা, মানসিক স্বাস্থ্য, পুষ্টি, বয়ঃসন্ধিকালীন স্বাস্থ্য এবং খেলাধুলার নিয়ম ও প্রাথমিক চিকিৎসা।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "সুস্থ জীবনের জন্য শারীরিক শিক্ষা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-01.pdf",
+        "pages": "০১-০৯"
+      },
+      {
+        "unitNum": 2,
+        "title": "শারীরিক সক্ষমতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-02.pdf",
+        "pages": "১০-২৩"
+      },
+      {
+        "unitNum": 3,
+        "title": "মানসিক স্বাস্থ্য ও অবসাদ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-03.pdf",
+        "pages": "২৪-৩০"
+      },
+      {
+        "unitNum": 4,
+        "title": "স্বাস্থ্য বিজ্ঞান ও স্বাস্থ্যসেবা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-04.pdf",
+        "pages": "৩১-৩৮"
+      },
+      {
+        "unitNum": 5,
+        "title": "স্বাস্থ্যের জন্য পুষ্টি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-05.pdf",
+        "pages": "৩৯-৪৮"
+      },
+      {
+        "unitNum": 6,
+        "title": "মাদকাসক্তি ও এইডস",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-06.pdf",
+        "pages": "৪৯-৬৭"
+      },
+      {
+        "unitNum": 7,
+        "title": "বয়ঃসন্ধিকাল ও প্রজনন স্বাস্থ্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-07.pdf",
+        "pages": "৬৮-৭৫"
+      },
+      {
+        "unitNum": 8,
+        "title": "খেলাধুলা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-08.pdf",
+        "pages": "৭৬-১০৮"
+      },
+      {
+        "unitNum": 9,
+        "title": "খেলাধুলার দুর্ঘটনা ও প্রাথমিক প্রতিবিধান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Unit-09.pdf",
+        "pages": "১০৯-১২১"
+      },
+      {
+        "unitNum": 10,
+        "title": "সাধারন প্রশ্ন ও মানবন্টন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2669/Sample_Quesion.pdf"
+      }
+    ],
+    "unitsCount": 11
+  },
+  {
+    "id": "book-ssc-2671-new",
+    "subjectCode": "SSC-2671",
+    "title": "অর্থনীতি (Economics)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "২০২২ নতুন সংস্করণ (2022 Edition)",
+    "pages": 184,
+    "fileSize": "15.4 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671_2022.pdf",
+    "summary": "বাউবি মানবিক বিভাগ অর্থনীতি: উপযোগ, চাহিদা ও যোগান, উৎপাদন ব্যয়, বাজার, জাতীয় আয়, ব্যাংক ব্যবস্থা, দারিদ্র্য ও সরকারি অর্থব্যবস্থা।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "অর্থনীতি পরিচিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-01.pdf",
+        "pages": "০১-১৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "অর্থনীতির গুরুত্বপূর্ণ ধারণাসমূহ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-02.pdf",
+        "pages": "১৫-২৪"
+      },
+      {
+        "unitNum": 3,
+        "title": "উপযোগ ও নিরপেক্ষ রেখা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-03.pdf",
+        "pages": "২৫-৩৫"
+      },
+      {
+        "unitNum": 4,
+        "title": "চাহিদা ও যোগান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-04.pdf",
+        "pages": "৩৬-৫২"
+      },
+      {
+        "unitNum": 5,
+        "title": "উৎপাদন ও উৎপাদন ব্যয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-05.pdf",
+        "pages": "৫৩-৬৬"
+      },
+      {
+        "unitNum": 6,
+        "title": "বাজার",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-06.pdf",
+        "pages": "৬৭-৮১"
+      },
+      {
+        "unitNum": 7,
+        "title": "জাতীয় আয় ও এর পরিমাপ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-07.pdf",
+        "pages": "৮২-৯৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "অর্থ ও ব্যাংক ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-08.pdf",
+        "pages": "৯৫-১১৪"
+      },
+      {
+        "unitNum": 9,
+        "title": "বাংলাদেশের অর্থনীতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-09.pdf",
+        "pages": "১১৫-১৩৩"
+      },
+      {
+        "unitNum": 10,
+        "title": "অর্থনীতিক প্রবৃদ্ধি ও উন্নয়ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-10.pdf",
+        "pages": "১৩৪-১৪৫"
+      },
+      {
+        "unitNum": 11,
+        "title": "বাংলাদেশের দারিদ্র্য, বেকারত্ব ও জনসংখ্যা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-11.pdf",
+        "pages": "১৪৬-১৬৮"
+      },
+      {
+        "unitNum": 12,
+        "title": "সরকারি অর্থব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Unit-12.pdf",
+        "pages": "১৬৯-১৮৩"
+      },
+      {
+        "unitNum": 13,
+        "title": "নমুনা প্রশ্ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2671/Sample_Questions.pdf"
+      }
+    ],
+    "unitsCount": 14,
+    "group": "arts"
+  },
+  {
+    "id": "book-ssc-2672-new",
+    "subjectCode": "SSC-2672",
+    "title": "পৌরনীতি ও নাগরিকতা (Civics & Citizenship)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "২০২৫ নতুন সংস্করণ (2025 Edition)",
+    "pages": 196,
+    "fileSize": "17.0 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672_2025.pdf",
+    "summary": "বাউবি মানবিক বিভাগ পৌরনীতি: রাষ্ট্র ও সরকার, সংবিধান, নির্বাচন, স্থানীয় সরকার, নাগরিক সমস্যা, আন্তর্জাতিক সংস্থা ও সুশাসন।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "পৌরনীতি ও নাগরিকতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-01.pdf",
+        "pages": "০১-১২"
+      },
+      {
+        "unitNum": 2,
+        "title": "নাগরিক ও নাগরিকতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-02.pdf",
+        "pages": "১৩-২৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "আইন, স্বাধীনতা ও সাম্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-03.pdf",
+        "pages": "২৭-৪২"
+      },
+      {
+        "unitNum": 4,
+        "title": "রাষ্ট্র ও সরকার ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-04.pdf",
+        "pages": "৪৩-৬৪"
+      },
+      {
+        "unitNum": 5,
+        "title": "সংবিধান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-05.pdf",
+        "pages": "৬৫-৭৬"
+      },
+      {
+        "unitNum": 6,
+        "title": "বাংলাদেশের সরকার ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-06.pdf",
+        "pages": "৭৭-৯৪"
+      },
+      {
+        "unitNum": 7,
+        "title": "গণতন্ত্রে রাজনৈতিক দল ও নির্বাচন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-07.pdf",
+        "pages": "৯৫-১০৮"
+      },
+      {
+        "unitNum": 8,
+        "title": "বাংলাদেশের স্থানীয় সরকার ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-08.pdf",
+        "pages": "১০৯-১২৭"
+      },
+      {
+        "unitNum": 9,
+        "title": "নাগরিক সমস্যা ও আমাদের করনীয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-09.pdf",
+        "pages": "১২৯-১৪৩"
+      },
+      {
+        "unitNum": 10,
+        "title": "বাংলাদেশের অভ্যুদয়ের নাগরিক চেতনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-10.pdf",
+        "pages": "১৪৫-১৬৯"
+      },
+      {
+        "unitNum": 11,
+        "title": "বাংলাদেশ ও আন্তর্জাতিক সংগঠন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-11.pdf",
+        "pages": "১৭১-১৮৪"
+      },
+      {
+        "unitNum": 12,
+        "title": "সুশাসন ও বাংলাদেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2672/Unit-12.pdf",
+        "pages": "১৮৫-১৯৫"
+      }
+    ],
+    "unitsCount": 13,
+    "group": "arts"
+  },
+  {
+    "id": "book-ssc-2673",
+    "subjectCode": "SSC-2673",
+    "title": "বিজ্ঞান (General Science / সাধারণ বিজ্ঞান)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 252,
+    "fileSize": "21.6 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_2.php#ssc2673",
+    "summary": "বাউবি সাধারণ বিজ্ঞান (মানবিক ও ব্যবসায় শিক্ষা শাখা): খাদ্য ও জীবন, পানি, হৃদযন্ত্র, পলিমার, অম্ল-ক্ষারক, সম্পদ, দুর্যোগ ও জীবনমুখী বিজ্ঞান।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "খাদ্য ও জীবন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-01.pdf",
+        "pages": "১-৩৪"
+      },
+      {
+        "unitNum": 2,
+        "title": "জীবনের জন্য পানি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-02.pdf",
+        "pages": "৩৫-৪৮"
+      },
+      {
+        "unitNum": 3,
+        "title": "হৃদযন্ত্রের যত কথা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-03.pdf",
+        "pages": "৪৯-৭০"
+      },
+      {
+        "unitNum": 4,
+        "title": "নবজীবনের সূচনায় কৈশোর",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-04.pdf",
+        "pages": "৭১-৮৬"
+      },
+      {
+        "unitNum": 5,
+        "title": "দেখার জন্য আলো",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-05.pdf",
+        "pages": "৮৭-৯৭"
+      },
+      {
+        "unitNum": 6,
+        "title": "পলিমারের রাজ্যে",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-06.pdf",
+        "pages": "৯৮-১১৩"
+      },
+      {
+        "unitNum": 7,
+        "title": "অম্ল,ক্ষারক,লবণ এদের নিয়ে জীবন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-07.pdf",
+        "pages": "১১৪-১৩১"
+      },
+      {
+        "unitNum": 8,
+        "title": "আমাদের সম্পদ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-08.pdf",
+        "pages": "১৩২-১৪৫"
+      },
+      {
+        "unitNum": 9,
+        "title": "দুর্যোগের সাথে বসবাস",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-09.pdf",
+        "pages": "১৪৬-১৬০"
+      },
+      {
+        "unitNum": 10,
+        "title": "এসো গতিকে জানি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-10.pdf",
+        "pages": "১৬১-১৭৫"
+      },
+      {
+        "unitNum": 11,
+        "title": "জীবন গড়ার কলা কৌশল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-11.pdf",
+        "pages": "১৭৬-১৯৬"
+      },
+      {
+        "unitNum": 12,
+        "title": "আমাদের জীবনে তড়িৎ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-12.pdf",
+        "pages": "১৯৭-২১১"
+      },
+      {
+        "unitNum": 13,
+        "title": "সবাই কাছাকাছি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-13.pdf",
+        "pages": "২১২-২৪০"
+      },
+      {
+        "unitNum": 14,
+        "title": "জীবন বাঁচাতে পদার্থবিজ্ঞান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Unit-14.pdf",
+        "pages": "২৪১-২৫২"
+      },
+      {
+        "unitNum": 15,
+        "title": "সাধারন প্রশ্ন ও মানবন্টন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2673/Question.pdf"
+      }
+    ],
+    "unitsCount": 16,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-2676",
+    "subjectCode": "SSC-2676",
+    "title": "ফিন্যান্স ও ব্যাংকিং (Finance & Banking)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 152,
+    "fileSize": "13.8 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_2.php#ssc2676",
+    "summary": "বাউবি ব্যবসায় শিক্ষা ফিন্যান্স ও ব্যাংকিং: অর্থের সময়মূল্য, মূলধন বাজেট, ঝুঁকি ও অনিশ্চয়তা, বাণিজ্যিক ব্যাংক ও কেন্দ্রীয় ব্যাংকের কার্যাবলি।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "অর্থায়ন ও ব্যবসায় অর্থায়ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-01.pdf",
+        "pages": "১-১৮"
+      },
+      {
+        "unitNum": 2,
+        "title": "অর্থায়নের উৎস",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-02.pdf",
+        "pages": "১৯-২৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "অর্থের সময়মূল্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-03.pdf",
+        "pages": "২৭-৪২"
+      },
+      {
+        "unitNum": 4,
+        "title": "ঝুঁকি ও অনিশ্চয়তা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-04.pdf",
+        "pages": "৪৩-৫৪"
+      },
+      {
+        "unitNum": 5,
+        "title": "মূলধনি আয়-ব্যয় প্রাক্কলন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-05.pdf",
+        "pages": "৫৫-৭০"
+      },
+      {
+        "unitNum": 6,
+        "title": "মূলধন ব্যয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-06.pdf",
+        "pages": "৭১-৮০"
+      },
+      {
+        "unitNum": 7,
+        "title": "শেয়ার, বন্ড ও ডিবেঞ্চার",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-07.pdf",
+        "pages": "৮১-৯৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "মুদ্রা, ব্যাংক ও ব্যাংকিং",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-08.pdf",
+        "pages": "৯৫-১০২"
+      },
+      {
+        "unitNum": 9,
+        "title": "ব্যাংকিং ব্যবসায় ও তার ধরন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-09.pdf",
+        "pages": "১০৩-১১০"
+      },
+      {
+        "unitNum": 10,
+        "title": "বাণিজ্যিক ব্যাংক ও তার পরিচিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-10.pdf",
+        "pages": "১১১-১২০"
+      },
+      {
+        "unitNum": 11,
+        "title": "ব্যাংকের আমানত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-11.pdf",
+        "pages": "১২১-১৩২"
+      },
+      {
+        "unitNum": 12,
+        "title": "ব্যাংক ও গ্রাহক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-12.pdf",
+        "pages": "১৩৩-১৪২"
+      },
+      {
+        "unitNum": 13,
+        "title": "কেন্দ্রীয় ব্যাংক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2676/Unit-13.pdf",
+        "pages": "১৪৩-১৫২"
+      }
+    ],
+    "unitsCount": 14,
+    "group": "commerce"
+  },
+  {
+    "id": "book-ssc-2679",
+    "subjectCode": "SSC-2679",
+    "title": "জীববিজ্ঞান (Biology)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই ও ব্যবহারিক নির্দেশিকা",
+    "pages": 232,
+    "fileSize": "23.4 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_2.php#ssc2679",
+    "summary": "বাউবি বিজ্ঞান বিভাগ জীববিজ্ঞান: জীবকোষ, কোষ বিভাজন, পরিপাক, সংবহন, বংশগতি ও বিবর্তন, জীবপ্রযুক্তি এবং ব্যবহারিক পাঠ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "জীবন পাঠ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-01.pdf",
+        "pages": "০১-১০"
+      },
+      {
+        "unitNum": 2,
+        "title": "জীবকোষ ও টিস্যু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-02.pdf",
+        "pages": "১১-৩২"
+      },
+      {
+        "unitNum": 3,
+        "title": "কোষ বিভাজন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-03.pdf",
+        "pages": "৩৩-৪৩"
+      },
+      {
+        "unitNum": 4,
+        "title": "জীবনীশক্তি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-04.pdf",
+        "pages": "৪৪-৫২"
+      },
+      {
+        "unitNum": 5,
+        "title": "খাদ্য, পুষ্টি ও পরিপাক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-05.pdf",
+        "pages": "৫৩-৭৩"
+      },
+      {
+        "unitNum": 6,
+        "title": "জীবদেহে পরিবহন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-06.pdf",
+        "pages": "৭৪-১০০"
+      },
+      {
+        "unitNum": 7,
+        "title": "গ্যাসীয় বিনিময়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-07.pdf",
+        "pages": "১০১-১১০"
+      },
+      {
+        "unitNum": 8,
+        "title": "রেচন প্রক্রিয়া",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-08.pdf",
+        "pages": "১১১-১২০"
+      },
+      {
+        "unitNum": 9,
+        "title": "দৃঢ়তা প্রদান ও চলন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-09.pdf",
+        "pages": "১২১-১২৮"
+      },
+      {
+        "unitNum": 10,
+        "title": "সমন্বয়",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-10.pdf",
+        "pages": "১২৯-১৫০"
+      },
+      {
+        "unitNum": 11,
+        "title": "জীবে প্রজনন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-11.pdf",
+        "pages": "১৫১-১৭১"
+      },
+      {
+        "unitNum": 12,
+        "title": "জীবের বংশগতি ও বিবর্তন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-12.pdf",
+        "pages": "১৭২-১৯০"
+      },
+      {
+        "unitNum": 13,
+        "title": "জীবের পরিবেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-13.pdf",
+        "pages": "১৯১-২০৯"
+      },
+      {
+        "unitNum": 14,
+        "title": "জীবপ্রযুক্তি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-14.pdf",
+        "pages": "২১০-২২৪"
+      },
+      {
+        "unitNum": 15,
+        "title": "ব্যবহারিক জীববিজ্ঞান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Unit-15.pdf",
+        "pages": "২২৫-২৩২"
+      },
+      {
+        "unitNum": 16,
+        "title": "নমুনা প্রশ্ন:",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2679/Model_Qestion.pdf"
+      }
+    ],
+    "unitsCount": 17,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-2680",
+    "subjectCode": "SSC-2680",
+    "title": "উচ্চতর গণিত (Higher Mathematics)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 280,
+    "fileSize": "22.8 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_3.php#ssc2680",
+    "summary": "বাউবি বিজ্ঞান বিভাগ উচ্চতর গণিত: সেট ও ফাংশন, সমীকরণ, দ্বিপদী বিস্তৃতি, স্থানাঙ্ক জ্যামিতি, ভেক্টর, ত্রিকোণমিতি এবং সম্ভাবনা তত্ত্ব।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "সেট ও ফাংশন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-01.pdf",
+        "pages": "১-৩০"
+      },
+      {
+        "unitNum": 2,
+        "title": "বীজগাণিতিক রাশি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-02.pdf",
+        "pages": "৩১-৫৪"
+      },
+      {
+        "unitNum": 3,
+        "title": "সমীকরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-03.pdf",
+        "pages": "৫৫-৮২"
+      },
+      {
+        "unitNum": 4,
+        "title": "অসমতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-04.pdf",
+        "pages": "৮৩-৯৬"
+      },
+      {
+        "unitNum": 5,
+        "title": "অসীম ধারা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-05.pdf",
+        "pages": "৯৭-১০৬"
+      },
+      {
+        "unitNum": 6,
+        "title": "সূচকীয় ও লগারিদমীয় ফাংশন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-06.pdf",
+        "pages": "১০৭-১২৪"
+      },
+      {
+        "unitNum": 7,
+        "title": "দ্বিপদী বিস্তৃতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-07.pdf",
+        "pages": "১২৫-১৩৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "জ্যামিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-08.pdf",
+        "pages": "১৩৫-১৪৮"
+      },
+      {
+        "unitNum": 9,
+        "title": "জ্যামিতিক অন্কন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-09.pdf",
+        "pages": "১৪৯-১৫৬"
+      },
+      {
+        "unitNum": 10,
+        "title": "স্থানাংক জ্যামিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-10.pdf",
+        "pages": "১৫৭-১৮৬"
+      },
+      {
+        "unitNum": 11,
+        "title": "সমতলীয় ভেক্টর",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-11.pdf",
+        "pages": "১৮৭-২০০"
+      },
+      {
+        "unitNum": 12,
+        "title": "ঘন জ্যামিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-12.pdf",
+        "pages": "২০১-২২২"
+      },
+      {
+        "unitNum": 13,
+        "title": "ত্রিকোণমিতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-13.pdf",
+        "pages": "২২৩-২৬৪"
+      },
+      {
+        "unitNum": 14,
+        "title": "সম্ভাবনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/Unit-14.pdf",
+        "pages": "২৬৫-২৮০"
+      },
+      {
+        "unitNum": 15,
+        "title": "নমুনা প্র্রশ্ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2680/question.pdf"
+      }
+    ],
+    "unitsCount": 16,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-2681-new",
+    "subjectCode": "SSC-2681",
+    "title": "বাংলাদেশ ও বিশ্বপরিচয় (Bangladesh & Global Studies)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "২০২৫ নতুন সংস্করণ (2025 Edition)",
+    "pages": 242,
+    "fileSize": "20.5 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681_2025.pdf",
+    "summary": "বাউবি এসএসসি বাংলাদেশ ও বিশ্বপরিচয়: স্বাধীনতা আন্দোলন, সৌরজগৎ, ভূপ্রকৃতি ও নদী, সমাজ কাঠামো, সরকার ব্যবস্থা, অর্থনীতি ও জাতিসংঘ।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "পূর্ব বাংলার আন্দোলন ও জাতীয়তাবাদের উত্থান (১৯৪৭-১৯৭০)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-01.pdf",
+        "pages": "১-২২"
+      },
+      {
+        "unitNum": 2,
+        "title": "স্বাধীন বাংলাদেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-02.pdf",
+        "pages": "২৩-৪২"
+      },
+      {
+        "unitNum": 3,
+        "title": "সৌরজগৎ ও ভূ-মন্ডল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-03.pdf",
+        "pages": "৪৩-৬৪"
+      },
+      {
+        "unitNum": 4,
+        "title": "বাংলাদেশের ভূ-প্রকৃতি ও জলবায়ু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-04.pdf",
+        "pages": "৬৫-৮৬"
+      },
+      {
+        "unitNum": 5,
+        "title": "বাংলাদেশের নদী ব্যবস্থা ও প্রাকৃতিক সম্পদ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-05.pdf",
+        "pages": "৮৭-১০৮"
+      },
+      {
+        "unitNum": 6,
+        "title": "বাংলাদেশে পরিবার কাঠামো ও সামাজিকীকরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-06.pdf",
+        "pages": "১০৯-১২০"
+      },
+      {
+        "unitNum": 7,
+        "title": "রাষ্ট্র, নাগরিকতা ও আইন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-07.pdf",
+        "pages": "১২১-১৩৪"
+      },
+      {
+        "unitNum": 8,
+        "title": "বাংলাদেশ সরকারের বিভিন্ন অঙ্গ ও প্রশাসন ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-08.pdf",
+        "pages": "১৩৫-১৫০"
+      },
+      {
+        "unitNum": 9,
+        "title": "বাংলাদেশের গণতন্ত্র ও নির্বাচন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-09.pdf",
+        "pages": "১৫১-১৬২"
+      },
+      {
+        "unitNum": 10,
+        "title": "জাতিসংঘ ও বাংলাদেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-10.pdf",
+        "pages": "১৬৩-১৭০"
+      },
+      {
+        "unitNum": 11,
+        "title": "জাতীয় সম্পদ ও অর্থনৈতিক ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-11.pdf",
+        "pages": "১৭১-১৮৬"
+      },
+      {
+        "unitNum": 12,
+        "title": "অর্থনৈতিক নির্ধারকসমূহ ও বাংলাদেশের অর্থনীতির প্রকৃতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-12.pdf",
+        "pages": "১৮৭-২০৮"
+      },
+      {
+        "unitNum": 13,
+        "title": "বাংলাদেশ সরকারের অর্থ ও ব্যাংক ব্যবস্থা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-13.pdf",
+        "pages": "২০৯-২২০"
+      },
+      {
+        "unitNum": 14,
+        "title": "সামাজিক পরিবর্তন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-14.pdf",
+        "pages": "২২১-২৩০"
+      },
+      {
+        "unitNum": 15,
+        "title": "সামাজিক সমস্যা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2681/Unit-15.pdf",
+        "pages": "২৩১-২৪১"
+      }
+    ],
+    "unitsCount": 16
+  },
+  {
+    "id": "book-ssc-2685",
+    "subjectCode": "SSC-2685",
+    "title": "গার্হস্থ্য বিজ্ঞান (Home Economics)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 184,
+    "fileSize": "15.9 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_3.php#ssc2685",
+    "summary": "বাউবি এসএসসি গার্হস্থ্য বিজ্ঞান: গৃহ ব্যবস্থাপনা, সম্পদ, শিশু বিকাশ ও কৈশোর, পুষ্টি ও খাদ্য পরিকল্পনা, বয়ন তন্তু ও পোশাক শিল্প।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "গৃহ ব্যবস্থাপনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-01.pdf",
+        "pages": "০১-১২"
+      },
+      {
+        "unitNum": 2,
+        "title": "গৃহ ব্যবস্থাপক",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-02.pdf",
+        "pages": "১৩-১৯"
+      },
+      {
+        "unitNum": 3,
+        "title": "সম্পদ ও সম্পদ ব্যবস্থাপনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-03.pdf",
+        "pages": "২০-৩১"
+      },
+      {
+        "unitNum": 4,
+        "title": "গৃহের অভ্যন্তরীণ সজ্জা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-04.pdf",
+        "pages": "৩২-৪৪"
+      },
+      {
+        "unitNum": 5,
+        "title": "শিশু বর্ধন ও বিকাশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-05.pdf",
+        "pages": "৪৫-৫৩"
+      },
+      {
+        "unitNum": 6,
+        "title": "শিশু বিকাশ ও পারিবারিক পরিবেশ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-06.pdf",
+        "pages": "৫৪-৬২"
+      },
+      {
+        "unitNum": 7,
+        "title": "কৈশোরের মনোসামাজিক সমস্যা-প্রতিকার ও প্রতিরোধ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-07.pdf",
+        "pages": "৬৩-৬৯"
+      },
+      {
+        "unitNum": 8,
+        "title": "প্রতিবন্ধী শিশু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-08.pdf",
+        "pages": "৭০-৭৮"
+      },
+      {
+        "unitNum": 9,
+        "title": "খাদ্য ও খাদ্য উপাদান",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-09.pdf",
+        "pages": "৭৯-১০২"
+      },
+      {
+        "unitNum": 10,
+        "title": "খাদ্যের পরিপাক ও খাদ্য পরিকল্পনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-10.pdf",
+        "pages": "১০৩-১১০"
+      },
+      {
+        "unitNum": 11,
+        "title": "নিয়মতান্ত্রিক জীবন ও খাদ্য ব্যবস্থাপনা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-11.pdf",
+        "pages": "১১১-১১৯"
+      },
+      {
+        "unitNum": 12,
+        "title": "খাদ্য প্রস্তুত ও পরিবেশন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-12.pdf",
+        "pages": "১২০-১২৭"
+      },
+      {
+        "unitNum": 13,
+        "title": "বয়ন তন্ত্ত",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-13.pdf",
+        "pages": "১২৮-১৪০"
+      },
+      {
+        "unitNum": 14,
+        "title": "পোশাকের শিল্পকলার উপাদান ও নীতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-14.pdf",
+        "pages": "১৪১-১৫৬"
+      },
+      {
+        "unitNum": 15,
+        "title": "বস্ত্রের ছাপ ও রং",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-15.pdf",
+        "pages": "১৫৭-১৬২"
+      },
+      {
+        "unitNum": 16,
+        "title": "শিশুদের পোশাক ড্রাফটিং",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-16.pdf",
+        "pages": "১৬৩-১৬৮"
+      },
+      {
+        "unitNum": 17,
+        "title": "পোশাকের যত্ন ও পরিপাট্যতা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2685/Unit-17.pdf",
+        "pages": "১৬৯-১৮৪"
+      }
+    ],
+    "unitsCount": 18,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-2686",
+    "subjectCode": "SSC-2686",
+    "title": "কৃষি শিক্ষা (Agricultural Studies)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 278,
+    "fileSize": "24.1 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_3.php#ssc2686",
+    "summary": "বাউবি এসএসসি কৃষি শিক্ষা: ফসল প্রযুক্তি, বীজ ও খাদ্য সংরক্ষণ, মৎস্য চাষ, পশু-পাখি পালন, বনায়ন এবং পারিবারিক খামার ব্যবস্থাপনা।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ফসল সম্পর্কিত কৃষি প্রযুক্তি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-01.pdf",
+        "pages": "১-১৮"
+      },
+      {
+        "unitNum": 2,
+        "title": "কৃষি প্রযুক্তি : বীজ, মাছ ও পশু-পাখির খাদ্য সংরক্ষণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-02.pdf",
+        "pages": "১৯-৩৪"
+      },
+      {
+        "unitNum": 3,
+        "title": "কৃষি উপকরণ বীজ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-03.pdf",
+        "pages": "৩৫-৪৪"
+      },
+      {
+        "unitNum": 4,
+        "title": "মাছের আবাসস্থল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-04.pdf",
+        "pages": "৪৫-৬২"
+      },
+      {
+        "unitNum": 5,
+        "title": "কৃষি উপকরণ : গৃহপালিত পশু-পাখির আবাসন ও খাদ্য",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-05.pdf",
+        "pages": "৬৩-৮৬"
+      },
+      {
+        "unitNum": 6,
+        "title": "কৃষি ও জলবায়ু",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-06.pdf",
+        "pages": "৮৭-১০৮"
+      },
+      {
+        "unitNum": 7,
+        "title": "কৃষিজ উৎপাদন: ফসল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-07.pdf",
+        "pages": "১০৯-১৩৬"
+      },
+      {
+        "unitNum": 8,
+        "title": "কৃষিজ উৎপাদন: সবজি, ফুল, ফল চাষ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-08.pdf",
+        "pages": "১৩৭-১৬৬"
+      },
+      {
+        "unitNum": 9,
+        "title": "কৃষিজ উৎপাদন: মাছ চাষ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-09.pdf",
+        "pages": "১৬৭-১৭৮"
+      },
+      {
+        "unitNum": 10,
+        "title": "কৃষিজ উৎপাদন: গৃহপালিত পশু-পাখি পালন পদ্ধতি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-10.pdf",
+        "pages": "১৭৯-১৯৬"
+      },
+      {
+        "unitNum": 11,
+        "title": "শিল্পের কাঁচামাল: কৃষিজ দ্রব্যাদি",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-11.pdf",
+        "pages": "১৯৭-২১২"
+      },
+      {
+        "unitNum": 12,
+        "title": "বনায়ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-12.pdf",
+        "pages": "২১৩-২৪৬"
+      },
+      {
+        "unitNum": 13,
+        "title": "কৃষি সমবায় ও পারিবারিক খামার",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2686/Unit-13.pdf",
+        "pages": "২৪৭-২৭৮"
+      }
+    ],
+    "unitsCount": 14,
+    "group": "science"
+  },
+  {
+    "id": "book-ssc-2358",
+    "subjectCode": "SSC-2358",
+    "title": "ক্যারিয়ার শিক্ষা (Career Education)",
+    "school": "OS",
+    "program": "SSC",
+    "level": "Secondary",
+    "year": "২য় বর্ষ",
+    "edition": "সৃজনশীল পাঠ্যবই",
+    "pages": 178,
+    "fileSize": "13.2 MB",
+    "pdfUrl": "https://www.ebookbou.edu.bd/wp/OS/ssc4_1.php#ssc2358",
+    "summary": "বাউবি এসএসসি ক্যারিয়ার শিক্ষা: ক্যারিয়ারের ধারণা, আত্মউন্নয়ন কৌশল, পেশাগত সংযোগ স্থাপন ও আচরণ, এবং কর্মক্ষেত্র নির্বাচন।",
+    "units": [
+      {
+        "unitNum": 0,
+        "title": "ভূমিকা ও সূচিপত্র (Introduction & Index)",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2358/Inner.pdf"
+      },
+      {
+        "unitNum": 1,
+        "title": "ক্যারিয়ারের ধারণা",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2358/Unit-01.pdf",
+        "pages": "০১-১০"
+      },
+      {
+        "unitNum": 2,
+        "title": "ক্যারিয়ার গঠনের উপাদান ও কৌশল",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2358/Unit-02.pdf",
+        "pages": "১১-৭৬"
+      },
+      {
+        "unitNum": 3,
+        "title": "ক্যারিয়ার গঠনে সংযোগ স্থাপন ও আচরণ",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2358/Unit-03.pdf",
+        "pages": "৭৭-১৪৪"
+      },
+      {
+        "unitNum": 4,
+        "title": "কর্মক্ষেত্র নির্বাচন এবং ক্যারিয়ার উন্নয়ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2358/Unit-04.pdf",
+        "pages": "১৪৫-১৭৮"
+      },
+      {
+        "unitNum": 5,
+        "title": "সাধারন প্রশ্ন",
+        "pdfUrl": "https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2358/Sample_Question.pdf"
+      }
+    ],
+    "unitsCount": 6
+  },
+  {
     "id": "book-bba-1101",
     "subjectCode": "BBA-1101",
     "title": "Principles of Accounting",
@@ -9,20 +2877,49 @@
     "unitsCount": 10,
     "pages": 348,
     "fileSize": "14.2 MB",
-    "rating": 4.9,
     "edition": "Revised 2024 Edition",
     "summary": "Fundamentals of double-entry bookkeeping, adjusted trial balances, financial statements, cash flow statements, and inventory valuation.",
     "units": [
-      { "unitNum": 1, "title": "Accounting in Action & Ethics" },
-      { "unitNum": 2, "title": "The Recording Process & Journalizing" },
-      { "unitNum": 3, "title": "Adjusting the Accounts" },
-      { "unitNum": 4, "title": "Completing the Accounting Cycle & Worksheet" },
-      { "unitNum": 5, "title": "Accounting for Merchandising Operations" },
-      { "unitNum": 6, "title": "Inventories & Cost Flow Methods (FIFO/LIFO/Avg)" },
-      { "unitNum": 7, "title": "Internal Control and Bank Reconciliation" },
-      { "unitNum": 8, "title": "Accounting for Receivables" },
-      { "unitNum": 9, "title": "Plant Assets, Natural Resources, and Intangible Assets" },
-      { "unitNum": 10, "title": "Financial Statement Analysis" }
+      {
+        "unitNum": 1,
+        "title": "Accounting in Action & Ethics"
+      },
+      {
+        "unitNum": 2,
+        "title": "The Recording Process & Journalizing"
+      },
+      {
+        "unitNum": 3,
+        "title": "Adjusting the Accounts"
+      },
+      {
+        "unitNum": 4,
+        "title": "Completing the Accounting Cycle & Worksheet"
+      },
+      {
+        "unitNum": 5,
+        "title": "Accounting for Merchandising Operations"
+      },
+      {
+        "unitNum": 6,
+        "title": "Inventories & Cost Flow Methods (FIFO/LIFO/Avg)"
+      },
+      {
+        "unitNum": 7,
+        "title": "Internal Control and Bank Reconciliation"
+      },
+      {
+        "unitNum": 8,
+        "title": "Accounting for Receivables"
+      },
+      {
+        "unitNum": 9,
+        "title": "Plant Assets, Natural Resources, and Intangible Assets"
+      },
+      {
+        "unitNum": 10,
+        "title": "Financial Statement Analysis"
+      }
     ]
   },
   {
@@ -35,18 +2932,41 @@
     "unitsCount": 8,
     "pages": 290,
     "fileSize": "11.8 MB",
-    "rating": 4.8,
     "edition": "2023 Edition",
     "summary": "Management theories, organizational design, strategic planning, motivation, leadership dynamics, and operational control.",
     "units": [
-      { "unitNum": 1, "title": "Introduction to Management and Organizations" },
-      { "unitNum": 2, "title": "Management History and Scientific Evolution" },
-      { "unitNum": 3, "title": "Organizational Culture and Global Environment" },
-      { "unitNum": 4, "title": "Foundations of Planning and Decision Making" },
-      { "unitNum": 5, "title": "Organizational Structure and Design" },
-      { "unitNum": 6, "title": "Human Resource Management Foundations" },
-      { "unitNum": 7, "title": "Motivation, Leadership, and Group Dynamics" },
-      { "unitNum": 8, "title": "Foundations of Control and Quality Management" }
+      {
+        "unitNum": 1,
+        "title": "Introduction to Management and Organizations"
+      },
+      {
+        "unitNum": 2,
+        "title": "Management History and Scientific Evolution"
+      },
+      {
+        "unitNum": 3,
+        "title": "Organizational Culture and Global Environment"
+      },
+      {
+        "unitNum": 4,
+        "title": "Foundations of Planning and Decision Making"
+      },
+      {
+        "unitNum": 5,
+        "title": "Organizational Structure and Design"
+      },
+      {
+        "unitNum": 6,
+        "title": "Human Resource Management Foundations"
+      },
+      {
+        "unitNum": 7,
+        "title": "Motivation, Leadership, and Group Dynamics"
+      },
+      {
+        "unitNum": 8,
+        "title": "Foundations of Control and Quality Management"
+      }
     ]
   },
   {
@@ -59,22 +2979,57 @@
     "unitsCount": 12,
     "pages": 412,
     "fileSize": "18.6 MB",
-    "rating": 5.0,
     "edition": "2024 Edition",
     "summary": "Historical evolution of Bengal, 1952 language movement, 1971 war of liberation, governance structure, and modern economic growth.",
     "units": [
-      { "unitNum": 1, "title": "Land, People, and Ancient Heritage of Bengal" },
-      { "unitNum": 2, "title": "British Colonial Rule and Renaissance" },
-      { "unitNum": 3, "title": "The Pakistan Period and Discriminatory Policies" },
-      { "unitNum": 4, "title": "Language Movement of 1952 and Cultural Awakening" },
-      { "unitNum": 5, "title": "Six-Point Movement and 1969 Mass Uprising" },
-      { "unitNum": 6, "title": "The War of Liberation 1971 & Mujibnagar Government" },
-      { "unitNum": 7, "title": "Constitution of Bangladesh: Framing and Principles" },
-      { "unitNum": 8, "title": "Organs of the State: Executive, Legislature, Judiciary" },
-      { "unitNum": 9, "title": "Rural Society and Agriculture Dynamics" },
-      { "unitNum": 10, "title": "Industrial Growth and Foreign Trade" },
-      { "unitNum": 11, "title": "Socio-Economic Development and Poverty Alleviation" },
-      { "unitNum": 12, "title": "Foreign Policy and Regional Cooperation" }
+      {
+        "unitNum": 1,
+        "title": "Land, People, and Ancient Heritage of Bengal"
+      },
+      {
+        "unitNum": 2,
+        "title": "British Colonial Rule and Renaissance"
+      },
+      {
+        "unitNum": 3,
+        "title": "The Pakistan Period and Discriminatory Policies"
+      },
+      {
+        "unitNum": 4,
+        "title": "Language Movement of 1952 and Cultural Awakening"
+      },
+      {
+        "unitNum": 5,
+        "title": "Six-Point Movement and 1969 Mass Uprising"
+      },
+      {
+        "unitNum": 6,
+        "title": "The War of Liberation 1971 & Mujibnagar Government"
+      },
+      {
+        "unitNum": 7,
+        "title": "Constitution of Bangladesh: Framing and Principles"
+      },
+      {
+        "unitNum": 8,
+        "title": "Organs of the State: Executive, Legislature, Judiciary"
+      },
+      {
+        "unitNum": 9,
+        "title": "Rural Society and Agriculture Dynamics"
+      },
+      {
+        "unitNum": 10,
+        "title": "Industrial Growth and Foreign Trade"
+      },
+      {
+        "unitNum": 11,
+        "title": "Socio-Economic Development and Poverty Alleviation"
+      },
+      {
+        "unitNum": 12,
+        "title": "Foreign Policy and Regional Cooperation"
+      }
     ]
   },
   {
@@ -87,16 +3042,33 @@
     "unitsCount": 6,
     "pages": 320,
     "fileSize": "15.5 MB",
-    "rating": 4.9,
     "edition": "Revised National Curriculum",
     "summary": "World and Bangladesh perspective, communication systems, number systems, digital logic, web design, and C programming.",
     "units": [
-      { "unitNum": 1, "title": "তথ্য ও যোগাযোগ প্রযুক্তি: বিশ্ব ও বাংলাদেশ প্রেক্ষিত" },
-      { "unitNum": 2, "title": "কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং" },
-      { "unitNum": 3, "title": "সংখ্যা পদ্ধতি ও ডিজিটাল লজিক" },
-      { "unitNum": 4, "title": "ওয়েব ডিজাইন পরিচিতি এবং HTML" },
-      { "unitNum": 5, "title": "প্রোগ্রামিং ভাষা (C Programming)" },
-      { "unitNum": 6, "title": "ডাটাবেজ ম্যানেজমেন্ট সিস্টেম (DBMS)" }
+      {
+        "unitNum": 1,
+        "title": "তথ্য ও যোগাযোগ প্রযুক্তি: বিশ্ব ও বাংলাদেশ প্রেক্ষিত"
+      },
+      {
+        "unitNum": 2,
+        "title": "কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং"
+      },
+      {
+        "unitNum": 3,
+        "title": "সংখ্যা পদ্ধতি ও ডিজিটাল লজিক"
+      },
+      {
+        "unitNum": 4,
+        "title": "ওয়েব ডিজাইন পরিচিতি এবং HTML"
+      },
+      {
+        "unitNum": 5,
+        "title": "প্রোগ্রামিং ভাষা (C Programming)"
+      },
+      {
+        "unitNum": 6,
+        "title": "ডাটাবেজ ম্যানেজমেন্ট সিস্টেম (DBMS)"
+      }
     ]
   },
   {
@@ -109,20 +3081,49 @@
     "unitsCount": 10,
     "pages": 450,
     "fileSize": "22.1 MB",
-    "rating": 4.9,
     "edition": "2024 Edition",
     "summary": "Arrays, pointers, linked lists, stacks, queues, trees, graphs, sorting, searching, and algorithmic efficiency in C++.",
     "units": [
-      { "unitNum": 1, "title": "Introduction to Data Structures and Algorithmic Analysis" },
-      { "unitNum": 2, "title": "Array Implementations, Strings, and Pointers" },
-      { "unitNum": 3, "title": "Singly, Doubly, and Circular Linked Lists" },
-      { "unitNum": 4, "title": "Stacks and Applications in Expression Parsing" },
-      { "unitNum": 5, "title": "Queues, Circular Queues, and Deques" },
-      { "unitNum": 6, "title": "Binary Trees, BST, and Balanced Trees" },
-      { "unitNum": 7, "title": "Graph Representations and Traversals (BFS, DFS)" },
-      { "unitNum": 8, "title": "Sorting Algorithms (Merge, Quick, Heap)" },
-      { "unitNum": 9, "title": "Searching and Hashing Techniques" },
-      { "unitNum": 10, "title": "Advanced Tree Structures (B-Trees and AVL)" }
+      {
+        "unitNum": 1,
+        "title": "Introduction to Data Structures and Algorithmic Analysis"
+      },
+      {
+        "unitNum": 2,
+        "title": "Array Implementations, Strings, and Pointers"
+      },
+      {
+        "unitNum": 3,
+        "title": "Singly, Doubly, and Circular Linked Lists"
+      },
+      {
+        "unitNum": 4,
+        "title": "Stacks and Applications in Expression Parsing"
+      },
+      {
+        "unitNum": 5,
+        "title": "Queues, Circular Queues, and Deques"
+      },
+      {
+        "unitNum": 6,
+        "title": "Binary Trees, BST, and Balanced Trees"
+      },
+      {
+        "unitNum": 7,
+        "title": "Graph Representations and Traversals (BFS, DFS)"
+      },
+      {
+        "unitNum": 8,
+        "title": "Sorting Algorithms (Merge, Quick, Heap)"
+      },
+      {
+        "unitNum": 9,
+        "title": "Searching and Hashing Techniques"
+      },
+      {
+        "unitNum": 10,
+        "title": "Advanced Tree Structures (B-Trees and AVL)"
+      }
     ]
   },
   {
@@ -135,19 +3136,45 @@
     "unitsCount": 9,
     "pages": 280,
     "fileSize": "9.4 MB",
-    "rating": 4.7,
     "edition": "2024 Edition",
     "summary": "Academic essay composition, comprehension tactics, syntax rules, formal report writing, and vocabulary building.",
     "units": [
-      { "unitNum": 1, "title": "Reading Strategies and Skimming" },
-      { "unitNum": 2, "title": "Vocabulary Development and Word Formation" },
-      { "unitNum": 3, "title": "Sentence Structure and Syntax" },
-      { "unitNum": 4, "title": "Paragraph Writing and Cohesion" },
-      { "unitNum": 5, "title": "Academic Essay Composition" },
-      { "unitNum": 6, "title": "Summary and Precis Writing" },
-      { "unitNum": 7, "title": "Formal Letters and Reports" },
-      { "unitNum": 8, "title": "Comprehension and Inference" },
-      { "unitNum": 9, "title": "Grammar, Punctuation, and Editing" }
+      {
+        "unitNum": 1,
+        "title": "Reading Strategies and Skimming"
+      },
+      {
+        "unitNum": 2,
+        "title": "Vocabulary Development and Word Formation"
+      },
+      {
+        "unitNum": 3,
+        "title": "Sentence Structure and Syntax"
+      },
+      {
+        "unitNum": 4,
+        "title": "Paragraph Writing and Cohesion"
+      },
+      {
+        "unitNum": 5,
+        "title": "Academic Essay Composition"
+      },
+      {
+        "unitNum": 6,
+        "title": "Summary and Precis Writing"
+      },
+      {
+        "unitNum": 7,
+        "title": "Formal Letters and Reports"
+      },
+      {
+        "unitNum": 8,
+        "title": "Comprehension and Inference"
+      },
+      {
+        "unitNum": 9,
+        "title": "Grammar, Punctuation, and Editing"
+      }
     ]
   },
   {
@@ -160,17 +3187,37 @@
     "unitsCount": 7,
     "pages": 310,
     "fileSize": "13.0 MB",
-    "rating": 4.8,
     "edition": "2023 Edition",
     "summary": "Child development stages, cognitive theories of Piaget and Vygotsky, classroom motivation, and assessment methodologies.",
     "units": [
-      { "unitNum": 1, "title": "Introduction to Educational Psychology" },
-      { "unitNum": 2, "title": "Growth and Development Stages" },
-      { "unitNum": 3, "title": "Cognitive Development (Piaget & Vygotsky)" },
-      { "unitNum": 4, "title": "Learning Theories and Motivation" },
-      { "unitNum": 5, "title": "Individual Differences and Intelligence" },
-      { "unitNum": 6, "title": "Classroom Management and Assessment" },
-      { "unitNum": 7, "title": "Guidance, Counselling, and Inclusive Education" }
+      {
+        "unitNum": 1,
+        "title": "Introduction to Educational Psychology"
+      },
+      {
+        "unitNum": 2,
+        "title": "Growth and Development Stages"
+      },
+      {
+        "unitNum": 3,
+        "title": "Cognitive Development (Piaget & Vygotsky)"
+      },
+      {
+        "unitNum": 4,
+        "title": "Learning Theories and Motivation"
+      },
+      {
+        "unitNum": 5,
+        "title": "Individual Differences and Intelligence"
+      },
+      {
+        "unitNum": 6,
+        "title": "Classroom Management and Assessment"
+      },
+      {
+        "unitNum": 7,
+        "title": "Guidance, Counselling, and Inclusive Education"
+      }
     ]
   },
   {
@@ -183,21 +3230,533 @@
     "unitsCount": 11,
     "pages": 360,
     "fileSize": "16.2 MB",
-    "rating": 4.9,
     "edition": "2024 Edition",
     "summary": "Market segmentation, target marketing, positioning (STP), product lifecycle, pricing strategies, and digital marketing trends.",
     "units": [
-      { "unitNum": 1, "title": "Introduction to Marketing and Market Orientation" },
-      { "unitNum": 2, "title": "Marketing Environment and Strategic Planning" },
-      { "unitNum": 3, "title": "Consumer Behaviour and Buying Decision Process" },
-      { "unitNum": 4, "title": "Market Segmentation, Targeting, and Positioning" },
-      { "unitNum": 5, "title": "Product Decisions and New Product Development" },
-      { "unitNum": 6, "title": "Product Lifecycle and Brand Management" },
-      { "unitNum": 7, "title": "Pricing Strategies and Methods" },
-      { "unitNum": 8, "title": "Marketing Channels and Distribution" },
-      { "unitNum": 9, "title": "Integrated Marketing Communication" },
-      { "unitNum": 10, "title": "Digital Marketing and Social Media" },
-      { "unitNum": 11, "title": "Marketing Research and Ethics" }
+      {
+        "unitNum": 1,
+        "title": "Introduction to Marketing and Market Orientation"
+      },
+      {
+        "unitNum": 2,
+        "title": "Marketing Environment and Strategic Planning"
+      },
+      {
+        "unitNum": 3,
+        "title": "Consumer Behaviour and Buying Decision Process"
+      },
+      {
+        "unitNum": 4,
+        "title": "Market Segmentation, Targeting, and Positioning"
+      },
+      {
+        "unitNum": 5,
+        "title": "Product Decisions and New Product Development"
+      },
+      {
+        "unitNum": 6,
+        "title": "Product Lifecycle and Brand Management"
+      },
+      {
+        "unitNum": 7,
+        "title": "Pricing Strategies and Methods"
+      },
+      {
+        "unitNum": 8,
+        "title": "Marketing Channels and Distribution"
+      },
+      {
+        "unitNum": 9,
+        "title": "Integrated Marketing Communication"
+      },
+      {
+        "unitNum": 10,
+        "title": "Digital Marketing and Social Media"
+      },
+      {
+        "unitNum": 11,
+        "title": "Marketing Research and Ethics"
+      }
     ]
+  },
+  {
+    "id": "book-dcsa-1201",
+    "subjectCode": "DCSA-1201",
+    "title": "Computer Basics",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 1,
+    "unitsCount": 6,
+    "pages": 190,
+    "fileSize": "8.2 MB",
+    "edition": "Revised 2024 Edition",
+    "summary": "Computer fundamentals for diploma learners: hardware components, peripherals, memory, software types, operating system basics, and routine maintenance.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Introduction to Computers"
+      },
+      {
+        "unitNum": 2,
+        "title": "Computer Hardware and Peripheral Devices"
+      },
+      {
+        "unitNum": 3,
+        "title": "Memory and Storage Systems"
+      },
+      {
+        "unitNum": 4,
+        "title": "Computer Software"
+      },
+      {
+        "unitNum": 5,
+        "title": "Operating System Basics"
+      },
+      {
+        "unitNum": 6,
+        "title": "Computer Maintenance and Safety"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-1302",
+    "subjectCode": "DCSA-1302",
+    "title": "Office Automation and MS Office",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 1,
+    "unitsCount": 6,
+    "pages": 245,
+    "fileSize": "10.6 MB",
+    "edition": "2023 Edition",
+    "summary": "Practical office automation skills using MS Word, Excel, PowerPoint and Access including mail merge, printing, and file management workflows.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Office Automation Concepts"
+      },
+      {
+        "unitNum": 2,
+        "title": "MS Word Processing"
+      },
+      {
+        "unitNum": 3,
+        "title": "MS Excel Spreadsheets"
+      },
+      {
+        "unitNum": 4,
+        "title": "MS PowerPoint Presentations"
+      },
+      {
+        "unitNum": 5,
+        "title": "MS Access Database Basics"
+      },
+      {
+        "unitNum": 6,
+        "title": "Printing, Mail Merge and File Management"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-1303",
+    "subjectCode": "DCSA-1303",
+    "title": "Computer Programming",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 1,
+    "unitsCount": 6,
+    "pages": 280,
+    "fileSize": "11.9 MB",
+    "edition": "Revised 2024 Edition",
+    "summary": "Problem solving and structured programming in C: data types, control statements, arrays, functions, pointers, and file handling.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Problem Solving and Algorithm Design"
+      },
+      {
+        "unitNum": 2,
+        "title": "Elements of C Programming"
+      },
+      {
+        "unitNum": 3,
+        "title": "Control Statements and Logic"
+      },
+      {
+        "unitNum": 4,
+        "title": "Arrays and Strings"
+      },
+      {
+        "unitNum": 5,
+        "title": "Functions and Recursion"
+      },
+      {
+        "unitNum": 6,
+        "title": "Pointers, Structures and Files"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-1304",
+    "subjectCode": "DCSA-1304",
+    "title": "Visual Programming",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 1,
+    "unitsCount": 5,
+    "pages": 230,
+    "fileSize": "9.8 MB",
+    "edition": "2023 Edition",
+    "summary": "Event-driven visual programming with forms, controls, data binding, report design, and standalone application deployment.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Introduction to Visual Programming"
+      },
+      {
+        "unitNum": 2,
+        "title": "Forms, Controls and Properties"
+      },
+      {
+        "unitNum": 3,
+        "title": "Event-Driven Programming"
+      },
+      {
+        "unitNum": 4,
+        "title": "Data Binding and Database Controls"
+      },
+      {
+        "unitNum": 5,
+        "title": "Report Design and Application Deployment"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-2301",
+    "subjectCode": "DCSA-2301",
+    "title": "Digital Systems and Computer Organizations",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 2,
+    "unitsCount": 6,
+    "pages": 310,
+    "fileSize": "13.4 MB",
+    "edition": "Revised 2024 Edition",
+    "summary": "Digital logic foundations plus internal organization of modern computers: architecture, memory hierarchy, and bus/IO subsystems.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Number Systems and Codes"
+      },
+      {
+        "unitNum": 2,
+        "title": "Boolean Algebra and Logic Gates"
+      },
+      {
+        "unitNum": 3,
+        "title": "Combinational and Sequential Logic"
+      },
+      {
+        "unitNum": 4,
+        "title": "Computer Organization and Architecture"
+      },
+      {
+        "unitNum": 5,
+        "title": "Memory Hierarchy"
+      },
+      {
+        "unitNum": 6,
+        "title": "Input/Output Organization and Bus Systems"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-2302",
+    "subjectCode": "DCSA-2302",
+    "title": "Operating Systems",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 2,
+    "unitsCount": 6,
+    "pages": 295,
+    "fileSize": "12.7 MB",
+    "edition": "2023 Edition",
+    "summary": "Core operating system concepts: processes, CPU scheduling, synchronization, deadlocks, memory management, virtual memory, and file systems.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Operating System Fundamentals"
+      },
+      {
+        "unitNum": 2,
+        "title": "Process Management and CPU Scheduling"
+      },
+      {
+        "unitNum": 3,
+        "title": "Process Synchronization"
+      },
+      {
+        "unitNum": 4,
+        "title": "Deadlocks"
+      },
+      {
+        "unitNum": 5,
+        "title": "Memory Management and Virtual Memory"
+      },
+      {
+        "unitNum": 6,
+        "title": "File Systems and I/O Systems"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-2303",
+    "subjectCode": "DCSA-2303",
+    "title": "Internet Technology and Web Designing",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 2,
+    "unitsCount": 6,
+    "pages": 275,
+    "fileSize": "12.1 MB",
+    "edition": "Revised 2024 Edition",
+    "summary": "Building and publishing websites with HTML, CSS, and JavaScript, plus internet services, hosting, email, and web security.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Internet Fundamentals and Services"
+      },
+      {
+        "unitNum": 2,
+        "title": "HTML Document Structure"
+      },
+      {
+        "unitNum": 3,
+        "title": "CSS Styling and Layout"
+      },
+      {
+        "unitNum": 4,
+        "title": "JavaScript Basics"
+      },
+      {
+        "unitNum": 5,
+        "title": "Web Hosting, Email and Domain"
+      },
+      {
+        "unitNum": 6,
+        "title": "Web Security and Browsing Practices"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-2304",
+    "subjectCode": "DCSA-2304",
+    "title": "Database Management System",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 2,
+    "unitsCount": 5,
+    "pages": 260,
+    "fileSize": "11.2 MB",
+    "edition": "2023 Edition",
+    "summary": "Relational database design and implementation: ER modeling, SQL, normalization, transactions, and database administration.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Database Concepts and DBMS Architecture"
+      },
+      {
+        "unitNum": 2,
+        "title": "Entity-Relationship Model"
+      },
+      {
+        "unitNum": 3,
+        "title": "Relational Model and SQL"
+      },
+      {
+        "unitNum": 4,
+        "title": "Normalization"
+      },
+      {
+        "unitNum": 5,
+        "title": "Transaction Processing and Database Administration"
+      }
+    ],
+    "year": "১ম বর্ষ"
+  },
+  {
+    "id": "book-dcsa-3301",
+    "subjectCode": "DCSA-3301",
+    "title": "Graphics Design",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 3,
+    "unitsCount": 6,
+    "pages": 255,
+    "fileSize": "16.4 MB",
+    "edition": "Revised 2024 Edition",
+    "summary": "Creative graphics design workflow covering color theory, raster and vector editing, typography, layout, and print production.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Design Principles and Color Theory"
+      },
+      {
+        "unitNum": 2,
+        "title": "Raster Graphics Editing"
+      },
+      {
+        "unitNum": 3,
+        "title": "Vector Graphics Illustration"
+      },
+      {
+        "unitNum": 4,
+        "title": "Typography and Layout"
+      },
+      {
+        "unitNum": 5,
+        "title": "Image Processing and Restoration"
+      },
+      {
+        "unitNum": 6,
+        "title": "Print Production and Export"
+      }
+    ],
+    "year": "২য় বর্ষ"
+  },
+  {
+    "id": "book-dcsa-3302",
+    "subjectCode": "DCSA-3302",
+    "title": "Microcomputer Troubleshooting",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 3,
+    "unitsCount": 6,
+    "pages": 240,
+    "fileSize": "10.9 MB",
+    "edition": "2023 Edition",
+    "summary": "Diagnosing and repairing microcomputer hardware: motherboards, storage, printers, networking hardware, and preventive maintenance.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "PC Architecture Review and Diagnostic Tools"
+      },
+      {
+        "unitNum": 2,
+        "title": "Motherboard and Processor Troubleshooting"
+      },
+      {
+        "unitNum": 3,
+        "title": "Storage and Memory Fault Diagnosis"
+      },
+      {
+        "unitNum": 4,
+        "title": "Printer and Peripheral Maintenance"
+      },
+      {
+        "unitNum": 5,
+        "title": "Networking Hardware Troubleshooting"
+      },
+      {
+        "unitNum": 6,
+        "title": "Preventive Maintenance and Safety"
+      }
+    ],
+    "year": "২য় বর্ষ"
+  },
+  {
+    "id": "book-dcsa-3303",
+    "subjectCode": "DCSA-3303",
+    "title": "Computer Networks",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 3,
+    "unitsCount": 6,
+    "pages": 300,
+    "fileSize": "13.1 MB",
+    "edition": "Revised 2024 Edition",
+    "summary": "Computer network technologies from physical media to TCP/IP protocols, LAN infrastructure, routing basics, and network security.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Network Fundamentals and Topologies"
+      },
+      {
+        "unitNum": 2,
+        "title": "OSI and TCP/IP Reference Models"
+      },
+      {
+        "unitNum": 3,
+        "title": "Transmission Media and Signal"
+      },
+      {
+        "unitNum": 4,
+        "title": "Network Devices and LAN Technologies"
+      },
+      {
+        "unitNum": 5,
+        "title": "Internetworking Protocols"
+      },
+      {
+        "unitNum": 6,
+        "title": "Network Security and Administration"
+      }
+    ],
+    "year": "২য় বর্ষ"
+  },
+  {
+    "id": "book-dcsa-3304",
+    "subjectCode": "DCSA-3304",
+    "title": "Project Works",
+    "school": "SST",
+    "program": "DCSA",
+    "level": "Diploma",
+    "semester": 3,
+    "unitsCount": 5,
+    "pages": 180,
+    "fileSize": "7.8 MB",
+    "edition": "2023 Edition",
+    "summary": "Capstone project cycle: proposal, requirement analysis, design, implementation, testing, documentation, and final presentation.",
+    "units": [
+      {
+        "unitNum": 1,
+        "title": "Project Proposal and Feasibility"
+      },
+      {
+        "unitNum": 2,
+        "title": "Requirement Analysis and Planning"
+      },
+      {
+        "unitNum": 3,
+        "title": "System Design and Modelling"
+      },
+      {
+        "unitNum": 4,
+        "title": "Implementation, Testing and Documentation"
+      },
+      {
+        "unitNum": 5,
+        "title": "Presentation and Viva"
+      }
+    ],
+    "year": "২য় বর্ষ"
   }
 ]

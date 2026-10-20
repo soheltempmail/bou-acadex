@@ -1,6 +1,8 @@
 export interface BookUnit {
   unitNum: number;
   title: string;
+  pdfUrl?: string;
+  pages?: string;
 }
 
 export interface Book {
@@ -10,12 +12,16 @@ export interface Book {
   school: string;
   program: string;
   level: string;
+  semester?: number;
+  year?: string;
+  group?: "science" | "arts" | "commerce";
+  notice?: string;
   unitsCount: number;
   pages: number;
   fileSize: string;
-  rating: number;
   edition: string;
   summary: string;
+  pdfUrl?: string;
   units: BookUnit[];
 }
 
@@ -42,23 +48,18 @@ export interface QuestionPaper {
   questions: QuestionItem[];
 }
 
-export interface SuggestionSections {
-  broadQuestions: string[];
-  shortNotes: string[];
-  examTips: string;
+export interface SscSubjectGroup {
+  id: string;
+  name: string;
+  enName: string;
+  icon: string;
+  color: string;
+  subjects: string[];
 }
 
-export interface Suggestion {
-  id: string;
-  program: string;
-  school: string;
-  semester: string;
-  subjectCode: string;
-  subjectName: string;
-  priority: "high" | "medium";
-  credits: number;
-  highlights: string[];
-  sections: SuggestionSections;
+export interface SscSubjectCatalog {
+  commonSubjects: string[];
+  groups: SscSubjectGroup[];
 }
 
 export interface Notice {

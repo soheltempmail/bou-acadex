@@ -1,40 +1,60 @@
 # BOU Acadex
 
-Bangladesh Open University student academic hub.
+Bangladesh Open University student academic hub — a single Next.js app (React
+frontend + serverless API route handlers) deployed as one process.
 
 ## Structure
 
-- Repository root: the Next.js (App Router) + TypeScript backend API.
-  - `src/app/api/` — route handlers
-  - `src/data/` — JSON datasets
-  - `src/lib/`, `src/types/` — shared helpers and types
-- `frontend/` — static site.
-  - `*.html` — pages (`index`, `books`, `questions`, `suggestions`, `mcq-test`)
-  - `css/` — stylesheets
-  - `js/core/` — shared runtime (`api.js` client, `main.js` UI helpers)
-  - `js/pages/` — per-page scripts (`home`, `books`, `questions`, `suggestions`, `mcq`)
-  - `assets/` — logo, favicon, images
-  - `server.js` — local static dev server
+```
+src/
+  app/
+    layout.tsx               Root layout (Bengali lang, metadata, global CSS, theme init)
+    page.tsx                 Home
+    books/page.tsx           E-Books
+    questions/page.tsx       Old Questions & Answers
+    mcq-test/page.tsx        MCQ Mock Test
+    api-docs/page.tsx        API reference
+    api/                     Route handlers / serverless functions (books, questions, notices, mcq)
+  components/
+    layout/                  Top notice bar, header (theme + mobile nav), footer, page shell
+    ui/                      Toast provider, modal
+    home/                    Hero, stats, features, schools, mini quiz, notices
+    books/                   Book catalogue, cards, reader modal
+    questions/               Question paper archive, solution panels
+    mcq/                     Exam engine (timer, palette, grading, results)
+  data/                      JSON datasets imported by the API routes
+  lib/                       API client, formatting helpers, HTTP/response helpers
+  styles/                    Global stylesheets (imported by the root layout)
+  types/                     Shared TypeScript types
+
+public/
+  assets/                    Logo, favicon, images
+```
+
+The frontend is built with React (Next.js App Router) and calls the same-origin
+API (`/api`) from client components. The API routes are deployed as serverless
+functions by Vercel.
 
 ## Development
 
-Backend API (http://localhost:3000):
+One process, one port:
 
 ```
 npm install
 npm run dev
 ```
 
-Frontend static site (http://localhost:5500), in a second terminal:
+Site: http://localhost:3000 — API: http://localhost:3000/api
 
-```
-cd frontend
-npm run dev
-```
+## Scripts
 
-The frontend reads its API base from `window.BOU_API_BASE` (default
-`http://localhost:3000/api`). To point at another API, set it before
-`js/api.js` loads or edit `frontend/js/api.js`.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the dev server on port 3000 |
+| `npm run build` | Production build |
+| `npm run start` | Serve the production build |
+| `npm run lint` | ESLint (next/core-web-vitals) |
+| `npm run typecheck` | `tsc --noEmit` |
 
 ## API
 
@@ -42,15 +62,14 @@ The frontend reads its API base from `window.BOU_API_BASE` (default
 | --- | --- |
 | `GET /api/books` | E-books (`school`, `program`, `level`, `q`) |
 | `GET /api/questions` | Past papers (`year`, `program`, `school`, `semester`, `q`) |
-| `GET /api/suggestions` | Suggestions (`program`, `school`, `semester`, `priority`, `q`) |
 | `GET /api/notices` | Notices |
 | `GET /api/mcq` | MCQ subject list |
 | `GET /api/mcq?subject=ict` | Full MCQ bank |
 | `POST /api/mcq` | Auto-evaluate `{ subject, answers }` |
 
+A human-readable version lives at `/api-docs`.
+
 ## Deploy (Vercel)
 
-Import the repository as-is. The backend is the project root, so Vercel
-detects Next.js automatically. The static `frontend/` folder is served
-separately (any static host), pointed at the deployed API via
-`window.BOU_API_BASE`.
+Import the repository as-is. Vercel detects Next.js automatically and deploys the
+React frontend plus the API route handlers as serverless functions.

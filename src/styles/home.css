@@ -1,0 +1,2012 @@
+/* ==========================================================================
+   BOU ACADEX - HOME PAGE GLASSMORPHISM & GRADIENT DESIGN SYSTEM
+   Signature Emerald Green (#149353), Red Accent (#FE2601), Amber (#FFBD01)
+   Ultra-Modern Translucent Frosted Glass, Specular Highlights, Ambient Auroras
+   EVERY CARD STYLED WITH A RICH, LUMINOUS MULTI-STOP GRADIENT COLOR
+   ========================================================================== */
+
+/* ==========================================================================
+   HERO SECTION - COSMIC GLASS & AURORA BACKDROP
+   ========================================================================== */
+.hero-10ms-section {
+  position: relative;
+  background-color: #030408;
+  background-image:
+    radial-gradient(ellipse 85% 60% at 50% -8%, rgba(20, 147, 83, 0.24) 0%, rgba(20, 147, 83, 0.08) 45%, transparent 75%),
+    radial-gradient(circle at 12% 40%, rgba(14, 165, 233, 0.14) 0%, transparent 40%),
+    radial-gradient(circle at 88% 40%, rgba(244, 63, 94, 0.14) 0%, transparent 40%),
+    radial-gradient(circle at 50% 85%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, #050d09 0%, #04080e 55%, #030408 100%);
+  padding: 86px 0 96px;
+  overflow: hidden;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   HERO BACKDROP - NETWORK CANOPY & GRAPHICS
+   ========================================================================== */
+.hero-academic-backdrop {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.bou-network-grid {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  height: 100%;
+  opacity: 0.55;
+}
+
+.node-pulse {
+  transform-origin: 720px 28px;
+  animation: nodeRadarPulse 2.8s cubic-bezier(0.2, 0.8, 0.4, 1) infinite;
+}
+
+@keyframes nodeRadarPulse {
+  0% { transform: scale(0.6); opacity: 0.9; }
+  60% { transform: scale(1.6); opacity: 0.2; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.academic-backdrop-left {
+  position: absolute;
+  top: 65px;
+  left: 6%;
+  z-index: 2;
+}
+
+.academic-backdrop-right {
+  position: absolute;
+  top: 65px;
+  right: 6%;
+  z-index: 2;
+}
+
+.knowledge-symbol-svg {
+  filter: drop-shadow(0 0 14px rgba(16, 185, 129, 0.35));
+}
+
+@media (max-width: 1100px) {
+  .academic-backdrop-left,
+  .academic-backdrop-right {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   BOU DISTANCE LEARNING MISSION PILL (GLASSMORPHIC)
+   ========================================================================== */
+.hero-mission-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 22px;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.22) 0%, rgba(6, 78, 59, 0.35) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  border-radius: var(--radius-full);
+  margin-bottom: 22px;
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.35),
+    0 0 20px rgba(16, 185, 129, 0.25),
+    inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  transition: all var(--transition-fast);
+}
+
+.hero-mission-pill:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.3) 0%, rgba(6, 78, 59, 0.45) 100%);
+  border-color: rgba(52, 211, 153, 0.7);
+  box-shadow:
+    0 6px 24px rgba(0, 0, 0, 0.4),
+    0 0 26px rgba(16, 185, 129, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.45);
+}
+
+.pulsing-beacon-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 10px #10b981;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.pulsing-beacon-dot::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1.5px solid #10b981;
+  animation: beaconPing 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes beaconPing {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.mission-pill-text {
+  font-family: var(--font-bangla);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #a7f3d0;
+  letter-spacing: 0.3px;
+}
+
+.hero-10ms-container {
+  position: relative;
+  z-index: 3;
+}
+
+/* Headline Typography with Radiant Glow */
+.hero-glow-title {
+  font-family: var(--font-bangla);
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 38px;
+  background: linear-gradient(180deg, #ffffff 0%, #fed7aa 35%, #fdba74 65%, #f97316 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 28px rgba(249, 115, 22, 0.4));
+  letter-spacing: -0.5px;
+}
+
+.hero-glow-subtitle {
+  font-family: var(--font-bangla);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #f1f5f9;
+  opacity: 0.94;
+  margin-bottom: 40px;
+  letter-spacing: 0.2px;
+}
+
+/* ==========================================================================
+   HERO COURSE CARDS - ULTRA-MODERN GLASSMORPHISM & VIBRANT GRADIENT SYSTEM
+   Spacious, uncluttered, multi-color gradient glassmorphism with specular sheen
+   ========================================================================== */
+.hero-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+  margin: 38px 0 42px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+/* Ambient Multi-Spectrum Refraction Aura behind Hero Glass Cards */
+.hero-cards-grid::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 95%;
+  background: radial-gradient(ellipse at center, rgba(16, 185, 129, 0.22) 0%, rgba(56, 189, 248, 0.18) 35%, rgba(244, 63, 94, 0.14) 70%, transparent 100%);
+  filter: blur(56px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Base Glassmorphic Card Container (Spacious & Centered)
+   -------------------------------------------------------------------------- */
+.hero-glass-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  min-height: 224px;
+  padding: 24px 16px 20px;
+  border-radius: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  backdrop-filter: blur(28px) saturate(200%);
+  -webkit-backdrop-filter: blur(28px) saturate(200%);
+  overflow: hidden;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s ease,
+              background 0.35s ease;
+  z-index: 1;
+}
+
+.hero-glass-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Specular Rim Light Across Top 48% */
+.hero-glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.05) 45%, transparent 100%);
+  border-radius: 24px 24px 0 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Dynamic 45-deg Shimmer Light Sweep on Hover */
+.hero-glass-card::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -70%;
+  width: 60%;
+  height: 220%;
+  background: linear-gradient(105deg, transparent 20%, rgba(255, 255, 255, 0.25) 50%, transparent 80%);
+  transform: rotate(25deg) translateX(-100%);
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hero-glass-card:hover::after {
+  transform: rotate(25deg) translateX(450%);
+}
+
+/* Card Internal Multi-Color Glow Layer */
+.hero-glass-card-glow {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.65;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-glass-card:hover .hero-glass-card-glow {
+  opacity: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Card Header: Frosted Glass Squircle Icon
+   -------------------------------------------------------------------------- */
+.hero-glass-card-icon-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.28),
+    inset 0 1px 1px rgba(255, 255, 255, 0.55);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 3;
+}
+
+.hero-glass-card:hover .hero-glass-card-icon-wrap {
+  transform: scale(1.12) rotate(-3deg);
+}
+
+.hero-glass-card-icon {
+  font-size: 1.7rem;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
+}
+
+/* --------------------------------------------------------------------------
+   Card Body: High-Impact Code & Bengali Title with generous spacing
+   -------------------------------------------------------------------------- */
+.hero-glass-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 3;
+  flex: 1;
+}
+
+.hero-glass-card-code {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  margin-bottom: 5px;
+}
+
+.hero-glass-card-title {
+  font-family: var(--font-bangla);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #f8fafc;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* --------------------------------------------------------------------------
+   Card Footer: Multi-Color Gradient Pill
+   -------------------------------------------------------------------------- */
+.hero-glass-card-footer {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.hero-glass-card-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-bangla);
+  font-size: 0.725rem;
+  font-weight: 700;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.5);
+  transition: all 0.25s ease;
+}
+
+.hero-glass-card-pill-text {
+  white-space: nowrap;
+}
+
+.hero-glass-card-pill-arrow {
+  flex-shrink: 0;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-glass-card:hover .hero-glass-card-pill-arrow {
+  transform: translateX(3px);
+}
+
+/* ==========================================================================
+   MULTI-COLOR GRADIENT GLASS PALETTES (DUAL/TRI-TONE GRADIENTS)
+   ========================================================================== */
+
+/* ==========================================================================
+    SERIAL COLOR SYSTEM — reuse these classes anywhere:
+    card-1: SSC | card-2: HSC | card-3: DCSA | card-4: B.Sc CSE | card-5: BBA | card-6: BA / BSS
+    ========================================================================== */
+
+/* --- Card 1: SSC (৯ম ও ১০ম শ্রেণি) — Emerald to Cyan --- */
+.hero-glass-card--card-1 {
+  background: linear-gradient(140deg, rgba(16, 185, 129, 0.42) 0%, rgba(6, 182, 212, 0.26) 55%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1.5px solid rgba(52, 211, 153, 0.55);
+  box-shadow:
+    0 18px 40px -8px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(16, 185, 129, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+.hero-glass-card--card-1:hover {
+  background: linear-gradient(140deg, rgba(16, 185, 129, 0.55) 0%, rgba(6, 182, 212, 0.4) 55%, rgba(15, 23, 42, 0.65) 100%);
+  border-color: #38bdf8;
+  box-shadow:
+    0 26px 52px -6px rgba(0, 0, 0, 0.7),
+    0 0 42px rgba(6, 182, 212, 0.55),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.hero-glass-card--card-1 .hero-glass-card-glow {
+  background: radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.5) 0%, transparent 60%),
+              radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.4) 0%, transparent 60%);
+}
+.hero-glass-card--card-1 .hero-glass-card-icon-wrap {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.55) 0%, rgba(6, 182, 212, 0.35) 100%);
+}
+.hero-glass-card--card-1 .hero-glass-card-pill {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+}
+
+/* --- Card 2: HSC (উচ্চ মাধ্যমিক) — Sky to Violet --- */
+.hero-glass-card--card-2 {
+  background: linear-gradient(140deg, rgba(14, 165, 233, 0.42) 0%, rgba(139, 92, 246, 0.26) 55%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1.5px solid rgba(56, 189, 248, 0.55);
+  box-shadow:
+    0 18px 40px -8px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(14, 165, 233, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+.hero-glass-card--card-2:hover {
+  background: linear-gradient(140deg, rgba(14, 165, 233, 0.55) 0%, rgba(139, 92, 246, 0.4) 55%, rgba(15, 23, 42, 0.65) 100%);
+  border-color: #a855f7;
+  box-shadow:
+    0 26px 52px -6px rgba(0, 0, 0, 0.7),
+    0 0 42px rgba(139, 92, 246, 0.55),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.hero-glass-card--card-2 .hero-glass-card-glow {
+  background: radial-gradient(circle at 15% 15%, rgba(14, 165, 233, 0.5) 0%, transparent 60%),
+              radial-gradient(circle at 85% 85%, rgba(139, 92, 246, 0.4) 0%, transparent 60%);
+}
+.hero-glass-card--card-2 .hero-glass-card-icon-wrap {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.55) 0%, rgba(139, 92, 246, 0.35) 100%);
+}
+.hero-glass-card--card-2 .hero-glass-card-pill {
+  background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+}
+
+/* --- Card 3: DCSA (ডিপ্লোমা ইন সিএস) — Amber to Rose --- */
+.hero-glass-card--card-3 {
+  background: linear-gradient(140deg, rgba(245, 158, 11, 0.42) 0%, rgba(244, 63, 94, 0.26) 55%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1.5px solid rgba(251, 191, 36, 0.55);
+  box-shadow:
+    0 18px 40px -8px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(245, 158, 11, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+.hero-glass-card--card-3:hover {
+  background: linear-gradient(140deg, rgba(245, 158, 11, 0.55) 0%, rgba(244, 63, 94, 0.4) 55%, rgba(15, 23, 42, 0.65) 100%);
+  border-color: #fb7185;
+  box-shadow:
+    0 26px 52px -6px rgba(0, 0, 0, 0.7),
+    0 0 42px rgba(244, 63, 94, 0.55),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.hero-glass-card--card-3 .hero-glass-card-glow {
+  background: radial-gradient(circle at 15% 15%, rgba(245, 158, 11, 0.5) 0%, transparent 60%),
+              radial-gradient(circle at 85% 85%, rgba(244, 63, 94, 0.4) 0%, transparent 60%);
+}
+.hero-glass-card--card-3 .hero-glass-card-icon-wrap {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.55) 0%, rgba(244, 63, 94, 0.35) 100%);
+}
+.hero-glass-card--card-3 .hero-glass-card-pill {
+  background: linear-gradient(135deg, #f59e0b 0%, #f43f5e 100%);
+}
+
+/* --- Card 4: B.Sc CSE (কম্পিউটার সায়েন্স) --- Indigo to Magenta */
+.hero-glass-card--card-4 {
+  background: linear-gradient(140deg, rgba(129, 140, 248, 0.42) 0%, rgba(217, 70, 239, 0.26) 55%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1.5px solid rgba(165, 180, 252, 0.55);
+  box-shadow:
+    0 18px 40px -8px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(129, 140, 248, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+.hero-glass-card--card-4:hover {
+  background: linear-gradient(140deg, rgba(129, 140, 248, 0.55) 0%, rgba(217, 70, 239, 0.4) 55%, rgba(15, 23, 42, 0.65) 100%);
+  border-color: #e879f9;
+  box-shadow:
+    0 26px 52px -6px rgba(0, 0, 0, 0.7),
+    0 0 42px rgba(217, 70, 239, 0.55),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.hero-glass-card--card-4 .hero-glass-card-glow {
+  background: radial-gradient(circle at 15% 15%, rgba(129, 140, 248, 0.5) 0%, transparent 60%),
+              radial-gradient(circle at 85% 85%, rgba(217, 70, 239, 0.4) 0%, transparent 60%);
+}
+.hero-glass-card--card-4 .hero-glass-card-icon-wrap {
+  background: linear-gradient(135deg, rgba(129, 140, 248, 0.55) 0%, rgba(217, 70, 239, 0.35) 100%);
+}
+.hero-glass-card--card-4 .hero-glass-card-pill {
+  background: linear-gradient(135deg, #6366f1 0%, #d946ef 100%);
+}
+
+/* --- Card 5: BBA (ব্যবসায় প্রশাসন) — Rose to Orange --- */
+.hero-glass-card--card-5 {
+  background: linear-gradient(140deg, rgba(244, 63, 94, 0.42) 0%, rgba(251, 146, 60, 0.26) 55%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1.5px solid rgba(251, 113, 133, 0.55);
+  box-shadow:
+    0 18px 40px -8px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(244, 63, 94, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+.hero-glass-card--card-5:hover {
+  background: linear-gradient(140deg, rgba(244, 63, 94, 0.55) 0%, rgba(251, 146, 60, 0.4) 55%, rgba(15, 23, 42, 0.65) 100%);
+  border-color: #fb923c;
+  box-shadow:
+    0 26px 52px -6px rgba(0, 0, 0, 0.7),
+    0 0 42px rgba(251, 146, 60, 0.55),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.hero-glass-card--card-5 .hero-glass-card-glow {
+  background: radial-gradient(circle at 15% 15%, rgba(244, 63, 94, 0.5) 0%, transparent 60%),
+              radial-gradient(circle at 85% 85%, rgba(251, 146, 60, 0.4) 0%, transparent 60%);
+}
+.hero-glass-card--card-5 .hero-glass-card-icon-wrap {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.55) 0%, rgba(251, 146, 60, 0.35) 100%);
+}
+.hero-glass-card--card-5 .hero-glass-card-pill {
+  background: linear-gradient(135deg, #f43f5e 0%, #fb923c 100%);
+}
+
+/* --- Card 6: BA / BSS (ডিগ্রি ও অনার্স) — Forest Green --- */
+.hero-glass-card--card-6 {
+  background: linear-gradient(140deg, rgba(22, 101, 52, 0.55) 0%, rgba(34, 197, 94, 0.28) 55%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1.5px solid rgba(74, 222, 128, 0.55);
+  box-shadow:
+    0 18px 40px -8px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(22, 101, 52, 0.4),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+}
+.hero-glass-card--card-6:hover {
+  background: linear-gradient(140deg, rgba(22, 101, 52, 0.7) 0%, rgba(34, 197, 94, 0.42) 55%, rgba(15, 23, 42, 0.65) 100%);
+  border-color: #4ade80;
+  box-shadow:
+    0 26px 52px -6px rgba(0, 0, 0, 0.7),
+    0 0 42px rgba(22, 101, 52, 0.6),
+    inset 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.hero-glass-card--card-6 .hero-glass-card-glow {
+  background: radial-gradient(circle at 15% 15%, rgba(22, 101, 52, 0.55) 0%, transparent 60%),
+              radial-gradient(circle at 85% 85%, rgba(34, 197, 94, 0.4) 0%, transparent 60%);
+}
+.hero-glass-card--card-6 .hero-glass-card-icon-wrap {
+  background: linear-gradient(135deg, rgba(22, 101, 52, 0.6) 0%, rgba(34, 197, 94, 0.35) 100%);
+}
+.hero-glass-card--card-6 .hero-glass-card-pill {
+  background: linear-gradient(135deg, #166534 0%, #22c55e 100%);
+}
+
+/* Green Pill Button at Bottom of Hero with generous breathing room */
+.hero-10ms-cta-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px 0 28px;
+}
+
+.hero-10ms-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  font-family: var(--font-bangla);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 24px rgba(16, 185, 129, 0.45),
+    inset 0 1px 1px rgba(255, 255, 255, 0.35);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.hero-10ms-cta-btn:hover {
+  background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 32px rgba(16, 185, 129, 0.6),
+    0 0 24px rgba(16, 185, 129, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+}
+
+/* Quick Search in Hero Bar (Frosted Glass Search Capsule) */
+.hero-search-container {
+  max-width: 620px;
+  margin: 32px auto 0;
+}
+
+.hero-10ms-search-bar {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border: 1.5px solid rgba(255, 255, 255, 0.24);
+  border-radius: var(--radius-full);
+  padding: 6px 8px 6px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow:
+    0 12px 36px rgba(0, 0, 0, 0.45),
+    inset 0 1px 1px rgba(255, 255, 255, 0.25);
+  transition: all var(--transition-fast);
+}
+
+.hero-10ms-search-bar:focus-within {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.09) 100%);
+  border-color: #10b981;
+  box-shadow:
+    0 16px 42px rgba(0, 0, 0, 0.55),
+    0 0 25px rgba(16, 185, 129, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.35);
+}
+
+.hero-10ms-search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 0.9375rem;
+}
+
+.hero-10ms-search-bar input::placeholder {
+  color: #cbd5e1;
+}
+
+.hero-10ms-search-bar button {
+  padding: 8px 24px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+  transition: all var(--transition-fast);
+}
+
+.hero-10ms-search-bar button:hover {
+  background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
+}
+
+/* ==========================================================================
+   STATS BAR SECTION (ELEVATED FLOATING GLASS CAPSULE & GRADIENT ITEMS)
+   ========================================================================== */
+.stats-bar-section {
+  padding: 0 0 50px 0;
+  background: var(--bg-body);
+  position: relative;
+  z-index: 10;
+}
+
+.stats-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 250, 252, 0.75) 50%, rgba(255, 255, 255, 0.92) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  border-radius: var(--radius-xl);
+  padding: 24px 28px;
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  box-shadow:
+    0 20px 48px -10px rgba(0, 0, 0, 0.08),
+    0 6px 20px rgba(16, 185, 129, 0.07),
+    inset 0 1px 2px rgba(255, 255, 255, 0.95);
+  margin-top: -34px;
+  position: relative;
+  z-index: 10;
+}
+
+[data-theme="dark"] .stats-card-container {
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.85) 0%, rgba(10, 16, 28, 0.8) 50%, rgba(15, 23, 42, 0.88) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 24px 55px -10px rgba(0, 0, 0, 0.65),
+    0 0 30px rgba(16, 185, 129, 0.16),
+    inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Individual Stat Cards with Frosted Glass & Gradient */
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(248, 250, 252, 0.4) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="dark"] .stat-item {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.015) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.stat-item:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.14) 0%, rgba(16, 185, 129, 0.03) 100%);
+  border-color: rgba(16, 185, 129, 0.45);
+  box-shadow:
+    0 8px 24px rgba(16, 185, 129, 0.18),
+    inset 0 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.stat-icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] .stat-icon-wrap {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.stat-val {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+}
+
+.stat-text {
+  font-family: var(--font-bangla);
+  font-size: 0.84375rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* ==========================================================================
+   CORE ACADEMIC PILLARS SECTION (BOOKS, QUESTIONS, MCQ)
+   EVERY CARD WITH VIBRANT DEDICATED GRADIENT COLOR + GLASSMORPHISM
+   ========================================================================== */
+.section {
+  padding: 76px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ambient Radial Aurora Background on Features Section */
+#featuresSection {
+  background-image:
+    radial-gradient(circle at 10% 25%, rgba(16, 185, 129, 0.08) 0%, transparent 42%),
+    radial-gradient(circle at 90% 75%, rgba(245, 158, 11, 0.07) 0%, transparent 42%);
+}
+
+[data-theme="dark"] #featuresSection {
+  background-image:
+    radial-gradient(circle at 10% 25%, rgba(16, 185, 129, 0.13) 0%, transparent 45%),
+    radial-gradient(circle at 90% 75%, rgba(245, 158, 11, 0.11) 0%, transparent 45%);
+}
+
+.section-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 48px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.14) 0%, rgba(20, 147, 83, 0.05) 100%);
+  color: #149353;
+  border: 1px solid rgba(20, 147, 83, 0.35);
+  padding: 5px 18px;
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 14px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(20, 147, 83, 0.1);
+}
+
+[data-theme="dark"] .section-kicker {
+  color: #34d399;
+  border-color: rgba(52, 211, 153, 0.35);
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.22) 0%, rgba(20, 147, 83, 0.08) 100%);
+}
+
+.section-title {
+  font-family: var(--font-bangla);
+  font-size: 2.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.section-desc {
+  font-family: var(--font-bangla);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Feature Card Glassmorphic Foundation */
+.feature-card {
+  border-radius: 24px;
+  padding: 36px 30px;
+  position: relative;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+
+/* Glass Specular Top Highlight */
+.feature-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 42%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  border-radius: 22px 22px 0 0;
+}
+
+/* Glowing Top Accent Border */
+.feature-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  opacity: 0.7;
+  transition: all var(--transition-normal);
+  z-index: 2;
+}
+
+/* --- Feature Card 1: E-Books (Emerald to Teal Gradient Glass) --- */
+.feature-card:nth-child(1) {
+  background: linear-gradient(145deg, rgba(236, 253, 245, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(240, 253, 244, 0.88) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.32);
+  box-shadow:
+    0 12px 32px rgba(16, 185, 129, 0.09),
+    inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+.feature-card:nth-child(1)::before {
+  background: linear-gradient(90deg, #10b981 0%, #34d399 100%);
+}
+
+[data-theme="dark"] .feature-card:nth-child(1) {
+  background: linear-gradient(145deg, rgba(6, 78, 59, 0.4) 0%, rgba(17, 24, 39, 0.75) 55%, rgba(4, 35, 26, 0.45) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.35);
+  box-shadow:
+    0 16px 36px rgba(0, 0, 0, 0.45),
+    0 0 25px rgba(16, 185, 129, 0.15),
+    inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.feature-card:nth-child(1):hover {
+  transform: translateY(-8px);
+  border-color: #10b981;
+  box-shadow:
+    0 24px 48px rgba(16, 185, 129, 0.25),
+    0 0 35px rgba(16, 185, 129, 0.2),
+    inset 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card:nth-child(1):hover::before {
+  height: 5px;
+  opacity: 1;
+}
+
+/* --- Feature Card 2: Question Bank (Amber to Gold Gradient Glass) --- */
+.feature-card:nth-child(2) {
+  background: linear-gradient(145deg, rgba(254, 243, 199, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 251, 235, 0.88) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.32);
+  box-shadow:
+    0 12px 32px rgba(245, 158, 11, 0.09),
+    inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+.feature-card:nth-child(2)::before {
+  background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+}
+
+[data-theme="dark"] .feature-card:nth-child(2) {
+  background: linear-gradient(145deg, rgba(120, 53, 15, 0.4) 0%, rgba(17, 24, 39, 0.75) 55%, rgba(69, 26, 3, 0.45) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+  box-shadow:
+    0 16px 36px rgba(0, 0, 0, 0.45),
+    0 0 25px rgba(245, 158, 11, 0.15),
+    inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.feature-card:nth-child(2):hover {
+  transform: translateY(-8px);
+  border-color: #f59e0b;
+  box-shadow:
+    0 24px 48px rgba(245, 158, 11, 0.25),
+    0 0 35px rgba(245, 158, 11, 0.2),
+    inset 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card:nth-child(2):hover::before {
+  height: 5px;
+  opacity: 1;
+}
+
+/* --- Feature Card 3: MCQ Test (Crimson to Coral Gradient Glass) --- */
+.feature-card:nth-child(3) {
+  background: linear-gradient(145deg, rgba(254, 242, 242, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(254, 226, 226, 0.88) 100%);
+  border: 1.5px solid rgba(254, 38, 1, 0.32);
+  box-shadow:
+    0 12px 32px rgba(254, 38, 1, 0.09),
+    inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+.feature-card:nth-child(3):before {
+  background: linear-gradient(90deg, #fe2601 0%, #f87171 100%);
+}
+
+[data-theme="dark"] .feature-card:nth-child(3) {
+  background: linear-gradient(145deg, rgba(127, 29, 29, 0.4) 0%, rgba(17, 24, 39, 0.75) 55%, rgba(69, 10, 10, 0.45) 100%);
+  border: 1.5px solid rgba(254, 38, 1, 0.35);
+  box-shadow:
+    0 16px 36px rgba(0, 0, 0, 0.45),
+    0 0 25px rgba(254, 38, 1, 0.15),
+    inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.feature-card:nth-child(3):hover {
+  transform: translateY(-8px);
+  border-color: #fe2601;
+  box-shadow:
+    0 24px 48px rgba(254, 38, 1, 0.25),
+    0 0 35px rgba(254, 38, 1, 0.2),
+    inset 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card:nth-child(3):hover::before {
+  height: 5px;
+  opacity: 1;
+}
+
+/* Feature Icon Badges with Glossy Glass Sheen */
+.feature-icon-badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-size: 1.85rem;
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.07),
+    inset 0 1px 1px rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  position: relative;
+  z-index: 1;
+}
+
+[data-theme="dark"] .feature-icon-badge {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.35),
+    inset 0 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+.feature-title {
+  font-family: var(--font-bangla);
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-desc {
+  font-family: var(--font-bangla);
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 24px;
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-list {
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-bangla);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.feature-list li svg {
+  color: #149353;
+  flex-shrink: 0;
+  background: rgba(20, 147, 83, 0.12);
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.feature-link {
+  font-family: var(--font-bangla);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #149353;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.12) 0%, rgba(20, 147, 83, 0.04) 100%);
+  border: 1px solid rgba(20, 147, 83, 0.3);
+  border-radius: var(--radius-full);
+  width: fit-content;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: relative;
+  z-index: 1;
+}
+
+.feature-link:hover {
+  background: linear-gradient(135deg, #149353 0%, #0e6e3c 100%);
+  color: #ffffff;
+  border-color: #149353;
+  gap: 12px;
+  box-shadow: 0 6px 18px rgba(20, 147, 83, 0.35);
+}
+
+[data-theme="dark"] .feature-link {
+  color: #34d399;
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.22) 0%, rgba(20, 147, 83, 0.08) 100%);
+  border-color: rgba(52, 211, 153, 0.35);
+}
+
+[data-theme="dark"] .feature-link:hover {
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   BOU SCHOOLS & PROGRAMS EXPLORER
+   FROSTED GLASS PILL TABS + EVERY PROGRAM CARD USES A GRADIENT COLOR
+   ========================================================================== */
+.schools-section {
+  background: #f8fafc;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 90% 70%, rgba(56, 189, 248, 0.08) 0%, transparent 40%);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+}
+
+[data-theme="dark"] .schools-section {
+  background: #090c15;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 90% 70%, rgba(56, 189, 248, 0.1) 0%, transparent 45%);
+}
+
+.school-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Frosted Glass Tab Button */
+.school-tab-btn {
+  padding: 10px 24px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(248, 250, 252, 0.6) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  border-radius: var(--radius-full);
+  font-family: var(--font-bangla);
+  font-size: 0.90625rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="dark"] .school-tab-btn {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+}
+
+.school-tab-btn:hover {
+  border-color: #149353;
+  color: #149353;
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.12) 0%, rgba(20, 147, 83, 0.03) 100%);
+  transform: translateY(-2px);
+}
+
+.school-tab-btn.active {
+  background: linear-gradient(135deg, #149353 0%, #0e6e3c 100%);
+  color: #ffffff;
+  border-color: #149353;
+  box-shadow: 0 8px 22px rgba(20, 147, 83, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.program-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  position: relative;
+  z-index: 2;
+}
+
+/* ==========================================================================
+   PROGRAM CARDS - GLASSMORPHISM + EVERY CARD USES GRADIENT COLOR
+   ========================================================================== */
+.program-card {
+  border-radius: 22px;
+  padding: 28px;
+  transition: all 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+}
+
+/* Glass Specular Top Sheen */
+.program-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  border-radius: 20px 20px 0 0;
+}
+
+/* --- Program Card 1: SOB (School of Business) Emerald-Teal Gradient Glass --- */
+.program-card[data-school="SOB"],
+.program-card:nth-child(1) {
+  background: linear-gradient(145deg, rgba(236, 253, 245, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(240, 253, 250, 0.88) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.32);
+  box-shadow: 0 10px 28px rgba(16, 185, 129, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .program-card[data-school="SOB"],
+[data-theme="dark"] .program-card:nth-child(1) {
+  background: linear-gradient(145deg, rgba(6, 78, 59, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(13, 148, 136, 0.2) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(16, 185, 129, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.program-card[data-school="SOB"]:hover,
+.program-card:nth-child(1):hover {
+  transform: translateY(-6px);
+  border-color: #10b981;
+  box-shadow: 0 20px 42px rgba(16, 185, 129, 0.22), 0 0 30px rgba(16, 185, 129, 0.18);
+}
+
+/* --- Program Card 2: SSHL (Arts & Social Sciences) Violet-Indigo Gradient Glass --- */
+.program-card[data-school="SSHL"],
+.program-card:nth-child(2) {
+  background: linear-gradient(145deg, rgba(243, 232, 255, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(238, 242, 255, 0.88) 100%);
+  border: 1.5px solid rgba(139, 92, 246, 0.32);
+  box-shadow: 0 10px 28px rgba(139, 92, 246, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .program-card[data-school="SSHL"],
+[data-theme="dark"] .program-card:nth-child(2) {
+  background: linear-gradient(145deg, rgba(76, 29, 149, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(67, 56, 202, 0.2) 100%);
+  border: 1.5px solid rgba(139, 92, 246, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(139, 92, 246, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.program-card[data-school="SSHL"]:hover,
+.program-card:nth-child(2):hover {
+  transform: translateY(-6px);
+  border-color: #8b5cf6;
+  box-shadow: 0 20px 42px rgba(139, 92, 246, 0.22), 0 0 30px rgba(139, 92, 246, 0.18);
+}
+
+/* --- Program Card 3: OS (Open School - HSC) Amber-Tangerine Gradient Glass --- */
+.program-card[data-school="OS"],
+.program-card:nth-child(3) {
+  background: linear-gradient(145deg, rgba(254, 243, 199, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(254, 242, 242, 0.88) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.32);
+  box-shadow: 0 10px 28px rgba(245, 158, 11, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .program-card[data-school="OS"],
+[data-theme="dark"] .program-card:nth-child(3) {
+  background: linear-gradient(145deg, rgba(120, 53, 15, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(154, 52, 18, 0.2) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(245, 158, 11, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.program-card[data-school="OS"]:hover,
+.program-card:nth-child(3):hover {
+  transform: translateY(-6px);
+  border-color: #f59e0b;
+  box-shadow: 0 20px 42px rgba(245, 158, 11, 0.22), 0 0 30px rgba(245, 158, 11, 0.18);
+}
+
+/* --- Program Card 4: SST (Science & Technology - CSE) Sky Blue & Cyan Gradient Glass --- */
+.program-card[data-school="SST"],
+.program-card:nth-child(4) {
+  background: linear-gradient(145deg, rgba(224, 242, 254, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(238, 242, 255, 0.88) 100%);
+  border: 1.5px solid rgba(14, 165, 233, 0.32);
+  box-shadow: 0 10px 28px rgba(14, 165, 233, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .program-card[data-school="SST"],
+[data-theme="dark"] .program-card:nth-child(4) {
+  background: linear-gradient(145deg, rgba(3, 105, 161, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(49, 46, 129, 0.2) 100%);
+  border: 1.5px solid rgba(14, 165, 233, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(14, 165, 233, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.program-card[data-school="SST"]:hover,
+.program-card:nth-child(4):hover {
+  transform: translateY(-6px);
+  border-color: #0ea5e9;
+  box-shadow: 0 20px 42px rgba(14, 165, 233, 0.22), 0 0 30px rgba(14, 165, 233, 0.18);
+}
+
+/* --- Program Card 5: SOE (School of Education) Rose & Coral Gradient Glass --- */
+.program-card[data-school="SOE"],
+.program-card:nth-child(5) {
+  background: linear-gradient(145deg, rgba(255, 241, 242, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(254, 242, 242, 0.88) 100%);
+  border: 1.5px solid rgba(244, 63, 94, 0.32);
+  box-shadow: 0 10px 28px rgba(244, 63, 94, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .program-card[data-school="SOE"],
+[data-theme="dark"] .program-card:nth-child(5) {
+  background: linear-gradient(145deg, rgba(159, 18, 57, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(136, 19, 55, 0.2) 100%);
+  border: 1.5px solid rgba(244, 63, 94, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(244, 63, 94, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.program-card[data-school="SOE"]:hover,
+.program-card:nth-child(5):hover {
+  transform: translateY(-6px);
+  border-color: #f43f5e;
+  box-shadow: 0 20px 42px rgba(244, 63, 94, 0.22), 0 0 30px rgba(244, 63, 94, 0.18);
+}
+
+/* Program Card Elements */
+.program-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.program-code-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.15) 0%, rgba(20, 147, 83, 0.06) 100%);
+  border: 1px solid rgba(20, 147, 83, 0.3);
+  color: #149353;
+  font-family: var(--font-display);
+  font-size: 0.78125rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .program-code-badge {
+  color: #34d399;
+  border-color: rgba(52, 211, 153, 0.35);
+}
+
+.program-duration {
+  font-family: var(--font-bangla);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.program-name {
+  font-family: var(--font-bangla);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 8px;
+  line-height: 1.35;
+  position: relative;
+  z-index: 1;
+}
+
+.program-school-name {
+  font-family: var(--font-bangla);
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Micro Frosted Glass Stat Box Inside Program Cards */
+.program-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(248, 250, 252, 0.45) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  position: relative;
+  z-index: 1;
+}
+
+[data-theme="dark"] .program-stats {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.prog-stat-num {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--text-main);
+}
+
+.prog-stat-label {
+  font-family: var(--font-bangla);
+  font-size: 0.71875rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.program-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-bangla);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(241, 245, 249, 0.5) 100%);
+  color: #374151;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.btn-secondary:hover {
+  background: #ffffff;
+  color: #111827;
+  border-color: #10b981;
+}
+
+[data-theme="dark"] .btn-secondary {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-color: #10b981;
+}
+
+/* ==========================================================================
+   INTERACTIVE MCQ PREVIEW (MINI QUIZ)
+   HIGH-TECH GLASS CONSOLE + GRADIENT OPTION CARDS
+   ========================================================================== */
+.mcq-preview-section {
+  background: var(--bg-body);
+  background-image:
+    radial-gradient(circle at 80% 30%, rgba(16, 185, 129, 0.09) 0%, transparent 45%),
+    radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.08) 0%, transparent 45%);
+  position: relative;
+}
+
+[data-theme="dark"] .mcq-preview-section {
+  background-image:
+    radial-gradient(circle at 80% 30%, rgba(16, 185, 129, 0.14) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.11) 0%, transparent 50%);
+}
+
+.mcq-interactive-box {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92) 0%, rgba(240, 253, 244, 0.8) 50%, rgba(248, 250, 252, 0.9) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.35);
+  border-radius: 28px;
+  padding: 40px;
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  box-shadow:
+    0 24px 55px rgba(0, 0, 0, 0.08),
+    0 0 32px rgba(16, 185, 129, 0.12),
+    inset 0 1px 2px rgba(255, 255, 255, 0.95);
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .mcq-interactive-box {
+  background: linear-gradient(145deg, rgba(17, 24, 39, 0.88) 0%, rgba(6, 44, 34, 0.45) 50%, rgba(10, 15, 26, 0.92) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.42);
+  box-shadow:
+    0 28px 65px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(16, 185, 129, 0.22),
+    inset 0 1px 2px rgba(255, 255, 255, 0.18);
+}
+
+.mcq-box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(20, 147, 83, 0.18);
+  padding-bottom: 18px;
+  margin-bottom: 26px;
+}
+
+[data-theme="dark"] .mcq-box-header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.mcq-subject-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-bangla);
+  font-weight: 800;
+  font-size: 0.9375rem;
+  color: var(--text-main);
+}
+
+.mcq-timer {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.18) 0%, rgba(5, 150, 105, 0.1) 100%);
+  color: #065f46;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  font-family: var(--font-bangla);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 5px 16px;
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .mcq-timer {
+  color: #a7f3d0;
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
+.mcq-question-text {
+  font-family: var(--font-bangla);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.45;
+  margin-bottom: 26px;
+  color: var(--text-main);
+}
+
+.mcq-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+/* Every Option is a Frosted Gradient Card */
+.mcq-option {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 22px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(248, 250, 252, 0.45) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  border-radius: 18px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .mcq-option {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.mcq-option:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.18) 0%, rgba(16, 185, 129, 0.04) 100%);
+  border-color: #10b981;
+  transform: translateX(4px);
+  box-shadow:
+    0 6px 18px rgba(16, 185, 129, 0.2),
+    inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.mcq-option.correct {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.28) 0%, rgba(5, 150, 105, 0.15) 100%) !important;
+  border-color: #10b981 !important;
+  color: #065f46;
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.3) !important;
+}
+
+[data-theme="dark"] .mcq-option.correct {
+  color: #a7f3d0;
+}
+
+.mcq-option.incorrect {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.25) 0%, rgba(185, 28, 28, 0.14) 100%) !important;
+  border-color: #ef4444 !important;
+  color: #991b1b;
+  box-shadow: 0 0 24px rgba(239, 68, 68, 0.3) !important;
+}
+
+[data-theme="dark"] .mcq-option.incorrect {
+  color: #fca5a5;
+}
+
+.mcq-option-letter {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(241, 245, 249, 0.7) 100%);
+  border: 1px solid var(--border-medium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-bangla);
+  font-weight: 800;
+  font-size: 0.9375rem;
+  color: var(--text-main);
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .mcq-option-letter {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 100%);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.mcq-option.correct .mcq-option-letter {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  border-color: #10b981;
+}
+
+.mcq-option.incorrect .mcq-option-letter {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #ffffff;
+  border-color: #ef4444;
+}
+
+.mcq-option-label {
+  font-family: var(--font-bangla);
+  font-size: 0.96875rem;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.mcq-explanation-box {
+  margin-top: 22px;
+  padding: 18px 24px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.14) 0%, rgba(5, 150, 105, 0.06) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-left: 5px solid #149353;
+  color: #166534;
+  font-family: var(--font-bangla);
+  font-size: 0.90625rem;
+  line-height: 1.65;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .mcq-explanation-box {
+  background: linear-gradient(135deg, rgba(20, 147, 83, 0.22) 0%, rgba(20, 147, 83, 0.08) 100%);
+  border-color: rgba(20, 147, 83, 0.4);
+  border-left-color: #10b981;
+  color: #6ee7b7;
+}
+
+.mcq-box-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   NOTICES SECTION (NOTIFICATION BOARD)
+   EVERY CARD WITH MULTI-STOP FROSTED GRADIENT COLOR + GLASSMORPHISM
+   ========================================================================== */
+.notices-section {
+  background: #f8fafc;
+  background-image:
+    radial-gradient(circle at 25% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(16, 185, 129, 0.08) 0%, transparent 40%);
+  border-top: 1px solid var(--border-subtle);
+  position: relative;
+}
+
+[data-theme="dark"] .notices-section {
+  background: #090c15;
+  background-image:
+    radial-gradient(circle at 25% 15%, rgba(56, 189, 248, 0.11) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(16, 185, 129, 0.13) 0%, transparent 45%);
+}
+
+.notice-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Notice Cards with Glassmorphism Foundation */
+.notice-card {
+  border-radius: 22px;
+  padding: 26px;
+  display: flex;
+  gap: 18px;
+  transition: all 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+}
+
+/* Notice Card Specular Top Highlight */
+.notice-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  border-radius: 20px 20px 0 0;
+}
+
+/* --- Notice Card 1 (3n+1): Emerald Gradient Glass --- */
+.notice-card:nth-child(3n+1) {
+  background: linear-gradient(145deg, rgba(236, 253, 245, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(240, 253, 250, 0.88) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.3);
+  box-shadow: 0 10px 28px rgba(16, 185, 129, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .notice-card:nth-child(3n+1) {
+  background: linear-gradient(145deg, rgba(6, 78, 59, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(6, 44, 34, 0.22) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(16, 185, 129, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.notice-card:nth-child(3n+1):hover {
+  transform: translateY(-5px);
+  border-color: #10b981;
+  box-shadow: 0 18px 38px rgba(16, 185, 129, 0.22), 0 0 30px rgba(16, 185, 129, 0.18);
+}
+
+/* --- Notice Card 2 (3n+2): Sky Blue Gradient Glass --- */
+.notice-card:nth-child(3n+2) {
+  background: linear-gradient(145deg, rgba(224, 242, 254, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(240, 249, 255, 0.88) 100%);
+  border: 1.5px solid rgba(14, 165, 233, 0.3);
+  box-shadow: 0 10px 28px rgba(14, 165, 233, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .notice-card:nth-child(3n+2) {
+  background: linear-gradient(145deg, rgba(3, 105, 161, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(12, 74, 110, 0.22) 100%);
+  border: 1.5px solid rgba(14, 165, 233, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(14, 165, 233, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.notice-card:nth-child(3n+2):hover {
+  transform: translateY(-5px);
+  border-color: #0ea5e9;
+  box-shadow: 0 18px 38px rgba(14, 165, 233, 0.22), 0 0 30px rgba(14, 165, 233, 0.18);
+}
+
+/* --- Notice Card 3 (3n): Amber/Gold Gradient Glass --- */
+.notice-card:nth-child(3n) {
+  background: linear-gradient(145deg, rgba(254, 243, 199, 0.92) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 251, 235, 0.88) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.3);
+  box-shadow: 0 10px 28px rgba(245, 158, 11, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .notice-card:nth-child(3n) {
+  background: linear-gradient(145deg, rgba(120, 53, 15, 0.38) 0%, rgba(17, 24, 39, 0.78) 55%, rgba(69, 26, 3, 0.22) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), 0 0 25px rgba(245, 158, 11, 0.12), inset 0 1px 1px rgba(255, 255, 255, 0.14);
+}
+
+.notice-card:nth-child(3n):hover {
+  transform: translateY(-5px);
+  border-color: #f59e0b;
+  box-shadow: 0 18px 38px rgba(245, 158, 11, 0.22), 0 0 30px rgba(245, 158, 11, 0.18);
+}
+
+/* Notice Date Badge with Emerald Slate Gradient */
+.notice-date-badge {
+  background: linear-gradient(145deg, #0b0f19 0%, #064e3b 100%);
+  color: #ffffff;
+  border-radius: 16px;
+  width: 58px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: center;
+  border: 1px solid rgba(16, 185, 129, 0.38);
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.notice-day {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.notice-month {
+  font-family: var(--font-display);
+  font-size: 0.71875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #10b981;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.notice-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.notice-tag {
+  font-family: var(--font-bangla);
+  font-size: 0.6875rem;
+  font-weight: 800;
+  color: #dc2626;
+  background: linear-gradient(135deg, rgba(254, 38, 1, 0.14) 0%, rgba(254, 38, 1, 0.05) 100%);
+  border: 1px solid rgba(254, 38, 1, 0.25);
+  border-radius: var(--radius-full);
+  padding: 2px 10px;
+  width: fit-content;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+[data-theme="dark"] .notice-tag {
+  color: #f87171;
+  border-color: rgba(248, 113, 113, 0.35);
+  background: linear-gradient(135deg, rgba(254, 38, 1, 0.22) 0%, rgba(254, 38, 1, 0.08) 100%);
+}
+
+.notice-title {
+  font-family: var(--font-bangla);
+  font-size: 0.96875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: var(--text-main);
+}
+
+.notice-link {
+  font-family: var(--font-bangla);
+  font-size: 0.84375rem;
+  color: #149353;
+  font-weight: 700;
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.notice-link:hover {
+  color: #107c44;
+  gap: 9px;
+}
+
+[data-theme="dark"] .notice-link {
+  color: #34d399;
+}
+
+[data-theme="dark"] .notice-link:hover {
+  color: #6ee7b7;
+}
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS
+   ========================================================================== */
+@media (max-width: 1100px) {
+  .hero-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-glow-title {
+    font-size: 2.65rem;
+  }
+  .stats-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-grid,
+  .program-cards-grid,
+  .notice-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-mission-pill {
+    padding: 6px 14px;
+  }
+  .hero-mission-pill .mission-pill-text {
+    font-size: 0.75rem;
+  }
+  .hero-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .hero-glass-card {
+    min-height: 215px;
+    padding: 15px 12px 13px;
+  }
+  .hero-glass-card-code {
+    font-size: 1.25rem;
+  }
+  .hero-glass-card-title {
+    font-size: 0.925rem;
+  }
+  .hero-glass-card-desc {
+    font-size: 0.7rem;
+  }
+  .hero-glass-card-pill {
+    padding: 6px 9px;
+    font-size: 0.675rem;
+  }
+  .stats-card-container {
+    padding: 18px;
+    margin-top: -24px;
+  }
+  .mcq-interactive-box {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-glow-title {
+    font-size: 2.15rem;
+  }
+  .hero-glow-subtitle {
+    font-size: 1rem;
+  }
+  .stats-card-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .mcq-interactive-box {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
