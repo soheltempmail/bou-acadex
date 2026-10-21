@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { useToast } from "@/components/ui/ToastProvider";
 import { getMcqBank, getMcqSubjects } from "@/lib/api-client";
 import type { McqBank, McqBankSummary } from "@/types";
@@ -11,7 +11,12 @@ import { SubjectControls } from "./SubjectControls";
 import type { McqMode } from "./types";
 import { gradeFor, toBank } from "./utils";
 
-export function McqEngine() {
+interface McqEngineProps {
+  initialSubject?: string;
+  header?: ReactNode;
+}
+
+export function McqEngine({ initialSubject, header }: McqEngineProps) {
   const { showToast } = useToast();
 
   const [subjects, setSubjects] = useState<McqBankSummary[]>([]);
@@ -21,6 +26,7 @@ export function McqEngine() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [markedReview, setMarkedReview] = useState<Set<number>>(new Set());
+  const [revealedAnswers, setRevealedAnswers] = useState<Set<number>>(new Set());
   const [timerSeconds, setTimerSeconds] = useState(600);
   const [submitted, setSubmitted] = useState(false);
 
@@ -33,6 +39,7 @@ export function McqEngine() {
     setCurrentQuestionIndex(0);
     setAnswers({});
     setMarkedReview(new Set());
+    setRevealedAnswers(new Set());
     setSubmitted(false);
     setTimerSeconds(nextBank.duration || 600);
   }, []);
@@ -73,7 +80,8 @@ export function McqEngine() {
         const list = response.data ?? [];
         setSubjects(list);
         if (list.length) {
-          const requested = new URLSearchParams(window.location.search).get("subject");
+          const requested =
+            initialSubject ?? new URLSearchParams(window.location.search).get("subject");
           const match = requested
             ? list.find((subject) => subject.key === requested || subject.code === requested)
             : undefined;
@@ -86,7 +94,7 @@ export function McqEngine() {
       .catch((error: Error) => {
         showToast("Could not load MCQ subjects: " + error.message);
       });
-  }, [loadSubject, showToast]);
+  }, [loadSubject, showToast, initialSubject]);
 
   const resetExamState = useCallback(
     (nextMode: McqMode) => {
@@ -95,6 +103,7 @@ export function McqEngine() {
       setCurrentQuestionIndex(0);
       setAnswers({});
       setMarkedReview(new Set());
+      setRevealedAnswers(new Set());
       setSubmitted(false);
       setTimerSeconds(nextBank?.duration || 600);
     },
@@ -167,10 +176,11 @@ export function McqEngine() {
   if (submitted && bank) {
     const result = evaluate();
     if (result) {
-      return (
-        <main className="section">
-          <div className="container">
-            {controls}
+        return (
+          <main className="section">
+            <div className="container">
+              {header}
+              {controls}
             <ExamResult
               bank={bank}
               answers={answers}
@@ -186,6 +196,17 @@ export function McqEngine() {
   const question = bank?.questions[currentQuestionIndex];
   const answered = question ? answers[currentQuestionIndex] : undefined;
   const showPracticeExplanation = mode === "practice" && answered !== undefined;
+  const answerRevealed = mode === "practice" && revealedAnswers.has(currentQuestionIndex);
+
+  const handleRevealAnswer = () => {
+    if (mode !== "practice") return;
+    setRevealedAnswers((current) => {
+      if (current.has(currentQuestionIndex)) return current;
+      const next = new Set(current);
+      next.add(currentQuestionIndex);
+      return next;
+    });
+  };
 
   const handleSelectOption = (optionIndex: number) => {
     if (submitted) return;
@@ -222,6 +243,7 @@ export function McqEngine() {
   return (
     <main className="section">
       <div className="container">
+        {header}
         {controls}
 
         <div className="mcq-engine-wrapper" id="mcqMainArena">
@@ -233,7 +255,9 @@ export function McqEngine() {
             marked={markedReview.has(currentQuestionIndex)}
             timerSeconds={timerSeconds}
             showExplanation={showPracticeExplanation}
+            answerRevealed={answerRevealed}
             onSelectOption={handleSelectOption}
+            onRevealAnswer={handleRevealAnswer}
             onPrev={handlePrev}
             onNext={handleNext}
             onToggleMark={handleToggleMark}

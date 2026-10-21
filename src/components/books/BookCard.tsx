@@ -1,33 +1,43 @@
-import { useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Book } from "@/types";
 import { useToast } from "@/components/ui/ToastProvider";
-import { getMcqBankForBook, getPaperForBook } from "@/lib/study-meta";
+import {
+  findMcqBankForBook,
+  getPaperForBook,
+  subjectMcqPath,
+  subjectOverviewPath,
+  subjectReadPath,
+  subjectWrittenPath,
+} from "@/lib/study-meta";
 import { BOOK_GRADIENTS, SCHOOL_META } from "./book.constants";
-import { BookOverviewModal } from "./BookOverviewModal";
 
 interface BookCardProps {
   book: Book;
-  onRead: (book: Book) => void;
-  onDownload: (book: Book) => void;
 }
 
-export function BookCard({ book, onRead, onDownload }: BookCardProps) {
-  const [overviewOpen, setOverviewOpen] = useState(false);
+export function BookCard({ book }: BookCardProps) {
   const router = useRouter();
   const { showToast } = useToast();
 
   const meta = SCHOOL_META[book.school] ?? { label: book.school, gradient: "#173b55" };
   const gradient = BOOK_GRADIENTS[book.subjectCode] ?? meta.gradient;
-  const mcqBank = getMcqBankForBook(book.subjectCode);
+  const mcqBank = findMcqBankForBook(book);
   const paper = getPaperForBook(book.subjectCode);
+
+  const handleOverview = () => {
+    router.push(subjectOverviewPath(book.subjectCode));
+  };
+
+  const handleRead = () => {
+    router.push(subjectReadPath(book.subjectCode));
+  };
 
   const handleMcq = () => {
     if (!mcqBank) {
       showToast(`${book.subjectCode} এর MCQ প্রশ্নব্যাংক শীঘ্রই আসছে!`);
       return;
     }
-    router.push("/mcq-test?subject=" + encodeURIComponent(mcqBank.key));
+    router.push(subjectMcqPath(book.subjectCode));
   };
 
   const handleWritten = () => {
@@ -35,7 +45,7 @@ export function BookCard({ book, onRead, onDownload }: BookCardProps) {
       showToast(`${book.subjectCode} এর লিখিত প্রশ্নপত্র শীঘ্রই আসছে!`);
       return;
     }
-    router.push("/questions?search=" + encodeURIComponent(book.subjectCode));
+    router.push(subjectWrittenPath(book.subjectCode));
   };
 
   return (
@@ -67,26 +77,22 @@ export function BookCard({ book, onRead, onDownload }: BookCardProps) {
         </div>
         <div className="book-spec-chips">
           <span className="book-spec-chip">📄 {book.pages} Pages</span>
-          <span className="book-spec-chip">📦 PDF ({book.fileSize})</span>
           {book.unitsCount > 0 && <span className="book-spec-chip">📖 {book.unitsCount} Units</span>}
         </div>
         <div className="book-actions book-actions-grid">
           <button
             className="btn btn-primary btn-sm book-action-overview"
-            onClick={() => setOverviewOpen(true)}
-            title="Book overview, question plan & mark distribution"
+            onClick={handleOverview}
+            title="Open full subject overview page"
           >
             📋 Overview
           </button>
-          <button className="btn btn-primary btn-sm" onClick={() => onRead(book)}>
-            📖 Read
-          </button>
           <button
-            className="btn btn-secondary btn-sm"
-            onClick={() => onDownload(book)}
-            title={book.pdfUrl ? "Open Official E-Book / PDF" : "Download PDF"}
+            className="btn btn-primary btn-sm"
+            onClick={handleRead}
+            title="Open the full-page e-book reader"
           >
-            ⬇ PDF
+            📖 Read
           </button>
           <button
             className={`btn btn-sm ${mcqBank ? "btn-secondary" : "btn-secondary btn-disabled"}`}
@@ -104,12 +110,6 @@ export function BookCard({ book, onRead, onDownload }: BookCardProps) {
           </button>
         </div>
       </div>
-      <BookOverviewModal
-        book={overviewOpen ? book : null}
-        paper={paper}
-        mcqQuestionCount={mcqBank?.questionCount ?? null}
-        onClose={() => setOverviewOpen(false)}
-      />
     </article>
   );
 }

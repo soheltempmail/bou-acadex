@@ -3287,37 +3287,73 @@
     "program": "DCSA",
     "level": "Diploma",
     "semester": 1,
-    "unitsCount": 6,
-    "pages": 190,
-    "fileSize": "8.2 MB",
-    "edition": "Revised 2024 Edition",
-    "summary": "Computer fundamentals for diploma learners: hardware components, peripherals, memory, software types, operating system basics, and routine maintenance.",
+    "unitsCount": 9,
+    "pages": 220,
+    "fileSize": "3.0 MB",
+    "edition": "Revised 2014 Edition",
+    "summary": "Computer fundamentals for diploma learners: computer organization, number systems, microprocessors, input/output devices, memory, software, operating systems, applications, and the Internet.",
     "units": [
       {
         "unitNum": 1,
-        "title": "Introduction to Computers"
+        "title": "Introduction to Computers",
+        "pages": "০১-১৬",
+        "pdfUrl": "/books/dcsa-1201/Unit-01.dat"
       },
       {
         "unitNum": 2,
-        "title": "Computer Hardware and Peripheral Devices"
+        "title": "Number Systems, Codes and Logic Functions",
+        "pages": "১৭-৫২",
+        "pdfUrl": "/books/dcsa-1201/Unit-02.dat"
       },
       {
         "unitNum": 3,
-        "title": "Memory and Storage Systems"
+        "title": "Microcomputers and Microprocessors",
+        "pages": "৫৩-৭০"
       },
       {
         "unitNum": 4,
-        "title": "Computer Software"
+        "title": "Input and Output Devices",
+        "pages": "৭১-৯৪",
+        "pdfUrl": "/books/dcsa-1201/Unit-04.dat"
       },
       {
         "unitNum": 5,
-        "title": "Operating System Basics"
+        "title": "Memory Organizations",
+        "pages": "৯৫-১০৮",
+        "pdfUrl": "/books/dcsa-1201/Unit-05.dat"
       },
       {
         "unitNum": 6,
-        "title": "Computer Maintenance and Safety"
+        "title": "Computer Software",
+        "pages": "১০৯-১৩২",
+        "pdfUrl": "/books/dcsa-1201/Unit-06.dat"
+      },
+      {
+        "unitNum": 7,
+        "title": "Operating Systems",
+        "pages": "১৩৩-১৬৬",
+        "pdfUrl": "/books/dcsa-1201/Unit-07.dat"
+      },
+      {
+        "unitNum": 8,
+        "title": "Applications",
+        "pages": "১৬৭-১৯৬",
+        "pdfUrl": "/books/dcsa-1201/Unit-08.dat"
+      },
+      {
+        "unitNum": 9,
+        "title": "Internet and Designing Web Page",
+        "pages": "১৯৭-২১৭",
+        "pdfUrl": "/books/dcsa-1201/Unit-09.dat"
+      },
+      {
+        "unitNum": 0,
+        "title": "Answers to MCQs",
+        "pages": "২১৮",
+        "pdfUrl": "/books/dcsa-1201/Answer.dat"
       }
     ],
+    "pdfUrl": "/books/dcsa-1201/Inner.dat",
     "year": "১ম বর্ষ"
   },
   {

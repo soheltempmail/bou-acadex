@@ -86,6 +86,8 @@ export async function POST(request: Request): Promise<NextResponse> {
 
       return {
         questionId: question.id,
+        unit: question.unit,
+        lesson: question.lesson,
         questionText: question.question,
         options: question.options,
         userAnswerIndex: isAnswered ? Number(rawAnswer) : null,

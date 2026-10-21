@@ -2,13 +2,11 @@
 
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { useToast } from "@/components/ui/ToastProvider";
 import { getBooks } from "@/lib/api-client";
 import type { Book } from "@/types";
 import { BookCard } from "./BookCard";
 import { SCHOOL_META, SEMESTER_LABELS } from "./book.constants";
 import { BooksFilters } from "./BooksFilters";
-import { ReaderModal } from "./ReaderModal";
 
 interface BooksExplorerProps {
   initialLevel?: string;
@@ -25,7 +23,6 @@ export function BooksExplorer({
   initialGroup,
   initialQuery,
 }: BooksExplorerProps) {
-  const { showToast } = useToast();
   const router = useRouter();
   const pathname = usePathname();
 
@@ -33,7 +30,6 @@ export function BooksExplorer({
   const [error, setError] = useState<string | null>(null);
   const [level, setLevel] = useState(initialLevel ?? "all");
   const [query, setQuery] = useState(initialQuery ?? "");
-  const [activeBook, setActiveBook] = useState<Book | null>(null);
 
   const [yearFilter, setYearFilter] = useState<string>(initialYear ?? "all");
   const [semesterFilter, setSemesterFilter] = useState<string>(initialSemester ?? "all");
@@ -153,14 +149,6 @@ export function BooksExplorer({
     return { standaloneBooks: standalone, semesterGroups: groups };
   }, [visibleBooks]);
 
-  const handleDownload = (book: Book) => {
-    if (book.pdfUrl) {
-      window.open(book.pdfUrl, "_blank", "noopener,noreferrer");
-    } else {
-      showToast(`Downloading ${book.title} PDF...`);
-    }
-  };
-
   const levelBooks = useMemo(
     () => (level === "all" ? books : books.filter((b) => b.level === level)),
     [books, level]
@@ -220,8 +208,6 @@ export function BooksExplorer({
                 <BookCard
                   key={book.id}
                   book={book}
-                  onRead={setActiveBook}
-                  onDownload={handleDownload}
                 />
               ))}
               {semesterGroups.map((group) => (
@@ -237,8 +223,6 @@ export function BooksExplorer({
                     <BookCard
                       key={book.id}
                       book={book}
-                      onRead={setActiveBook}
-                      onDownload={handleDownload}
                     />
                   ))}
                 </Fragment>
@@ -248,11 +232,6 @@ export function BooksExplorer({
         </div>
       </div>
 
-      <ReaderModal
-        book={activeBook}
-        onClose={() => setActiveBook(null)}
-        onDownload={handleDownload}
-      />
     </main>
   );
 }

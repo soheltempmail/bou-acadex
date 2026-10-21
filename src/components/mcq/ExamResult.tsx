@@ -187,6 +187,15 @@ function ReviewItem({ question, index, answers }: ReviewItemProps) {
         background: "var(--bg-surface)",
       }}
     >
+      {question.unit || question.lesson ? (
+        <div className="mcq-question-source" style={{ marginBottom: 8 }}>
+          {question.unit ? <span className="mcq-question-unit">{question.unit}</span> : null}
+          {question.lesson ? (
+            <span className="mcq-question-lesson">{question.lesson}</span>
+          ) : null}
+        </div>
+      ) : null}
+
       <div
         style={{
           display: "flex",

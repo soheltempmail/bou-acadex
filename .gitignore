@@ -28,3 +28,10 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# next.js isolated dev build dir
+.next-dev/
+.next-build/
+
+# raw source material (processed copies live in public/books)
+Computer Basic - 1201/

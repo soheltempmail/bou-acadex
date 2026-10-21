@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { useToast } from "@/components/ui/ToastProvider";
 import { getQuestions } from "@/lib/api-client";
 import type { QuestionPaper } from "@/types";
 import { QuestionPaperCard } from "./QuestionPaperCard";
@@ -19,8 +18,6 @@ export function QuestionsExplorer({
   initialProgram,
   initialSearch,
 }: QuestionsExplorerProps) {
-  const { showToast } = useToast();
-
   const [papers, setPapers] = useState<QuestionPaper[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [year, setYear] = useState(initialYear ?? "all");
@@ -112,9 +109,6 @@ export function QuestionsExplorer({
                 paper={paper}
                 open={openPanels.has(paper.id)}
                 onToggle={() => togglePanel(paper.id)}
-                onDownload={() =>
-                  showToast(`Downloading ${paper.year} ${paper.subjectName} Solved Paper...`)
-                }
               />
             ))
           )}

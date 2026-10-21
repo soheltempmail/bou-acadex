@@ -5,7 +5,6 @@ interface QuestionPaperCardProps {
   paper: QuestionPaper;
   open: boolean;
   onToggle: () => void;
-  onDownload: () => void;
 }
 
 function SolutionStep({ question }: { question: QuestionItem }) {
@@ -44,7 +43,7 @@ function SolutionStep({ question }: { question: QuestionItem }) {
   );
 }
 
-export function QuestionPaperCard({ paper, open, onToggle, onDownload }: QuestionPaperCardProps) {
+export function QuestionPaperCard({ paper, open, onToggle }: QuestionPaperCardProps) {
   return (
     <article className="question-paper-card" data-year={paper.year} data-program={paper.program}>
       <div className="question-summary-row">
@@ -68,11 +67,8 @@ export function QuestionPaperCard({ paper, open, onToggle, onDownload }: Questio
           </div>
         </div>
         <div className="question-actions-col">
-          <button className="btn btn-secondary btn-sm" onClick={onToggle}>
-            {open ? "▲ Hide Model Answers" : "👁 Toggle Model Answers"}
-          </button>
-          <button className="btn btn-primary btn-sm" onClick={onDownload}>
-            ⬇ PDF
+          <button className="btn btn-primary btn-sm" onClick={onToggle}>
+            {open ? "▲ মডেল সমাধান লুকান" : "📖 মডেল সমাধান পড়ুন"}
           </button>
         </div>
       </div>

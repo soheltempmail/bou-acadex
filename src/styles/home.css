@@ -1572,6 +1572,38 @@
   border-color: rgba(52, 211, 153, 0.4);
 }
 
+.mcq-question-source {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mcq-question-unit {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--bou-emerald-light);
+  color: #065f46;
+}
+
+.mcq-question-lesson {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--bg-surface-muted);
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .mcq-question-unit {
+  background: rgba(52, 211, 153, 0.16);
+  color: #a7f3d0;
+}
+
 .mcq-question-text {
   font-family: var(--font-bangla);
   font-size: 1.25rem;
@@ -1682,6 +1714,20 @@
   font-size: 0.96875rem;
   font-weight: 600;
   flex-grow: 1;
+}
+
+.mcq-reveal-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.mcq-reveal-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--font-bangla);
 }
 
 .mcq-explanation-box {

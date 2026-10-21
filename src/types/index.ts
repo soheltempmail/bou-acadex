@@ -48,6 +48,27 @@ export interface QuestionPaper {
   questions: QuestionItem[];
 }
 
+export type WrittenQuestionType = "short" | "long";
+
+export interface WrittenQuestion {
+  id: number;
+  unit?: string;
+  lesson?: string;
+  type: WrittenQuestionType;
+  question: string;
+  pages?: string;
+}
+
+export interface WrittenBank {
+  title: string;
+  code: string;
+  school: string;
+  notice?: string;
+  questions: WrittenQuestion[];
+}
+
+export type WrittenBankMap = Record<string, WrittenBank>;
+
 export interface SscSubjectGroup {
   id: string;
   name: string;
@@ -74,6 +95,8 @@ export interface Notice {
 
 export interface McqQuestion {
   id: number;
+  unit?: string;
+  lesson?: string;
   question: string;
   options: string[];
   correct: number;
@@ -105,6 +128,8 @@ export interface McqAnswerMap {
 
 export interface McqReviewItem {
   questionId: number;
+  unit?: string;
+  lesson?: string;
   questionText: string;
   options: string[];
   userAnswerIndex: number | null;

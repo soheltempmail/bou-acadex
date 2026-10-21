@@ -10,7 +10,9 @@ interface QuestionArenaProps {
   marked: boolean;
   timerSeconds: number;
   showExplanation: boolean;
+  answerRevealed: boolean;
   onSelectOption: (optionIndex: number) => void;
+  onRevealAnswer: () => void;
   onPrev: () => void;
   onNext: () => void;
   onToggleMark: () => void;
@@ -25,13 +27,17 @@ export function QuestionArena({
   marked,
   timerSeconds,
   showExplanation,
+  answerRevealed,
   onSelectOption,
+  onRevealAnswer,
   onPrev,
   onNext,
   onToggleMark,
   onSubmit,
 }: QuestionArenaProps) {
   const question = bank?.questions[questionIndex];
+  const isPractice = mode === "practice";
+  const showAnswer = showExplanation || (isPractice && answerRevealed);
 
   return (
     <section className="mcq-main-arena" aria-label="Exam Question Area">
@@ -88,8 +94,17 @@ export function QuestionArena({
         <span id="totalQCount">{bank?.questions.length ?? 0}</span>
       </div>
 
+      <div
+        className="mcq-question-source"
+        id="arenaQuestionSource"
+        style={{ display: question?.unit || question?.lesson ? "flex" : "none" }}
+      >
+        {question?.unit ? <span className="mcq-question-unit">{question.unit}</span> : null}
+        {question?.lesson ? <span className="mcq-question-lesson">{question.lesson}</span> : null}
+      </div>
+
       <div className="mcq-question-text" id="arenaQuestionText">
-        {question?.question ?? "প্রশ্ন লোড হচ্ছে..."}
+        {question?.question ?? "?????? ??? ?????..."}
       </div>
 
       <div className="mcq-options-grid" id="arenaOptionsWrap">
@@ -97,7 +112,7 @@ export function QuestionArena({
           const isSelected = answer === optionIndex;
           let className = "mcq-option";
           if (isSelected) className += " selected";
-          if (showExplanation) {
+          if (showAnswer) {
             if (optionIndex === question.correct) {
               className += " correct";
             } else if (isSelected) {
@@ -114,12 +129,29 @@ export function QuestionArena({
         })}
       </div>
 
+      {isPractice ? (
+        <div className="mcq-reveal-row">
+          <button
+            type="button"
+            className="btn btn-secondary btn-sm"
+            id="mcqRevealAnswerBtn"
+            onClick={onRevealAnswer}
+            disabled={showAnswer}
+          >
+            {showAnswer ? "✅ সঠিক উত্তর দেখানো হয়েছে" : "👁 সঠিক উত্তর দেখুন"}
+          </button>
+          {!showAnswer ? (
+            <span className="mcq-reveal-hint">উত্তর দেখে প্র্যাকটিস করুন — পরীক্ষা মোডে এই সুবিধা থাকবে না।</span>
+          ) : null}
+        </div>
+      ) : null}
+
       <div
         className="mcq-explanation-box"
         id="arenaPracticeExplanation"
-        style={{ display: showExplanation ? "block" : "none" }}
+        style={{ display: showAnswer ? "block" : "none" }}
       >
-        {showExplanation && question ? (
+        {showAnswer && question ? (
           <>
             <strong>ব্যাখ্যা:</strong> {question.explanation}
           </>
