@@ -4,6 +4,14 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   distDir: process.env.NEXT_DIST_DIR || ".next",
+  experimental: {
+    // The PDF.js asset route reads public/pdfjs from disk at request time, so the
+    // files must be bundled into the serverless function (Vercel does not copy
+    // public/ into functions by default).
+    outputFileTracingIncludes: {
+      "/pdfjs/[...path]": ["./public/pdfjs/**/*"],
+    },
+  },
   async headers() {
     return [
       {

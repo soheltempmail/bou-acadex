@@ -1,0 +1,136 @@
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES (10MS RESPONSIVE STANDARD)
+   ========================================================================== */
+@media (max-width: 1150px) {
+  .hero-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .hero-glow-title {
+    font-size: 2.85rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-glow-title {
+    font-size: 2.45rem;
+    margin-bottom: 30px;
+  }
+  .hero-glow-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 28px;
+  }
+  .stats-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  .books-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .program-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .notice-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mcq-engine-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-10ms-section {
+    padding: 68px 0 76px;
+  }
+  .hero-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin: 32px 0 36px;
+  }
+  .hero-glass-card {
+    min-height: 200px;
+    padding: 20px 14px 16px;
+    border-radius: 20px;
+  }
+  .hero-glass-card-icon-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+  }
+  .hero-glass-card-icon {
+    font-size: 1.45rem;
+  }
+  .hero-glass-card-code {
+    font-size: 1.25rem;
+  }
+  .hero-glass-card-title {
+    font-size: 0.875rem;
+  }
+  .hero-glass-card-pill {
+    padding: 6px 8px;
+    font-size: 0.7rem;
+  }
+  .hero-10ms-cta-wrap {
+    margin: 30px 0 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --nav-height: 68px;
+  }
+  .hero-10ms-section {
+    padding: 58px 0 68px;
+  }
+  .hero-glow-title {
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+  .hero-glow-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+  .hero-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    width: 100%;
+    margin: 28px 0 32px;
+  }
+  .hero-glass-card {
+    min-height: 190px;
+    padding: 18px 12px 14px;
+  }
+  .hero-10ms-cta-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .stats-card-container {
+    grid-template-columns: 1fr;
+  }
+  .books-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .content-filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-group, .filter-search-input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

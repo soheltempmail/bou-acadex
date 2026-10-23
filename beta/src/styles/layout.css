@@ -1,0 +1,289 @@
+/* ==========================================================================
+   BOU ACADEX - 10 MINUTE SCHOOL LAYOUT & NAVIGATION
+   Clean White Frosted Header, Vibrant Green CTA, Mobile Menu
+   ========================================================================== */
+
+/* 10MS Signature LIVE Badge with Pulsing White Indicator */
+.badge-live {
+  background: var(--tms-red);
+  color: #ffffff;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 0 10px var(--tms-red-glow);
+}
+
+.badge-live::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
+  animation: pulseDot 1.4s infinite ease-in-out;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.65); }
+}
+
+.ticker-text {
+  color: #f3f4f6;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.ticker-text strong {
+  color: #ffbd01;
+}
+
+/* ==========================================================================
+   MAIN NAVIGATION HEADER (10MS STYLE)
+   ========================================================================== */
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+  transition: all var(--transition-normal);
+}
+
+[data-theme="dark"] .main-header {
+  background: rgba(11, 15, 25, 0.92);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border-bottom-color: transparent;
+}
+
+[data-theme="dark"] .header-scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+  gap: 20px;
+}
+
+/* Brand Logo */
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.brand-logo-img {
+  height: 48px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+}
+
+.brand-link:hover .brand-logo-img {
+  transform: scale(1.02);
+}
+
+/* BOU Monogram Text: Dark Slate in Light Mode, Crisp White in Dark Mode & Footer */
+.brand-logo-bou {
+  fill: #111827;
+  transition: fill var(--transition-normal);
+}
+
+[data-theme="dark"] .brand-logo-bou {
+  fill: #ffffff;
+}
+
+.main-footer .brand-logo-bou {
+  fill: #ffffff;
+}
+
+/* Logo Slogan Badge Container & Text */
+.brand-logo-badge-bg {
+  fill: #ecfdf5;
+  stroke: #a7f3d0;
+  transition: fill var(--transition-normal), stroke var(--transition-normal);
+}
+
+.brand-logo-badge-text {
+  fill: #0f766e;
+  transition: fill var(--transition-normal);
+}
+
+[data-theme="dark"] .brand-logo-badge-bg {
+  fill: rgba(16, 185, 129, 0.16);
+  stroke: rgba(52, 211, 153, 0.45);
+}
+
+[data-theme="dark"] .brand-logo-badge-text {
+  fill: #a7f3d0;
+}
+
+/* Nav Menu (10MS clean links with soft pill hover) */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-link {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: var(--tms-green);
+  background: var(--tms-green-light);
+}
+
+[data-theme="dark"] .nav-link:hover {
+  background: rgba(20, 147, 83, 0.18);
+  color: #34d399;
+}
+
+.nav-link.active {
+  color: var(--tms-green);
+  background: var(--tms-green-light);
+  font-weight: 700;
+}
+
+[data-theme="dark"] .nav-link.active {
+  background: rgba(20, 147, 83, 0.25);
+  color: #34d399;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 3px;
+  background: var(--tms-green);
+  border-radius: var(--radius-full);
+}
+
+/* Nav Actions */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* Quick 16910 / Call Button in Nav */
+.nav-helpline-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--tms-green);
+  background: var(--tms-green-light);
+  border: 1px solid rgba(20, 147, 83, 0.2);
+  transition: all var(--transition-fast);
+}
+
+.nav-helpline-tag:hover {
+  background: var(--tms-green);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .nav-helpline-tag {
+  background: rgba(20, 147, 83, 0.18);
+  color: #34d399;
+}
+
+/* Mobile Toggle Hamburger */
+.mobile-nav-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-full);
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+  background: var(--bg-surface-muted);
+  border: 1px solid var(--border-subtle);
+  transition: all var(--transition-fast);
+}
+
+.mobile-nav-toggle:hover {
+  color: var(--tms-green);
+  border-color: var(--tms-green);
+  background: var(--tms-green-light);
+}
+
+/* Mobile Nav Drawer Responsive Styling */
+@media (max-width: 900px) {
+  .nav-helpline-tag {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    background: var(--bg-surface-elevated);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 20px;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform var(--transition-normal), opacity var(--transition-normal);
+    z-index: 99;
+  }
+
+  .nav-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-link {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+  }
+
+  .nav-link.active::after {
+    display: none;
+  }
+}
