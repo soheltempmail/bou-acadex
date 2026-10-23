@@ -89,17 +89,17 @@ export function getBookForSubjectSlug(slug: string): Book | null {
 }
 
 export function subjectOverviewPath(subjectCode: string): string {
-  return `/program/${subjectSlug(subjectCode)}/overview`;
+  return `/beta/program/${subjectSlug(subjectCode)}/overview`;
 }
 
 export function subjectReadPath(subjectCode: string): string {
-  return `/program/${subjectSlug(subjectCode)}/read`;
+  return `/beta/program/${subjectSlug(subjectCode)}/read`;
 }
 
 export function subjectMcqPath(subjectCode: string): string {
-  return `/program/${subjectSlug(subjectCode)}/mcq`;
+  return `/beta/program/${subjectSlug(subjectCode)}/mcq`;
 }
 
 export function subjectWrittenPath(subjectCode: string): string {
-  return `/program/${subjectSlug(subjectCode)}/written`;
+  return `/beta/program/${subjectSlug(subjectCode)}/written`;
 }

@@ -159,7 +159,7 @@ export function ExamResult({ bank, answers, result, onRetake }: ExamResultProps)
         <button className="btn btn-primary" onClick={onRetake}>
           🔄 Retake Test
         </button>
-        <Link href="/" className="btn btn-secondary">
+        <Link href="/beta" className="btn btn-secondary">
           Back to Home
         </Link>
       </div>

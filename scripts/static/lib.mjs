@@ -2,8 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 export const ROOT = process.cwd();
-export const BETA = path.join(ROOT, "beta");
-export const DATA = path.join(BETA, "src", "data");
+export const DATA = path.join(ROOT, "src", "data");
 
 export const books = JSON.parse(fs.readFileSync(path.join(DATA, "books.json"), "utf8"));
 export const mcqBanks = JSON.parse(fs.readFileSync(path.join(DATA, "mcq.json"), "utf8"));

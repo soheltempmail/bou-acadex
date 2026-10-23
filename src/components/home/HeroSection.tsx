@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useToast } from "@/components/ui/ToastProvider";
+import { withBasePath } from "@/lib/base-path";
 import { HeroBackdrop } from "./HeroBackdrop";
 import { HERO_CARDS } from "./hero.constants";
 
@@ -18,7 +19,7 @@ export function HeroSection() {
       showToast("অনুগ্রহ করে বিষয়, কোড বা কি-ওয়ার্ড লিখুন");
       return;
     }
-    router.push(`/books?q=${encodeURIComponent(trimmed)}`);
+    router.push(withBasePath(`/books?q=${encodeURIComponent(trimmed)}`));
   };
 
   return (
@@ -38,7 +39,7 @@ export function HeroSection() {
           {HERO_CARDS.map((card) => (
             <Link
               key={card.code}
-              href={card.href}
+              href={withBasePath(card.href)}
               className={`hero-glass-card hero-glass-card--${card.theme}`}
             >
               {/* Vibrant Multi-Color Ambient Radial Glow */}
@@ -81,7 +82,7 @@ export function HeroSection() {
         </div>
 
         <div className="hero-10ms-cta-wrap">
-          <Link href="/books" className="hero-10ms-cta-btn">
+          <Link href="/beta/books" className="hero-10ms-cta-btn">
             ফ্রি ই-বুক ও সমাধান দেখুন →
           </Link>
         </div>

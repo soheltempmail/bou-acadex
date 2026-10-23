@@ -89,7 +89,7 @@ export function MiniQuiz() {
                 <strong>{score}</strong> টি সঠিক উত্তর দিয়েছেন!
               </p>
               <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
-                <Link href="/mcq-test" className="btn btn-primary">
+                <Link href="/beta/mcq-test" className="btn btn-primary">
                   পূর্ণাঙ্গ MCQ পরীক্ষা দিন
                 </Link>
                 <button onClick={restart} className="btn btn-secondary">
@@ -169,7 +169,7 @@ export function MiniQuiz() {
           </div>
 
           <div className="mcq-box-footer" style={{ marginTop: 24 }}>
-            <Link href="/mcq-test" className="btn btn-secondary btn-sm">
+            <Link href="/beta/mcq-test" className="btn btn-secondary btn-sm">
               পূর্ণাঙ্গ পরীক্ষা এরিনা
             </Link>
             <button

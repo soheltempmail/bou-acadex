@@ -27,7 +27,7 @@ export function SubjectReader({
 
   const units = book.units ?? [];
   const overviewHref = subjectOverviewPath(book.subjectCode);
-  const booksHref = `/books?program=${encodeURIComponent(book.program)}`;
+  const booksHref = `/beta/books?program=${encodeURIComponent(book.program)}`;
   const mcqHref = subjectMcqPath(book.subjectCode);
   const writtenHref = subjectWrittenPath(book.subjectCode);
 
@@ -35,9 +35,9 @@ export function SubjectReader({
     <main className="section">
       <div className="container">
         <nav className="subject-overview-breadcrumb" aria-label="Breadcrumb">
-          <Link href="/">Home</Link>
+          <Link href="/beta">Home</Link>
           <span aria-hidden="true">/</span>
-          <Link href="/books">E-Books</Link>
+          <Link href="/beta/books">E-Books</Link>
           <span aria-hidden="true">/</span>
           <Link href={booksHref}>{book.program} Program</Link>
           <span aria-hidden="true">/</span>

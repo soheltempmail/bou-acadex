@@ -50,39 +50,37 @@ Site: http://localhost:3000 — API: http://localhost:3000/api
 
 | Command | Description |
 | --- | --- |
-| `npm run dev` | Start the dev server on port 3000 |
-| `npm run build` | Production build |
-| `npm run start` | Serve the production build |
+| `npm run dev` | Start unified dev server on port 3000 (serves static at `/` and Next.js at `/beta`) |
+| `npm run build` | Builds static site and Next.js serverless app |
+| `npm run start` | Serve production build on port 3000 |
 | `npm run lint` | ESLint (next/core-web-vitals) |
 | `npm run typecheck` | `tsc --noEmit` |
-| `npm run preview` | Static mirror on port 3000, `/beta` proxied to the beta app |
-| `npm run preview:dev` | Same, with the beta app in `next dev` mode |
-| `npm run build:static` | Regenerate the `static/` mirror from `beta/` |
+| `npm run build:static` | Regenerate the `static/` site |
 
-## Static mirror + `/beta` preview
+## Architecture: Dual-Tier Production & Serverless Vercel Deployment
 
-`npm run preview` starts `server.mjs`, which serves the generated `static/`
-mirror at http://localhost:3000/ and proxies `/beta` to the copy of the app in
-`beta/` running on port 3100 (build it once with `npm --prefix beta run build`,
-or use `npm run preview:dev` to run it in dev mode).
-
-`/beta` exists only in this local preview — the Vercel deployment serves the
-root Next.js app, which has no `/beta` route.
+1. **Root Domain (`/`, `/books`, `/mcq-test`, `/questions`, `/program/...`):**
+   Serves the ultra-lightweight, zero-overhead static web application built with HTML5, Vanilla CSS3 design tokens, and modular Vanilla JavaScript (`site.js`).
+2. **Beta Subpath (`/beta`, `/beta/books`, `/beta/mcq-test`, etc.):**
+   Serves the Next.js 14 App Router application (React 18, TypeScript 5, interactive PDF reader, timed MCQ testing arena, and serverless API endpoints).
+3. **Serverless on Vercel:**
+   The entire application runs serverless on Vercel without requiring background proxy processes:
+   - Root domain and static pages are served with 0ms cold starts.
+   - `/beta` and API endpoints run as Next.js serverless functions.
 
 ## API
 
 | Endpoint | Description |
 | --- | --- |
-| `GET /api/books` | E-books (`school`, `program`, `level`, `q`) |
-| `GET /api/questions` | Past papers (`year`, `program`, `school`, `semester`, `q`) |
-| `GET /api/notices` | Notices |
-| `GET /api/mcq` | MCQ subject list |
+| `GET /api/books` (or `/beta/api/books`) | E-books (`school`, `program`, `level`, `q`) |
+| `GET /api/questions` (or `/beta/api/questions`) | Past papers (`year`, `program`, `school`, `semester`, `q`) |
+| `GET /api/notices` (or `/beta/api/notices`) | Notices |
+| `GET /api/mcq` (or `/beta/api/mcq`) | MCQ subject list |
 | `GET /api/mcq?subject=ict` | Full MCQ bank |
 | `POST /api/mcq` | Auto-evaluate `{ subject, answers }` |
 
-A human-readable version lives at `/api-docs`.
+A human-readable version lives at `/api-docs` and `/beta/api-docs`.
 
 ## Deploy (Vercel)
 
-Import the repository as-is. Vercel detects Next.js automatically and deploys the
-React frontend plus the API route handlers as serverless functions.
+Import the repository as-is. Vercel detects Next.js automatically and deploys both the static site at the root domain and the Next.js App Router application at `/beta` alongside serverless API functions.

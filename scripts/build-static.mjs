@@ -24,7 +24,7 @@ import {
 } from "./static/legal.mjs";
 
 const OUT = path.join(ROOT, "static");
-const BETA = path.join(ROOT, "beta");
+const PUBLIC_ASSETS = path.join(ROOT, "public", "assets");
 const GENERATED_DIRS = [
   "home",
   "books",
@@ -59,20 +59,30 @@ for (const dir of GENERATED_DIRS) {
 fs.rmSync(path.join(OUT, "index.html"), { force: true });
 fs.mkdirSync(OUT, { recursive: true });
 
-// Shared CSS and JS
+// Shared CSS and JS into static/assets
 fs.mkdirSync(path.join(OUT, "assets/css"), { recursive: true });
-for (const file of fs.readdirSync(path.join(BETA, "src/styles"))) {
+fs.mkdirSync(path.join(PUBLIC_ASSETS, "css"), { recursive: true });
+fs.mkdirSync(path.join(PUBLIC_ASSETS, "js"), { recursive: true });
+
+for (const file of fs.readdirSync(path.join(ROOT, "src/styles"))) {
   if (file.endsWith(".css")) {
-    fs.copyFileSync(path.join(BETA, "src/styles", file), path.join(OUT, "assets/css", file));
+    fs.copyFileSync(path.join(ROOT, "src/styles", file), path.join(OUT, "assets/css", file));
+    fs.copyFileSync(path.join(ROOT, "src/styles", file), path.join(PUBLIC_ASSETS, "css", file));
   }
 }
 copy("scripts/static-assets/site.js", "assets/js/site.js");
 copy("scripts/static-assets/static.css", "assets/css/static.css");
-copy("beta/node_modules/pdfjs-dist/build/pdf.min.mjs", "assets/js/pdf.min.mjs");
-copy("beta/public/pdf.worker.min.mjs", "assets/pdf.worker.min.mjs");
-copy("beta/public/pdfjs", "assets/pdfjs");
-copy("beta/public/assets", "assets");
-copy("beta/public/books", "books");
+fs.copyFileSync(path.join(ROOT, "scripts/static-assets/site.js"), path.join(PUBLIC_ASSETS, "js/site.js"));
+fs.copyFileSync(path.join(ROOT, "scripts/static-assets/static.css"), path.join(PUBLIC_ASSETS, "css/static.css"));
+
+if (fs.existsSync(path.join(ROOT, "node_modules/pdfjs-dist/build/pdf.min.mjs"))) {
+  copy("node_modules/pdfjs-dist/build/pdf.min.mjs", "assets/js/pdf.min.mjs");
+  fs.copyFileSync(path.join(ROOT, "node_modules/pdfjs-dist/build/pdf.min.mjs"), path.join(PUBLIC_ASSETS, "js/pdf.min.mjs"));
+}
+copy("public/pdf.worker.min.mjs", "assets/pdf.worker.min.mjs");
+copy("public/pdfjs", "assets/pdfjs");
+copy("public/assets", "assets");
+copy("public/books", "books");
 
 // Pages
 write("index.html", homePage());

@@ -5,7 +5,7 @@
   "description": "BOU Acadex - Bangladesh Open University Student Academic Hub (static HTML/CSS/JS frontend + Next.js TypeScript API)",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/build-static.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

@@ -28,6 +28,7 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+.freebuff/
 
 # next.js isolated dev build dir
 .next-dev/
