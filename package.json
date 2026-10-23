@@ -8,7 +8,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preview": "node server.mjs",
+    "preview:dev": "node server.mjs --dev",
+    "build:static": "node scripts/build-static.mjs"
   },
   "dependencies": {
     "next": "^14.2.15",

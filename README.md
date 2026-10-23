@@ -55,6 +55,19 @@ Site: http://localhost:3000 — API: http://localhost:3000/api
 | `npm run start` | Serve the production build |
 | `npm run lint` | ESLint (next/core-web-vitals) |
 | `npm run typecheck` | `tsc --noEmit` |
+| `npm run preview` | Static mirror on port 3000, `/beta` proxied to the beta app |
+| `npm run preview:dev` | Same, with the beta app in `next dev` mode |
+| `npm run build:static` | Regenerate the `static/` mirror from `beta/` |
+
+## Static mirror + `/beta` preview
+
+`npm run preview` starts `server.mjs`, which serves the generated `static/`
+mirror at http://localhost:3000/ and proxies `/beta` to the copy of the app in
+`beta/` running on port 3100 (build it once with `npm --prefix beta run build`,
+or use `npm run preview:dev` to run it in dev mode).
+
+`/beta` exists only in this local preview — the Vercel deployment serves the
+root Next.js app, which has no `/beta` route.
 
 ## API
 
