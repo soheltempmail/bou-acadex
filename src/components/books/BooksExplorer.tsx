@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { getBooks } from "@/lib/api-client";
 import type { Book } from "@/types";
@@ -9,18 +9,14 @@ import { SCHOOL_META, SEMESTER_LABELS } from "./book.constants";
 import { BooksFilters } from "./BooksFilters";
 
 interface BooksExplorerProps {
-  initialLevel?: string;
   initialYear?: string;
   initialSemester?: string;
-  initialGroup?: string;
   initialQuery?: string;
 }
 
 export function BooksExplorer({
-  initialLevel,
   initialYear,
   initialSemester,
-  initialGroup,
   initialQuery,
 }: BooksExplorerProps) {
   const router = useRouter();
@@ -28,12 +24,10 @@ export function BooksExplorer({
 
   const [books, setBooks] = useState<Book[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const [level, setLevel] = useState(initialLevel ?? "all");
   const [query, setQuery] = useState(initialQuery ?? "");
 
   const [yearFilter, setYearFilter] = useState<string>(initialYear ?? "all");
   const [semesterFilter, setSemesterFilter] = useState<string>(initialSemester ?? "all");
-  const [groupFilter, setGroupFilter] = useState<string>(initialGroup ?? "all");
 
   useEffect(() => {
     let cancelled = false;
@@ -52,30 +46,14 @@ export function BooksExplorer({
   }, []);
 
   useEffect(() => {
-    if (initialLevel) setLevel(initialLevel);
-  }, [initialLevel]);
-
-  useEffect(() => {
     if (initialQuery) setQuery(initialQuery);
   }, [initialQuery]);
-
-  const prevLevelRef = useRef(level);
-
-  useEffect(() => {
-    if (prevLevelRef.current === level) return;
-    prevLevelRef.current = level;
-    setYearFilter("all");
-    setSemesterFilter("all");
-    setGroupFilter("all");
-  }, [level]);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
       const params = new URLSearchParams();
-      if (level !== "all") params.set("level", level);
       if (yearFilter !== "all") params.set("year", yearFilter);
       if (semesterFilter !== "all") params.set("semester", semesterFilter);
-      if (groupFilter !== "all") params.set("group", groupFilter);
       const trimmedQuery = query.trim();
       if (trimmedQuery) params.set("q", trimmedQuery);
       const qs = params.toString();
@@ -83,15 +61,13 @@ export function BooksExplorer({
     }, 300);
 
     return () => window.clearTimeout(timer);
-  }, [level, yearFilter, semesterFilter, groupFilter, query, router, pathname]);
+  }, [yearFilter, semesterFilter, query, router, pathname]);
 
   const visibleBooks = useMemo(() => {
     const needle = query.toLowerCase().trim();
     const normNeedle = needle.replace(/\s+/g, "");
 
     return books.filter((book) => {
-      if (level !== "all" && book.level !== level) return false;
-
       if (yearFilter === "1st") {
         if (!book.year?.includes("১ম")) return false;
       } else if (yearFilter === "2nd") {
@@ -102,8 +78,6 @@ export function BooksExplorer({
         return false;
       }
 
-      if (groupFilter !== "all" && book.group !== groupFilter) return false;
-
       if (!needle) return true;
 
       const meta = SCHOOL_META[book.school];
@@ -111,8 +85,6 @@ export function BooksExplorer({
         meta?.label,
         book.title,
         book.subjectCode,
-        book.program,
-        book.level,
         book.edition,
         book.summary,
         book.year,
@@ -126,7 +98,7 @@ export function BooksExplorer({
 
       return haystack.includes(needle) || (normNeedle.length > 2 && normHaystack.includes(normNeedle));
     });
-  }, [books, level, query, yearFilter, semesterFilter, groupFilter]);
+  }, [books, query, yearFilter, semesterFilter]);
 
   const { standaloneBooks, semesterGroups } = useMemo(() => {
     const semesterMap = new Map<number, Book[]>();
@@ -149,14 +121,8 @@ export function BooksExplorer({
     return { standaloneBooks: standalone, semesterGroups: groups };
   }, [visibleBooks]);
 
-  const levelBooks = useMemo(
-    () => (level === "all" ? books : books.filter((b) => b.level === level)),
-    [books, level]
-  );
-
-  const showYear = levelBooks.some((b) => b.year);
-  const showSemester = levelBooks.some((b) => b.semester != null);
-  const showGroup = levelBooks.some((b) => b.group);
+  const showYear = books.some((b) => b.year);
+  const showSemester = books.some((b) => b.semester != null);
 
   return (
     <main className="section">
@@ -171,19 +137,14 @@ export function BooksExplorer({
         </header>
 
         <BooksFilters
-          level={level}
           query={query}
           yearFilter={yearFilter}
           semesterFilter={semesterFilter}
-          groupFilter={groupFilter}
           showYear={showYear}
           showSemester={showSemester}
-          showGroup={showGroup}
-          onLevelChange={setLevel}
           onQueryChange={setQuery}
           onYearChange={setYearFilter}
           onSemesterChange={setSemesterFilter}
-          onGroupChange={setGroupFilter}
         />
 
         <div className="books-grid" id="booksContainer">

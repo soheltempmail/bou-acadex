@@ -1,18 +1,14 @@
 interface QuestionsFiltersProps {
   year: string;
-  program: string;
   query: string;
   onYearChange: (year: string) => void;
-  onProgramChange: (program: string) => void;
   onQueryChange: (query: string) => void;
 }
 
 export function QuestionsFilters({
   year,
-  program,
   query,
   onYearChange,
-  onProgramChange,
   onQueryChange,
 }: QuestionsFiltersProps) {
   return (
@@ -31,23 +27,6 @@ export function QuestionsFilters({
           <option value="2021">২০২১ ফাইনাল</option>
           <option value="2020">২০২০ ফাইনাল</option>
           <option value="2019">২০১৯ ফাইনাল</option>
-        </select>
-      </div>
-
-      <div className="filter-group">
-        <label htmlFor="qProgramFilter">প্রোগ্রাম:</label>
-        <select
-          id="qProgramFilter"
-          className="filter-select"
-          value={program}
-          onChange={(event) => onProgramChange(event.target.value)}
-        >
-          <option value="all">সকল প্রোগ্রাম (All Programs)</option>
-          <option value="BBA">BBA (ব্যবসায় শিক্ষা স্কুল)</option>
-          <option value="BSS">BA / BSS (সামাজিক বিজ্ঞান ও ভাষা)</option>
-          <option value="HSC">HSC (ওপেন স্কুল)</option>
-          <option value="CSE">B.Sc in CSE (বিজ্ঞান ও প্রযুক্তি)</option>
-          <option value="LLB">LL.B Honors (আইন অনুষদ)</option>
         </select>
       </div>
 

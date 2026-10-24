@@ -24,17 +24,17 @@ export function SubjectWritten({ book, paper, mcqQuestionCount }: SubjectWritten
   const overviewHref = subjectOverviewPath(book.subjectCode);
   const readHref = subjectReadPath(book.subjectCode);
   const mcqHref = subjectMcqPath(book.subjectCode);
-  const booksHref = `/beta/books?program=${encodeURIComponent(book.program)}`;
+  const booksHref = "/books";
 
   return (
     <main className="section">
       <div className="container">
         <nav className="subject-overview-breadcrumb" aria-label="Breadcrumb">
-          <Link href="/beta">Home</Link>
+          <Link href="/">Home</Link>
           <span aria-hidden="true">/</span>
-          <Link href="/beta/books">E-Books</Link>
+          <Link href="/books">E-Books</Link>
           <span aria-hidden="true">/</span>
-          <Link href={booksHref}>{book.program} Program</Link>
+          <Link href={booksHref}>DCSA</Link>
           <span aria-hidden="true">/</span>
           <Link href={overviewHref}>{book.subjectCode}</Link>
           <span aria-hidden="true">/</span>
@@ -44,7 +44,7 @@ export function SubjectWritten({ book, paper, mcqQuestionCount }: SubjectWritten
         <article className="subject-overview">
           <header className="subject-overview-hero" style={{ background: meta.gradient }}>
             <div className="subject-overview-hero-top">
-              <span className="product-badge product-badge-program">{book.program}</span>
+              <span className="product-badge product-badge-program">DCSA</span>
               <span className="subject-overview-hero-code">{book.subjectCode}</span>
             </div>
             <h1 className="subject-overview-title">{paper.subjectName}</h1>
@@ -62,7 +62,7 @@ export function SubjectWritten({ book, paper, mcqQuestionCount }: SubjectWritten
                 <h2 className="subject-overview-card-title">📊 প্রশ্নপত্রের নম্বর বিভাজন</h2>
                 <div className="subject-overview-tags">
                   <span className="tag-badge">
-                    {paper.program} • {paper.school}
+                    {paper.school}
                   </span>
                   <span className={`tag-badge${paper.isSolved ? " solved" : ""}`}>
                     {paper.isSolved ? "✓ Model Answers Verified" : "Model Answers Pending"}
@@ -138,10 +138,6 @@ export function SubjectWritten({ book, paper, mcqQuestionCount }: SubjectWritten
                   <div>
                     <dt>বিষয় কোড</dt>
                     <dd>{paper.subjectCode}</dd>
-                  </div>
-                  <div>
-                    <dt>প্রোগ্রাম</dt>
-                    <dd>{paper.program}</dd>
                   </div>
                   <div>
                     <dt>পরীক্ষা</dt>

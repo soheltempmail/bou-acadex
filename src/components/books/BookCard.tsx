@@ -49,13 +49,13 @@ export function BookCard({ book }: BookCardProps) {
   };
 
   return (
-    <article className="book-card product-card" data-school={book.school} data-level={book.level}>
+    <article className="book-card product-card" data-school={book.school}>
       <div className="book-cover-mock" style={{ background: gradient }}>
         <span className="book-cover-watermark" aria-hidden="true">
           📚
         </span>
         <div className="book-cover-top">
-          <span className="product-badge product-badge-program">{book.program}</span>
+          <span className="product-badge product-badge-program">DCSA</span>
         </div>
         <div className="book-cover-info">
           <span className="book-cover-tag">
@@ -73,7 +73,7 @@ export function BookCard({ book }: BookCardProps) {
       </div>
       <div className="book-info-body">
         <div className="book-school">
-          {book.program} Program • {book.edition}
+          DCSA Program • {book.edition}
         </div>
         <div className="book-spec-chips">
           <span className="book-spec-chip">📄 {book.pages} Pages</span>

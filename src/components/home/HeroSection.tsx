@@ -82,7 +82,7 @@ export function HeroSection() {
         </div>
 
         <div className="hero-10ms-cta-wrap">
-          <Link href="/beta/books" className="hero-10ms-cta-btn">
+          <Link href="/books" className="hero-10ms-cta-btn">
             ফ্রি ই-বুক ও সমাধান দেখুন →
           </Link>
         </div>

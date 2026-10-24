@@ -4,7 +4,6 @@ import type { QuestionPaper } from "@/types";
 export function paperHaystack(paper: QuestionPaper): string {
   return [
     paper.year,
-    paper.program,
     paper.school,
     paper.semester,
     semesterLabel(paper.semester),

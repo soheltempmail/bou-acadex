@@ -10,11 +10,8 @@ export interface Book {
   subjectCode: string;
   title: string;
   school: string;
-  program: string;
-  level: string;
   semester?: number;
   year?: string;
-  group?: "science" | "arts" | "commerce";
   notice?: string;
   unitsCount: number;
   pages: number;
@@ -36,7 +33,6 @@ export interface QuestionItem {
 export interface QuestionPaper {
   id: string;
   year: string;
-  program: string;
   school: string;
   semester: string;
   subjectCode: string;
@@ -68,20 +64,6 @@ export interface WrittenBank {
 }
 
 export type WrittenBankMap = Record<string, WrittenBank>;
-
-export interface SscSubjectGroup {
-  id: string;
-  name: string;
-  enName: string;
-  icon: string;
-  color: string;
-  subjects: string[];
-}
-
-export interface SscSubjectCatalog {
-  commonSubjects: string[];
-  groups: SscSubjectGroup[];
-}
 
 export interface Notice {
   id: string;

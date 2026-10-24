@@ -9,19 +9,16 @@ import { paperHaystack } from "./question.utils";
 
 interface QuestionsExplorerProps {
   initialYear?: string;
-  initialProgram?: string;
   initialSearch?: string;
 }
 
 export function QuestionsExplorer({
   initialYear,
-  initialProgram,
   initialSearch,
 }: QuestionsExplorerProps) {
   const [papers, setPapers] = useState<QuestionPaper[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [year, setYear] = useState(initialYear ?? "all");
-  const [program, setProgram] = useState(initialProgram ?? "all");
   const [query, setQuery] = useState(initialSearch ?? "");
   const [openPanels, setOpenPanels] = useState<Set<string>>(new Set());
 
@@ -46,10 +43,6 @@ export function QuestionsExplorer({
   }, [initialYear]);
 
   useEffect(() => {
-    if (initialProgram) setProgram(initialProgram);
-  }, [initialProgram]);
-
-  useEffect(() => {
     if (initialSearch) setQuery(initialSearch);
   }, [initialSearch]);
 
@@ -58,11 +51,10 @@ export function QuestionsExplorer({
 
     return papers.filter((paper) => {
       if (year !== "all" && paper.year !== year) return false;
-      if (program !== "all" && paper.program !== program) return false;
       if (!needle) return true;
       return paperHaystack(paper).includes(needle);
     });
-  }, [papers, year, program, query]);
+  }, [papers, year, query]);
 
   const togglePanel = (id: string) => {
     setOpenPanels((current) => {
@@ -90,10 +82,8 @@ export function QuestionsExplorer({
 
         <QuestionsFilters
           year={year}
-          program={program}
           query={query}
           onYearChange={setYear}
-          onProgramChange={setProgram}
           onQueryChange={setQuery}
         />
 

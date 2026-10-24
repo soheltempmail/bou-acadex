@@ -5,11 +5,11 @@ interface LegalNavTabsProps {
 }
 
 const TABS = [
-  { key: "about", href: "/beta/about", label: "আমাদের সম্পর্কে (About)" },
-  { key: "terms", href: "/beta/terms", label: "ব্যবহারের শর্তাবলী (Terms)" },
-  { key: "disclaimer", href: "/beta/disclaimer", label: "আইনি অস্বীকৃতি (Disclaimer)" },
-  { key: "privacy", href: "/beta/privacy", label: "গোপনীয়তা নীতি (Privacy)" },
-  { key: "api", href: "/beta/api-docs", label: "ডেভেলপার API" },
+  { key: "about", href: "/about", label: "আমাদের সম্পর্কে (About)" },
+  { key: "terms", href: "/terms", label: "ব্যবহারের শর্তাবলী (Terms)" },
+  { key: "disclaimer", href: "/disclaimer", label: "আইনি অস্বীকৃতি (Disclaimer)" },
+  { key: "privacy", href: "/privacy", label: "গোপনীয়তা নীতি (Privacy)" },
+  { key: "api", href: "/api-docs", label: "ডেভেলপার API" },
 ];
 
 export function LegalNavTabs({ current }: LegalNavTabsProps) {

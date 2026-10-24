@@ -27,7 +27,7 @@ export function SubjectReader({
 
   const units = book.units ?? [];
   const overviewHref = subjectOverviewPath(book.subjectCode);
-  const booksHref = `/beta/books?program=${encodeURIComponent(book.program)}`;
+  const booksHref = "/books";
   const mcqHref = subjectMcqPath(book.subjectCode);
   const writtenHref = subjectWrittenPath(book.subjectCode);
 
@@ -35,11 +35,11 @@ export function SubjectReader({
     <main className="section">
       <div className="container">
         <nav className="subject-overview-breadcrumb" aria-label="Breadcrumb">
-          <Link href="/beta">Home</Link>
+          <Link href="/">Home</Link>
           <span aria-hidden="true">/</span>
-          <Link href="/beta/books">E-Books</Link>
+          <Link href="/books">E-Books</Link>
           <span aria-hidden="true">/</span>
-          <Link href={booksHref}>{book.program} Program</Link>
+          <Link href={booksHref}>DCSA</Link>
           <span aria-hidden="true">/</span>
           <Link href={overviewHref}>{book.subjectCode}</Link>
           <span aria-hidden="true">/</span>
@@ -49,7 +49,7 @@ export function SubjectReader({
         <article className="subject-overview subject-overview-reader">
           <header className="subject-overview-hero" style={{ background: gradient }}>
             <div className="subject-overview-hero-top">
-              <span className="product-badge product-badge-program">{book.program}</span>
+              <span className="product-badge product-badge-program">DCSA</span>
               <span className="subject-overview-hero-code">{book.subjectCode}</span>
             </div>
             <h1 className="subject-overview-title">{book.title}</h1>
@@ -139,10 +139,6 @@ export function SubjectReader({
               <section className="subject-overview-card">
                 <h2 className="subject-overview-card-title">📋 সংক্ষিপ্ত তথ্য</h2>
                 <dl className="subject-overview-facts">
-                  <div>
-                    <dt>প্রোগ্রাম</dt>
-                    <dd>{book.program}</dd>
-                  </div>
                   <div>
                     <dt>অনুষদ</dt>
                     <dd>{meta.label}</dd>

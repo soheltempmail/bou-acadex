@@ -45,7 +45,7 @@ function SolutionStep({ question }: { question: QuestionItem }) {
 
 export function QuestionPaperCard({ paper, open, onToggle }: QuestionPaperCardProps) {
   return (
-    <article className="question-paper-card" data-year={paper.year} data-program={paper.program}>
+    <article className="question-paper-card" data-year={paper.year}>
       <div className="question-summary-row">
         <div className="question-meta-col">
           <div className="year-stamp">{paper.year}</div>
@@ -55,7 +55,7 @@ export function QuestionPaperCard({ paper, open, onToggle }: QuestionPaperCardPr
             </h4>
             <div className="question-tags">
               <span className="tag-badge">
-                {paper.program} • {semesterLabel(paper.semester)} {paper.term}
+                DCSA • {semesterLabel(paper.semester)} {paper.term}
               </span>
               <span className={`tag-badge${paper.isSolved ? " solved" : ""}`}>
                 {paper.isSolved ? "✓ Verified Model Answers" : "Model Answers Pending"}

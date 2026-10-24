@@ -13,8 +13,11 @@ src/
     books/page.tsx           E-Books
     questions/page.tsx       Old Questions & Answers
     mcq-test/page.tsx        MCQ Mock Test
+    program/[subject]/       Study programme (overview, read, mcq, written)
     api-docs/page.tsx        API reference
+    about|terms|privacy|disclaimer/   Legal pages
     api/                     Route handlers / serverless functions (books, questions, notices, mcq)
+    pdfjs/[...path]/         Serves PDF.js cmaps and standard fonts
   components/
     layout/                  Top notice bar, header (theme + mobile nav), footer, page shell
     ui/                      Toast provider, modal
@@ -29,6 +32,8 @@ src/
 
 public/
   assets/                    Logo, favicon, images
+  books/                     PDF course material served to the reader
+  pdfjs/                     PDF.js cmaps and standard fonts
 ```
 
 The frontend is built with React (Next.js App Router) and calls the same-origin
@@ -50,37 +55,41 @@ Site: http://localhost:3000 — API: http://localhost:3000/api
 
 | Command | Description |
 | --- | --- |
-| `npm run dev` | Start unified dev server on port 3000 (serves static at `/` and Next.js at `/beta`) |
-| `npm run build` | Builds static site and Next.js serverless app |
+| `npm run dev` | Start the dev server on port 3000 |
+| `npm run build` | Production build (`next build`) |
 | `npm run start` | Serve production build on port 3000 |
 | `npm run lint` | ESLint (next/core-web-vitals) |
 | `npm run typecheck` | `tsc --noEmit` |
-| `npm run build:static` | Regenerate the `static/` site |
 
-## Architecture: Dual-Tier Production & Serverless Vercel Deployment
+## Architecture: Serverless on Vercel
 
-1. **Root Domain (`/`, `/books`, `/mcq-test`, `/questions`, `/program/...`):**
-   Serves the ultra-lightweight, zero-overhead static web application built with HTML5, Vanilla CSS3 design tokens, and modular Vanilla JavaScript (`site.js`).
-2. **Beta Subpath (`/beta`, `/beta/books`, `/beta/mcq-test`, etc.):**
-   Serves the Next.js 14 App Router application (React 18, TypeScript 5, interactive PDF reader, timed MCQ testing arena, and serverless API endpoints).
-3. **Serverless on Vercel:**
-   The entire application runs serverless on Vercel without requiring background proxy processes:
-   - Root domain and static pages are served with 0ms cold starts.
-   - `/beta` and API endpoints run as Next.js serverless functions.
+The whole site is one Next.js 14 App Router application served from the domain
+root:
+
+- **Pages** (`/`, `/books`, `/questions`, `/mcq-test`, `/program/...`) render
+  as Next.js routes — static where possible, streamed where not.
+- **API** (`/api/*`) deploys as serverless functions.
+- **PDF.js assets** (`/pdfjs/*`, `/pdf.worker.min.mjs`) are traced into the
+  serverless bundles by `outputFileTracingIncludes` in `next.config.mjs`.
+
+There is no separate static site and no reverse proxy — no `/beta` prefix.
 
 ## API
 
 | Endpoint | Description |
 | --- | --- |
-| `GET /api/books` (or `/beta/api/books`) | E-books (`school`, `program`, `level`, `q`) |
-| `GET /api/questions` (or `/beta/api/questions`) | Past papers (`year`, `program`, `school`, `semester`, `q`) |
-| `GET /api/notices` (or `/beta/api/notices`) | Notices |
-| `GET /api/mcq` (or `/beta/api/mcq`) | MCQ subject list |
+| `GET /api/books` | E-books (`school`, `year`, `q`) |
+| `GET /api/questions` | Past papers (`year`, `school`, `semester`, `q`) |
+| `GET /api/notices` | Notices |
+| `GET /api/mcq` | MCQ subject list |
 | `GET /api/mcq?subject=ict` | Full MCQ bank |
 | `POST /api/mcq` | Auto-evaluate `{ subject, answers }` |
 
-A human-readable version lives at `/api-docs` and `/beta/api-docs`.
+A human-readable version lives at `/api-docs`.
 
 ## Deploy (Vercel)
 
-Import the repository as-is. Vercel detects Next.js automatically and deploys both the static site at the root domain and the Next.js App Router application at `/beta` alongside serverless API functions.
+Import the repository as-is and set the project **Root Directory** to the folder
+containing this `package.json`. Vercel detects the `nextjs` framework (see
+`vercel.json`) and deploys every page, API route, and PDF.js asset as
+serverless functions.

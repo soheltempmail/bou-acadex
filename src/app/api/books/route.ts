@@ -11,8 +11,6 @@ export async function GET(request: Request): Promise<NextResponse> {
   try {
     const { searchParams } = new URL(request.url);
     const school = searchParams.get("school");
-    const program = searchParams.get("program");
-    const level = searchParams.get("level");
     const year = searchParams.get("year");
     const query = searchParams.get("q")?.toLowerCase().trim();
 
@@ -21,12 +19,6 @@ export async function GET(request: Request): Promise<NextResponse> {
 
     if (school && school !== "all") {
       results = results.filter((book) => book.school.toLowerCase() === school.toLowerCase());
-    }
-    if (program && program !== "all") {
-      results = results.filter((book) => book.program.toLowerCase() === program.toLowerCase());
-    }
-    if (level && level !== "all") {
-      results = results.filter((book) => book.level.toLowerCase() === level.toLowerCase());
     }
     if (year && year !== "all") {
       results = results.filter((book) => book.year && book.year.toLowerCase().includes(year.toLowerCase()));

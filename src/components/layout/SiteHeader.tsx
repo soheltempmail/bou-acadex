@@ -14,10 +14,10 @@ interface SiteHeaderProps {
 const THEME_KEY = "bou_acadex_theme";
 
 const NAV_LINKS = [
-  { href: "/beta", label: "Home" },
-  { href: "/beta/books", label: "E-Books" },
-  { href: "/beta/questions", label: "Past Questions" },
-  { href: "/beta/mcq-test", label: "MCQ Test" },
+  { href: "/", label: "Home" },
+  { href: "/books", label: "E-Books" },
+  { href: "/questions", label: "Past Questions" },
+  { href: "/mcq-test", label: "MCQ Test" },
 ];
 
 export function SiteHeader({ showSchoolsLink = false }: SiteHeaderProps) {
@@ -74,12 +74,12 @@ export function SiteHeader({ showSchoolsLink = false }: SiteHeaderProps) {
   };
 
   const isActive = (href: string) =>
-    href === "/beta" ? pathname === "/beta" || pathname === "/beta/" : pathname.startsWith(href);
+    href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
     <header className={`main-header${scrolled ? " header-scrolled" : ""}`} id="mainHeader">
       <div className="container nav-container">
-        <Link href="/beta" className="brand-link" aria-label="BOU Acadex Home">
+        <Link href="/" className="brand-link" aria-label="BOU Acadex Home">
           <BrandLogo className="brand-logo-img" idPrefix="header-logo" />
         </Link>
 
@@ -153,7 +153,7 @@ export function SiteHeader({ showSchoolsLink = false }: SiteHeaderProps) {
             )}
           </button>
 
-          <Link href="/beta/mcq-test" className="btn btn-primary btn-sm">
+          <Link href="/mcq-test" className="btn btn-primary btn-sm">
             Start MCQ Test
           </Link>
 

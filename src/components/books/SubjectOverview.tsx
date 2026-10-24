@@ -60,7 +60,7 @@ export function SubjectOverview({
 
   const mcqHref = subjectMcqPath(book.subjectCode);
   const writtenHref = subjectWrittenPath(book.subjectCode);
-  const booksHref = `/beta/books?program=${encodeURIComponent(book.program)}`;
+  const booksHref = "/books";
   const readHref = subjectReadPath(book.subjectCode);
   const isProjectCourse =
     book.subjectCode.replace(/\s+/g, "").toUpperCase() ===
@@ -70,11 +70,11 @@ export function SubjectOverview({
     <main className="section">
       <div className="container">
         <nav className="subject-overview-breadcrumb" aria-label="Breadcrumb">
-          <Link href="/beta">Home</Link>
+          <Link href="/">Home</Link>
           <span aria-hidden="true">/</span>
-          <Link href="/beta/books">E-Books</Link>
+          <Link href="/books">E-Books</Link>
           <span aria-hidden="true">/</span>
-          <Link href={booksHref}>{book.program} Program</Link>
+          <Link href={booksHref}>DCSA</Link>
           <span aria-hidden="true">/</span>
           <span className="subject-overview-breadcrumb-current">{book.subjectCode}</span>
         </nav>
@@ -82,7 +82,7 @@ export function SubjectOverview({
         <article className="subject-overview">
           <header className="subject-overview-hero" style={{ background: gradient }}>
             <div className="subject-overview-hero-top">
-              <span className="product-badge product-badge-program">{book.program}</span>
+              <span className="product-badge product-badge-program">DCSA</span>
               <span className="subject-overview-hero-code">{book.subjectCode}</span>
             </div>
             <h1 className="subject-overview-title">{book.title}</h1>
@@ -325,16 +325,8 @@ export function SubjectOverview({
                 <h2 className="subject-overview-card-title">📋 সংক্ষিপ্ত তথ্য</h2>
                 <dl className="subject-overview-facts">
                   <div>
-                    <dt>প্রোগ্রাম</dt>
-                    <dd>{book.program}</dd>
-                  </div>
-                  <div>
                     <dt>অনুষদ</dt>
                     <dd>{meta.label}</dd>
-                  </div>
-                  <div>
-                    <dt>স্তর</dt>
-                    <dd>{book.level}</dd>
                   </div>
                   <div>
                     <dt>বিষয় কোড</dt>

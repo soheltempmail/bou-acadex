@@ -36,3 +36,9 @@ Thumbs.db
 
 # raw source material (processed copies live in public/books)
 Computer Basic - 1201/
+
+# Local working folders kept outside version control
+#   BOU Acadex/       -> leftover material (server/, node_modules, raw course source)
+#   Bou Acadex Opener/ -> unrelated static link-opener site
+BOU Acadex/
+Bou Acadex Opener/

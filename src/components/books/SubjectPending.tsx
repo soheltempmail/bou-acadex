@@ -12,17 +12,17 @@ export function SubjectPending({ book, kind }: SubjectPendingProps) {
   const meta = SCHOOL_META[book.school] ?? { label: book.school, gradient: "#173b55" };
   const overviewHref = subjectOverviewPath(book.subjectCode);
   const readHref = subjectReadPath(book.subjectCode);
-  const booksHref = `/beta/books?program=${encodeURIComponent(book.program)}`;
+  const booksHref = "/books";
 
   return (
     <main className="section">
       <div className="container">
         <nav className="subject-overview-breadcrumb" aria-label="Breadcrumb">
-          <Link href="/beta">Home</Link>
+          <Link href="/">Home</Link>
           <span aria-hidden="true">/</span>
-          <Link href="/beta/books">E-Books</Link>
+          <Link href="/books">E-Books</Link>
           <span aria-hidden="true">/</span>
-          <Link href={booksHref}>{book.program} Program</Link>
+          <Link href={booksHref}>DCSA</Link>
           <span aria-hidden="true">/</span>
           <Link href={overviewHref}>{book.subjectCode}</Link>
           <span aria-hidden="true">/</span>
@@ -34,7 +34,7 @@ export function SubjectPending({ book, kind }: SubjectPendingProps) {
         <article className="subject-overview">
           <header className="subject-overview-hero" style={{ background: meta.gradient }}>
             <div className="subject-overview-hero-top">
-              <span className="product-badge product-badge-program">{book.program}</span>
+              <span className="product-badge product-badge-program">DCSA</span>
               <span className="subject-overview-hero-code">{book.subjectCode}</span>
             </div>
             <h1 className="subject-overview-title">{book.title}</h1>

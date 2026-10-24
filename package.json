@@ -2,16 +2,13 @@
   "name": "bou-acadex",
   "version": "1.0.0",
   "private": true,
-  "description": "BOU Acadex - Bangladesh Open University Student Academic Hub (static HTML/CSS/JS frontend + Next.js TypeScript API)",
+  "description": "BOU Acadex - Bangladesh Open University Student Academic Hub (Next.js App Router frontend + serverless API routes)",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build-static.mjs && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit",
-    "preview": "node server.mjs",
-    "preview:dev": "node server.mjs --dev",
-    "build:static": "node scripts/build-static.mjs"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^14.2.15",

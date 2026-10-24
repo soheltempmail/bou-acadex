@@ -14,12 +14,12 @@ export function SiteFooter({ variant = "default" }: SiteFooterProps) {
             &copy; 2024-2026 <strong>BOU Acadex</strong>. বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয় ডিজিটাল একাডেমি।
           </div>
           <div className="footer-bottom-nav">
-            <Link href="/beta">হোম</Link>
-            <Link href="/beta/about">আমাদের সম্পর্কে</Link>
-            <Link href="/beta/terms">শর্তাবলী</Link>
-            <Link href="/beta/disclaimer">অস্বীকৃতি</Link>
-            <Link href="/beta/privacy">গোপনীয়তা</Link>
-            <Link href="/beta/api-docs">API</Link>
+            <Link href="/">হোম</Link>
+            <Link href="/about">আমাদের সম্পর্কে</Link>
+            <Link href="/terms">শর্তাবলী</Link>
+            <Link href="/disclaimer">অস্বীকৃতি</Link>
+            <Link href="/privacy">গোপনীয়তা</Link>
+            <Link href="/api-docs">API</Link>
             <a href="/">🌐 মূল সাইট</a>
           </div>
         </div>
@@ -73,13 +73,13 @@ export function SiteFooter({ variant = "default" }: SiteFooterProps) {
             <h4>স্টাডি রিসোর্স</h4>
             <ul className="footer-links">
               <li>
-                <Link href="/beta/books">ই-বুক ও মডিউল লাইব্রেরি</Link>
+                <Link href="/books">ই-বুক ও মডিউল লাইব্রেরি</Link>
               </li>
               <li>
-                <Link href="/beta/questions">বিগত বছরের প্রশ্ন ও উত্তর</Link>
+                <Link href="/questions">বিগত বছরের প্রশ্ন ও উত্তর</Link>
               </li>
               <li>
-                <Link href="/beta/mcq-test">অনলাইন MCQ টেস্ট এরিনা</Link>
+                <Link href="/mcq-test">অনলাইন MCQ টেস্ট এরিনা</Link>
               </li>
               <li>
                 <a href="https://ebookbou.edu.bd" target="_blank" rel="noopener">
@@ -93,19 +93,7 @@ export function SiteFooter({ variant = "default" }: SiteFooterProps) {
             <h4>বাউবি অনুষদসমূহ</h4>
             <ul className="footer-links">
               <li>
-                <Link href="/beta/books?level=Undergraduate">ব্যবসায় শিক্ষা স্কুল (SOB)</Link>
-              </li>
-              <li>
-                <Link href="/beta/books?level=Undergraduate">সামাজিক বিজ্ঞান ও ভাষা (SSHL)</Link>
-              </li>
-              <li>
-                <Link href="/beta/books?level=Secondary">ওপেন স্কুল (SSC ও HSC)</Link>
-              </li>
-              <li>
-                <Link href="/beta/books?level=Diploma">বিজ্ঞান ও প্রযুক্তি (SST/DCSA)</Link>
-              </li>
-              <li>
-                <Link href="/beta/books?level=Postgraduate">শিক্ষা স্কুল (SOE)</Link>
+                <Link href="/books">বিজ্ঞান ও প্রযুক্তি (SST/DCSA)</Link>
               </li>
             </ul>
           </div>
@@ -114,19 +102,19 @@ export function SiteFooter({ variant = "default" }: SiteFooterProps) {
             <h4>প্ল্যাটফর্ম ও নীতিমালা</h4>
             <ul className="footer-links">
               <li>
-                <Link href="/beta/about">আমাদের সম্পর্কে (About Us)</Link>
+                <Link href="/about">আমাদের সম্পর্কে (About Us)</Link>
               </li>
               <li>
-                <Link href="/beta/terms">ব্যবহারের শর্তাবলী (Terms)</Link>
+                <Link href="/terms">ব্যবহারের শর্তাবলী (Terms)</Link>
               </li>
               <li>
-                <Link href="/beta/disclaimer">আইনি অস্বীকৃতি (Disclaimer)</Link>
+                <Link href="/disclaimer">আইনি অস্বীকৃতি (Disclaimer)</Link>
               </li>
               <li>
-                <Link href="/beta/privacy">গোপনীয়তা নীতি (Privacy)</Link>
+                <Link href="/privacy">গোপনীয়তা নীতি (Privacy)</Link>
               </li>
               <li>
-                <Link href="/beta/api-docs">ডেভেলপার API ডক্স</Link>
+                <Link href="/api-docs">ডেভেলপার API ডক্স</Link>
               </li>
             </ul>
           </div>
@@ -168,15 +156,15 @@ export function SiteFooter({ variant = "default" }: SiteFooterProps) {
             &copy; 2024-2026 <strong>BOU Acadex</strong>. বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের শিক্ষার্থীদের জন্য উৎসর্গীকৃত।
           </div>
           <div className="footer-bottom-nav">
-            <Link href="/beta/about">আমাদের সম্পর্কে</Link>
+            <Link href="/about">আমাদের সম্পর্কে</Link>
             <span>•</span>
-            <Link href="/beta/terms">ব্যবহারের শর্তাবলী</Link>
+            <Link href="/terms">ব্যবহারের শর্তাবলী</Link>
             <span>•</span>
-            <Link href="/beta/disclaimer">আইনি অস্বীকৃতি ও গ্রন্থস্বত্ব</Link>
+            <Link href="/disclaimer">আইনি অস্বীকৃতি ও গ্রন্থস্বত্ব</Link>
             <span>•</span>
-            <Link href="/beta/privacy">গোপনীয়তা নীতি</Link>
+            <Link href="/privacy">গোপনীয়তা নীতি</Link>
             <span>•</span>
-            <Link href="/beta/api-docs">API ডক্স</Link>
+            <Link href="/api-docs">API ডক্স</Link>
             <span>•</span>
             <a href="/">মূল সাইট</a>
           </div>
